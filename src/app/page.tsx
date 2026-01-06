@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import EmailForm from "@/components/EmailForm";
 import EarlyAccessButton from "@/components/EarlyAccessButton";
 import GetAppButton from "@/components/GetAppButton";
@@ -10,6 +11,7 @@ export default function Home() {
       <header>
         <nav>
           <Link href="/" className="logo">
+            <Image src="/icon.png" alt="Cryple Logo" width={32} height={32} className="logo-image" />
             Cryple
           </Link>
           <ul className="nav-links">

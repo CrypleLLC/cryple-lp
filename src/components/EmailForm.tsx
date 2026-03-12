@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, FormEvent } from "react";
+import { useState, FormEvent, useId } from "react";
+import Link from "next/link";
 
 interface EmailFormProps {
   buttonStyle?: string;
@@ -13,6 +14,7 @@ export default function EmailForm({
   inputStyle = "",
   containerStyle = ""
 }: EmailFormProps) {
+  const formId = useId();
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
@@ -90,6 +92,18 @@ export default function EmailForm({
               >
                 {status === "loading" ? "Sending..." : "Get Early Access"}
               </button>
+            </div>
+            <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginTop: "0.5rem", fontSize: "0.85rem", color: "rgba(255, 255, 255, 0.8)", width: "100%", maxWidth: "500px", justifyContent: "center" }}>
+              <input 
+                type="checkbox" 
+                id={`terms-${formId}`} 
+                required 
+                disabled={status === "loading"}
+                style={{ cursor: "pointer", width: "16px", height: "16px", accentColor: "#6366f1" }}
+              />
+              <label htmlFor={`terms-${formId}`} style={{ cursor: "pointer" }}>
+                I agree to the <Link href="/terms" style={{ color: "#ffffff", textDecoration: "underline" }} target="_blank">Terms of Service</Link>
+              </label>
             </div>
             {status === "error" && message && (
               <div style={{

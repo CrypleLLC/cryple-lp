@@ -13,7 +13,7 @@ export default function EarlyAccessButton() {
 
   return (
     <Link href="#early-access" className="cta-button" onClick={handleClick}>
-      Get the app
+      Get Early Access
     </Link>
   );
 }

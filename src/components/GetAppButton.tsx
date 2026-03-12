@@ -18,7 +18,7 @@ export default function GetAppButton({ className = "btn-primary", style }: GetAp
 
   return (
     <Link href="#early-access" className={className} onClick={handleClick} style={style}>
-      Get the app
+      Get Early Access
     </Link>
   );
 }

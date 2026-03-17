@@ -217,8 +217,10 @@ export default function Home() {
             <ul className="security-list">
               <li>Client-side encryption so we never see your data</li>
               <li>Zero-knowledge server architecture</li>
-              <li>Proof of ownership via ECDSA cryptographic signatures</li>
-              <li>Seamless 2FA (BIP39 Seed Phrase + Password)</li>
+              <li>Proof of ownership via ECDSA P-256 cryptographic signatures</li>
+              <li>Post-quantum encryption with ML-KEM (Kyber-768)</li>
+              <li>Hybrid PQXDH: X25519 + ML-KEM combined so both classical and quantum attacks must be broken simultaneously</li>
+              <li>Seamless 2FA (BIP39 Seed Phrase + PIN)</li>
               <li>No plaintext master secret transmission, ever</li>
             </ul>
           </div>
@@ -226,9 +228,12 @@ export default function Home() {
           <div className="tech-specs">
             <h4>Technical Specifications</h4>
             <ul>
-              <li><strong>Encryption:</strong> AES-256-GCM & X25519</li>
+              <li><strong>Symmetric Encryption:</strong> AES-256-GCM</li>
+              <li><strong>Classic Key Exchange:</strong> X25519 (ECDH)</li>
+              <li><strong>Post-Quantum KEM:</strong> ML-KEM / Kyber-768</li>
+              <li><strong>Hybrid Protocol:</strong> PQXDH (X25519 + ML-KEM)</li>
               <li><strong>Key Derivation:</strong> BIP32 Deterministic Keys</li>
-              <li><strong>Password KDF:</strong> PBKDF2-SHA256 (100k)</li>
+              <li><strong>PIN Hashing:</strong> PBKDF2-SHA256 (100k) client-side</li>
               <li><strong>Authentication:</strong> ECDSA P-256 Signatures</li>
               <li><strong>Server Hashing:</strong> Bcrypt (Cost 10+)</li>
               <li><strong>Transport:</strong> TLS 1.3 strictly enforced</li>

@@ -27,9 +27,9 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero">
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1rem' }}>
-          <h1 className="fade-in-up">The Zero-Knowledge Vault for Your Digital Life</h1>
+          <h1 className="fade-in-up">Secure Your Digital Life. Protect Your Legacy.</h1>
           <p className="subtitle fade-in-up">
-            Secure your passwords, private files, and Bitcoin under one master key. Absolute privacy powered by client-side encryption—we couldn't see your data even if we wanted to.
+            The post-quantum vault that secures your everyday passwords, files, and crypto—and guarantees your heirs inherit them through our Zero-Knowledge Succession Protocol.
           </p>
 
           <div className="hero-buttons fade-in-up">
@@ -40,8 +40,8 @@ export default function Home() {
           </div>
 
           <div className="demo-preview fade-in-up">
-            <h3 style={{ marginBottom: '1rem', fontWeight: 600 }}>Client-Side Encryption</h3>
-            <p style={{ opacity: 0.8 }}>All encryption happens in your browser. We never see your data.</p>
+            <h3 style={{ marginBottom: '1rem', fontWeight: 600 }}>Zero-Knowledge Proofs in Action</h3>
+            <p style={{ opacity: 0.8 }}>Your keys never leave your device. Only you—and your chosen heirs—can decrypt your life.</p>
             <div style={{ 
               marginTop: '1.5rem', 
               padding: '1rem', 
@@ -61,12 +61,24 @@ export default function Home() {
       {/* Features Section */}
       <section id="features" className="features">
         <div>
-          <h2 className="section-title">Why Choose Cryple?</h2>
+          <h2 className="section-title">Everyday Utility. Lifetime Security.</h2>
           <p className="section-subtitle">
-            Built with privacy-first principles and cutting-edge encryption technology
+            Manage your daily digital life with ease while securing your long-term legacy with post-quantum encryption.
           </p>
 
           <div className="features-sequence">
+            <div className="feature-row">
+              <div className="feature-image-container">
+                <Image src="/family.jpg" alt="Family" fill sizes="(max-width: 768px) 100vw, 50vw" />
+              </div>
+              <div className="feature-text">
+                <h3>An Entire Digital Life Lost From People You Love?</h3>
+                <p>
+                  Why having thousands in crypto, a life in documents and files and have this away from people you love? Cryple permanently secures your digital legacy, ensuring your loved ones can access it when needed.
+                </p>
+              </div>
+            </div>
+
             <div className="feature-row">
               <div className="feature-image-container">
                 <Image src="/confident.jpg" alt="Confident person" fill sizes="(max-width: 768px) 100vw, 50vw" />
@@ -93,6 +105,18 @@ export default function Home() {
 
             <div className="feature-row">
               <div className="feature-image-container">
+                <Image src="/digital-padlock.png" alt="Secure secrets vault" fill sizes="(max-width: 768px) 100vw, 50vw" />
+              </div>
+              <div className="feature-text">
+                <h3>High-Value Secrets Vault</h3>
+                <p>
+                  Keep your bank PINs, recovery codes, and digital life locked down. An ultra-secure, isolated vault that never touches your browser extensions for maximum safety.
+                </p>
+              </div>
+            </div>
+
+            <div className="feature-row">
+              <div className="feature-image-container">
                 <Image src="/notes.jpg" alt="Private text editor" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
@@ -102,6 +126,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
+
 
             <div className="feature-row">
               <div className="feature-image-container">
@@ -117,12 +143,12 @@ export default function Home() {
 
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/digital-padlock.png" alt="Secure vault" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/chat.jpg" alt="Secure vault" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
-                <h3>High-Value Secrets Vault</h3>
+                <h3>Encrypted P2P Chat & File Sharing</h3>
                 <p>
-                  Keep your bank PINs, recovery codes, and digital life locked down. An ultra-secure, isolated vault that never touches your browser extensions for maximum safety.
+                  Communicate and share sensitive documents with absolute security. Our post-quantum hybrid encryption guarantees that your private messages and high-value shared secrets remain strictly between you and your trusted contacts.
                 </p>
               </div>
             </div>
@@ -146,7 +172,49 @@ export default function Home() {
       <section id="early-access" className="cta-section">
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1rem' }}>
           <h2>Get Early Access</h2>
-          <p style={{ marginBottom: "3rem" }}>Be the first to know when Cryple launches. Join our waitlist today!</p>
+          <p style={{ marginBottom: "2rem" }}>Join our waitlist today and secure your spot for our upcoming releases.</p>
+
+          <div className="roadmap-timeline">
+            <div className="timeline-item alpha">
+              <div className="timeline-marker"></div>
+              <div className="timeline-content-top">
+                <h4 className="timeline-date">May 2026</h4>
+                <p className="timeline-title">Alpha Release</p>
+              </div>
+              <div className="timeline-content-bottom">
+                <p className="timeline-desc">Core vault, private notes, password manager and chrome extension.</p>
+              </div>
+            </div>
+            
+            <div className="timeline-item beta">
+              <div className="timeline-marker"></div>
+              <div className="timeline-content-top">
+                <p className="timeline-desc">Bitcoin Wallet, P2P file sharing, and Post-Quantum Digital Inheritance testing.</p>
+              </div>
+              <div className="timeline-content-bottom">
+                <h4 className="timeline-date">July 2026</h4>
+                <p className="timeline-title">Beta Release</p>
+              </div>
+            </div>
+
+            <div className="timeline-item launch">
+              <div className="timeline-marker"></div>
+              <div className="timeline-content-top">
+                <h4 className="timeline-date">September 2026</h4>
+                <p className="timeline-title">Global Launch</p>
+              </div>
+              <div className="timeline-content-bottom">
+                <p className="timeline-desc">Full public release. The post-quantum vault opens to everyone.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style={{ marginTop: '3rem', marginBottom: '2.5rem' }}>
+            <p style={{ margin: 0, fontSize: '1.1rem', fontWeight: 500, color: 'white', opacity: 0.9 }}>
+              Join the waitlist to be notified about the global launch. During the first month of release, premium subscriptions will have a <strong>50% discount</strong>.
+            </p>
+          </div>
+
           <EmailForm />
         </div>
       </section>
@@ -192,11 +260,11 @@ export default function Home() {
 
             <div className="step">
               <div className="step-icon">
-                <Image src="/icons/anywhere.svg" alt="Anywhere Icon" width={196} height={196} />
+                <Image src="/icons/anywhere.svg" alt="Inheritance Icon" width={196} height={196} />
               </div>
-              <h3>Access Anywhere</h3>
+              <h3>Set Up Your Digital Legacy</h3>
               <p>
-                Log in and decrypt your vault across desktop and mobile devices. Our zero-knowledge cloud syncs your encrypted data seamlessly.
+                Assign trusted Guardians and configure an inactivity timer. Ensure your heirs automatically and securely inherit your vault if you disappear.
               </p>
             </div>
           </div>

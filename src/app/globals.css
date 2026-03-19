@@ -288,6 +288,181 @@ nav {
   line-height: 1.8;
 }
 
+/* Roadmap Timeline */
+.roadmap-timeline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.roadmap-timeline::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #1eff00 0%, #f59e0b 50%, #fbff00 100%);
+  z-index: 1;
+  border-radius: 2px;
+}
+
+.timeline-item {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 180px;
+  justify-content: center;
+}
+
+.timeline-marker {
+  width: 4px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  z-index: 3;
+}
+
+.timeline-item.alpha .timeline-marker { background: #1eff00; box-shadow: 0 0 10px rgba(30,255,0,0.8); }
+.timeline-item.beta .timeline-marker { background: #f59e0b; box-shadow: 0 0 10px rgba(245,158,11,0.8); }
+.timeline-item.launch .timeline-marker { background: #fbff00; box-shadow: 0 0 10px rgba(251,255,0,0.8); }
+
+.timeline-content-top {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 280px;
+  padding: 0 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.timeline-content-bottom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 280px;
+  padding: 0 1rem;
+  padding-top: 1.5rem;
+}
+
+.timeline-date {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.timeline-item.alpha .timeline-date { color: #1eff00; }
+.timeline-item.beta .timeline-date { color: #ffa200; }
+.timeline-item.launch .timeline-date { color: #fbff00; }
+
+.roadmap-timeline .timeline-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+.roadmap-timeline .timeline-desc {
+  font-size: 1rem;
+  color: #dfdfdf;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .roadmap-timeline {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    gap: 3rem;
+  }
+  .roadmap-timeline::before {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 4px;
+    height: auto;
+    transform: none;
+    background: linear-gradient(180deg, #1eff00 0%, #f59e0b 50%, #fbff00 100%);
+  }
+  .timeline-item {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    padding-top: 0;
+    min-height: auto;
+    padding-left: 2rem;
+  }
+  .timeline-marker {
+    width: 24px;
+    height: 4px;
+    top: 20px;
+    left: -20px;
+    transform: none;
+  }
+  
+  .timeline-content-top {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    padding: 0;
+    max-width: none;
+  }
+  
+  .timeline-content-bottom {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    padding: 0;
+    max-width: none;
+    margin-top: 0.5rem;
+  }
+  
+  .roadmap-timeline .timeline-desc {
+    font-size: 1rem;
+    margin-top: 0px;
+  }
+  
+  /* On mobile, reset the alternating layout so it's readable top-to-bottom */
+  .timeline-item.beta {
+    display: flex;
+    flex-direction: column;
+  }
+  .timeline-item.beta .timeline-content-bottom {
+    order: 1; /* Title/Date first */
+    margin-top: 0;
+  }
+  .timeline-item.beta .timeline-content-top {
+    order: 2; /* Desc second */
+    margin-top: 0.5rem;
+  }
+}
+
 /* Responsive adjustments for feature rows */
 @media (max-width: 768px) {
   .feature-row,

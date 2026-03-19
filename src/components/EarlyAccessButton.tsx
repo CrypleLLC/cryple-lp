@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function EarlyAccessButton() {
+export default function EarlyAccessButton({ text = "Get Early Access" }: { text?: string }) {
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const formSection = document.getElementById('early-access');
@@ -13,7 +13,7 @@ export default function EarlyAccessButton() {
 
   return (
     <Link href="#early-access" className="cta-button" onClick={handleClick}>
-      Get Early Access
+      {text}
     </Link>
   );
 }

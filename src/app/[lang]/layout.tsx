@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -13,13 +13,16 @@ export const metadata: Metadata = {
   description: "Zero-knowledge encrypted storage with blockchain authentication. Your keys, your data.",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ lang: string }>;
 }>) {
+  const { lang } = await params;
   return (
-    <html lang="en">
+    <html lang={lang}>
       <body
         className={`${inter.variable} antialiased font-sans`}
       >

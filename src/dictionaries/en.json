@@ -1,0 +1,339 @@
+{
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "security": "Security",
+    "contact": "Contact",
+    "getEarlyAccess": "Get Early Access"
+  },
+  "hero": {
+    "title": "Secure Your Digital Life. Protect Your Legacy.",
+    "subtitle": "The post-quantum vault that secures your everyday passwords, files, and crypto—and guarantees your heirs inherit them through our Zero-Knowledge Succession Protocol.",
+    "learnMore": "Learn More",
+    "demoTitle": "Zero-Knowledge Proofs in Action",
+    "demoSubtitle": "Your keys never leave your device. Only you—and your chosen heirs—can decrypt your life.",
+    "demoStage1": "Authenticated with seed phrase",
+    "demoStage2": "Encrypting data with AES-256-GCM...",
+    "demoStage3": "Data encrypted and stored securely"
+  },
+  "features": {
+    "title": "Everyday Utility. Lifetime Security.",
+    "subtitle": "Manage your daily digital life with ease while securing your long-term legacy with post-quantum encryption.",
+    "items": [
+      {
+        "title": "An Entire Digital Life Lost From People You Love?",
+        "desc": "Why having thousands in crypto, a life in documents and files and have this away from people you love? Cryple permanently secures your digital legacy, ensuring your loved ones can access it when needed."
+      },
+      {
+        "title": "You Are Not The Product",
+        "desc": "No tracking algorithms, no targeted ads, and no data selling. You pay for total privacy. We provide a distraction-free, premium ecosystem built solely to protect you."
+      },
+      {
+        "title": "Private Vault & Camera",
+        "desc": "A completely safe space for your media. Snap photos and videos directly into the app, bypassing your phone's native gallery entirely so your personal life stays strictly private."
+      },
+      {
+        "title": "High-Value Secrets Vault",
+        "desc": "Keep your bank PINs, recovery codes, and digital life locked down. An ultra-secure, isolated vault that never touches your browser extensions for maximum safety."
+      },
+      {
+        "title": "Centralized Private Notes",
+        "desc": "The ultimate unique space to organize your mind. Centralize your brilliant ideas, travel plans, book lists, or daily routines in an encrypted editor nobody else can read."
+      },
+      {
+        "title": "All-in-One Bitcoin Wallet",
+        "desc": "Why use multiple apps? Store your sensitive seed phrases securely and make Bitcoin transactions right from the same place. True financial privacy seamlessly integrated."
+      },
+      {
+        "title": "Encrypted P2P Chat & File Sharing",
+        "desc": "Communicate and share sensitive documents with absolute security. Our post-quantum hybrid encryption guarantees that your private messages and high-value shared secrets remain strictly between you and your trusted contacts."
+      },
+      {
+        "title": "Passwords & Extension",
+        "desc": "Log into your favorite sites instantly with our Chrome extension. Get the daily convenience of quick autofill paired with the peace of mind of military-grade encryption."
+      }
+    ]
+  },
+  "roadmap": {
+    "title": "Get Early Access",
+    "subtitle": "Join our waitlist today and secure your spot for our upcoming releases.",
+    "alpha": {
+      "date": "May 2026",
+      "title": "Alpha Release",
+      "desc": "Core vault, private notes, password manager and chrome extension."
+    },
+    "beta": {
+      "date": "July 2026",
+      "title": "Beta Release",
+      "desc": "Bitcoin Wallet, P2P file sharing, and Post-Quantum Digital Inheritance testing."
+    },
+    "launch": {
+      "date": "September 2026",
+      "title": "Global Launch",
+      "desc": "Full public release. The post-quantum vault opens to everyone."
+    },
+    "discount": "Join the waitlist to be notified about the global launch. During the first month of release, premium subscriptions will have a <bold>50% discount</bold>."
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Simple, secure, and completely private in just a few steps",
+    "steps": [
+      {
+        "title": "Generate Your Master Key",
+        "desc": "Create a secure 12-word seed phrase. This offline master key guarantees you are the only person on earth who can decrypt your account."
+      },
+      {
+        "title": "Secure Passwords & Files",
+        "desc": "Add your passwords, everyday logins, and upload sensitive PDFs. Everything is instantly scrambled into mathematical gibberish in your browser."
+      },
+      {
+        "title": "Manage Your Bitcoin",
+        "desc": "Your master key securely derives a private Bitcoin wallet. Check and manage your digital wealth seamlessly alongside your private documents."
+      },
+      {
+        "title": "Set Up Your Digital Legacy",
+        "desc": "Assign trusted Guardians and configure an inactivity timer. Ensure your heirs automatically and securely inherit the items you have configured if you disappear."
+      }
+    ]
+  },
+  "security": {
+    "title": "Enterprise-Grade Security",
+    "subtitle": "Built with uncompromising cryptographic best practices and zero-knowledge architecture.",
+    "bullets": [
+      "Client-side encryption so we never see your data",
+      "Zero-knowledge server architecture",
+      "Proof of ownership via ECDSA P-256 cryptographic signatures",
+      "Post-quantum encryption with ML-KEM (Kyber-768)",
+      "Hybrid PQXDH: X25519 + ML-KEM combined so both classical and quantum attacks must be broken simultaneously",
+      "Seamless 2FA (BIP39 Seed Phrase + PIN)",
+      "No plaintext master secret transmission, ever"
+    ],
+    "techSpecsTitle": "Technical Specifications",
+    "specs": [
+      {
+        "label": "Symmetric Encryption",
+        "value": "AES-256-GCM"
+      },
+      {
+        "label": "Classic Key Exchange",
+        "value": "X25519 (ECDH)"
+      },
+      {
+        "label": "Post-Quantum KEM",
+        "value": "ML-KEM / Kyber-768"
+      },
+      {
+        "label": "Hybrid Protocol",
+        "value": "PQXDH (X25519 + ML-KEM)"
+      },
+      {
+        "label": "Key Derivation",
+        "value": "BIP32 Deterministic Keys"
+      },
+      {
+        "label": "PIN Hashing",
+        "value": "PBKDF2-SHA256 (100k) client-side"
+      },
+      {
+        "label": "Authentication",
+        "value": "ECDSA P-256 Signatures"
+      },
+      {
+        "label": "Server Hashing",
+        "value": "Bcrypt (Cost 10+)"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Your keys, your data, complete privacy.",
+    "product": "Product",
+    "joinWaitlist": "Join Waitlist",
+    "features": "Features",
+    "security": "Security",
+    "howItWorks": "How It Works",
+    "contact": "Contact",
+    "emailUs": "Email Us",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "securityPolicy": "Security Policy",
+    "copyright": "© 2026 Cryple™. All rights reserved. Built for privacy. Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA"
+  },
+  "form": {
+    "agreeTo": "I agree to the ",
+    "termsOfService": "Terms of Service",
+    "placeholder": "Enter your email",
+    "sending": "Sending...",
+    "successMessage": "You're on the list! Keep an eye on your inbox."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: March 12, 2026",
+    "backToHome": "← Back to Home",
+    "sections": [
+      {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing or using the Cryple website, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access the service.",
+        "items": []
+      },
+      {
+        "title": "2. Use of Early Access Waitlist",
+        "content": "We provide a waitlist to offer early access to our future application. In registering:",
+        "items": [
+          "You agree to provide accurate and complete information (such as your email address).",
+          "You acknowledge that submitting to the waitlist does not guarantee immediate access to the platform.",
+          "We reserve the right to limit access or remove any individual from the waitlist at our discretion."
+        ]
+      },
+      {
+        "title": "3. Service Availability and Changes",
+        "content": "Cryple is a service currently in active development. We may change, suspend, or discontinue the waitlist or aspects of our marketing website at any time without notice. We will not be liable if, for any reason, all or any part of the site is unavailable at any time.",
+        "items": []
+      },
+      {
+        "title": "4. Intellectual Property",
+        "content": "The site and its original content (excluding standard user submissions), features, and functionality are and will remain the exclusive property of Cryple and its licensors. The site is protected by copyright, trademark, and other laws.",
+        "items": []
+      },
+      {
+        "title": "5. Limitation of Liability",
+        "content": "In no event shall Cryple, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the waitlist service.",
+        "items": []
+      },
+      {
+        "title": "6. Termination",
+        "content": "We may terminate or suspend your access to our waitlist immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.",
+        "items": []
+      },
+      {
+        "title": "7. Governing Law",
+        "content": "These Terms shall be governed and construed in accordance with the laws of Wyoming, US, without regard to its conflict of law provisions.",
+        "items": []
+      },
+      {
+        "title": "8. Changes to Terms",
+        "content": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. By continuing to access or use our site after any revisions become effective, you agree to be bound by the revised terms.",
+        "items": []
+      },
+      {
+        "title": "9. Contact Us",
+        "content": "If you have any questions about these Terms, please contact us at: contact@cryple.io or by mail at Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA.",
+        "items": []
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 12, 2026",
+    "backToHome": "← Back to Home",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "content": "Welcome to Cryple! The services are operated by Cryple LLC, located at 30 N Gould St Ste R, Sheridan, WY 82801, USA. We respect your privacy and are committed to protecting your personal data. This Privacy Policy will inform you as to how we look after your personal data when you visit our website.",
+        "note": null,
+        "items": [],
+        "extra": null,
+        "extra2": null
+      },
+      {
+        "title": "2. Data We Collect",
+        "content": "Currently, through our landing page, we collect only your email address when you sign up for our early access waitlist. Emails are securely handled by our third-party provider, Loops.so.",
+        "note": "No name, IP, region, device, or other data is being kept by Cryple. However, an IP address may be retained permanently if you are engaged in activities that breach our Terms of Service (e.g., spamming, DDoS attacks against our infrastructure, brute force attacks).",
+        "items": [],
+        "extra": null,
+        "extra2": null
+      },
+      {
+        "title": "3. How We Use Your Data & Account Linking",
+        "content": "We use the data we collect for the following purposes:",
+        "note": null,
+        "items": [
+          "To notify you when Cryple is ready for public or beta access.",
+          "To send you important updates regarding our platform’s development.",
+          "We do not sell, rent, or distribute your email address to third parties."
+        ],
+        "extra": "Importantly, an account on the future Cryple App will not have a linked email by default. The email you provide on our waitlist will not be related to the account you eventually create.",
+        "extra2": "For support interactions, your email will be kept solely in our email server in order to assist you and clarify information. We will not link your email to your app account unless we introduce this feature in the future and you explicitly and voluntarily choose to add an email to your account."
+      },
+      {
+        "title": "4. Data Security & \"Zero-Knowledge\"",
+        "content": "The Cryple App, when launched, will keep only encrypted data from users and manage the encrypted storage. Because of this \"Zero-Knowledge\" architecture, we cannot read your stored encrypted files or passwords. Standard waitlist emails collected on our marketing site are handled securely by Loops.so.",
+        "note": null,
+        "items": [],
+        "extra": null,
+        "extra2": null
+      },
+      {
+        "title": "5. Your Rights",
+        "content": "You have the right to request access to the personal data we hold about you or request deletion of your data. You can completely remove yourself from the waitlist at any time by simply clicking the unsubscribe link provided in any email we send you.",
+        "note": null,
+        "items": [],
+        "extra": null,
+        "extra2": null
+      },
+      {
+        "title": "6. Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at: contact@cryple.io or by mail at Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA.",
+        "note": null,
+        "items": [],
+        "extra": null,
+        "extra2": null
+      }
+    ]
+  },
+  "securityPolicy": {
+    "title": "Security Policy",
+    "lastUpdated": "Last updated: March 12, 2026",
+    "backToHome": "← Back to Home",
+    "sections": [
+      {
+        "title": "1. Zero-Knowledge Architecture",
+        "content": "Cryple is built from the ground up as a zero-knowledge service. Our mathematical models guarantee that no employee, administrator, or attacker compromising our servers can read your stored secrets, credentials, or notes.",
+        "note": "We operate strictly under the following policy:",
+        "items": [
+          "Your master password never leaves your browser window.",
+          "All encryption/decryption happens locally on your device before transmission.",
+          "We only store randomly generated salts, ECDSA public keys, and cryptographically hashed payloads."
+        ]
+      },
+      {
+        "title": "2. Cryptography Practices",
+        "content": "We leverage industry-standard cryptographic tools:",
+        "note": null,
+        "items": [
+          "Authentication: PBKDF2 with high iterations (100,000+) on the client side, then hashed via bcrypt upon reaching the server.",
+          "Signing: Asymmetric public/private key-pairs (ECDSA P-256) are generated client-side to sign background token challenges.",
+          "Data Storage: Files and credentials are encrypted on the client device using AES-256-GCM."
+        ]
+      },
+      {
+        "title": "3. Infrastructure Protection",
+        "content": "Our server infrastructure is protected by rigorous engineering limits against attack vectors:",
+        "note": null,
+        "items": [
+          "Rate limiting is enforced heavily across all API ingress nodes to prevent bruteforcing.",
+          "We use atomic single-use nonce locking to prevent Replay Attacks for all sensitive background JWT refresh flows.",
+          "Database volumes and object storage buckets are encrypted at rest via our cloud providers."
+        ]
+      },
+      {
+        "title": "4. Auditing & Open Source",
+        "content": "We believe security requires transparency. Therefore, our target is an \"Open Source Client\" philosophy, meaning all client-side decryption logic is inspectable by security researchers before usage.",
+        "note": "We are presently undergoing internal security reviews ahead of formal independent third-party penetration testing.",
+        "items": []
+      },
+      {
+        "title": "5. Vulnerability Disclosure",
+        "content": "If you discover a security issue or vulnerability please report it immediately rather than disclosing it publicly. We are working on a Bug Bounty program, but in the meantime please contact our security team.",
+        "note": null,
+        "items": []
+      },
+      {
+        "title": "6. Contact Information",
+        "content": "For urgent security disclosures, or questions regarding this policy, please reach out directly: contact@cryple.io or by mail at Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA.",
+        "note": null,
+        "items": []
+      }
+    ]
+  }
+}

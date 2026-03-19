@@ -7,12 +7,28 @@ interface EmailFormProps {
   buttonStyle?: string;
   inputStyle?: string;
   containerStyle?: string;
+  text?: string;
+  dictText?: {
+    agreeTo: string;
+    termsOfService: string;
+    placeholder: string;
+    sending: string;
+    successMessage: string;
+  };
 }
 
 export default function EmailForm({ 
   buttonStyle = "btn-primary", 
   inputStyle = "",
-  containerStyle = ""
+  containerStyle = "",
+  text = "Get Early Access",
+  dictText = {
+    agreeTo: "I agree to the ",
+    termsOfService: "Terms of Service",
+    placeholder: "Enter your email",
+    sending: "Sending...",
+    successMessage: "You're on the list! Keep an eye on your inbox."
+  }
 }: EmailFormProps) {
   const formId = useId();
   const [email, setEmail] = useState("");
@@ -70,7 +86,7 @@ export default function EmailForm({
             width: "100%",
             maxWidth: "500px"
           }}>
-            {message || "You're on the list! Keep an eye on your inbox."}
+            {message || dictText.successMessage}
           </div>
         ) : (
           <>
@@ -79,7 +95,7 @@ export default function EmailForm({
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your email"
+                placeholder={dictText.placeholder}
                 required
                 disabled={status === "loading"}
                 className={`email-input ${inputStyle}`}
@@ -90,7 +106,7 @@ export default function EmailForm({
                 className={buttonStyle}
                 style={{ minWidth: "150px" }}
               >
-                {status === "loading" ? "Sending..." : "Get Early Access"}
+                {status === "loading" ? dictText.sending : text}
               </button>
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginTop: "0.5rem", fontSize: "0.85rem", color: "rgba(255, 255, 255, 0.8)", width: "100%", maxWidth: "500px", justifyContent: "center" }}>
@@ -102,7 +118,7 @@ export default function EmailForm({
                 style={{ cursor: "pointer", width: "16px", height: "16px", accentColor: "#6366f1" }}
               />
               <label htmlFor={`terms-${formId}`} style={{ cursor: "pointer" }}>
-                I agree to the <Link href="/terms" style={{ color: "#ffffff", textDecoration: "underline" }} target="_blank">Terms of Service</Link>
+                {dictText.agreeTo}<Link href="/terms" style={{ color: "#ffffff", textDecoration: "underline" }} target="_blank">{dictText.termsOfService}</Link>
               </label>
             </div>
             {status === "error" && message && (

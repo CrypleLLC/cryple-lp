@@ -67,6 +67,7 @@ nav {
   text-decoration: none;
   color: #4b5563;
   font-weight: 500;
+  font-size: 1.3rem;
   transition: color 0.3s ease;
 }
 
@@ -89,6 +90,39 @@ nav {
 .cta-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+}
+
+.language-switcher-wrapper {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 100;
+}
+
+.language-select {
+  background: transparent;
+  color: #4b5563;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.9rem;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.language-select:hover {
+  border-color: #9ca3af;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+@media (max-width: 768px) {
+  .language-switcher-wrapper {
+    position: static;
+    margin-right: 1rem;
+    order: 0; 
+  }
 }
 
 /* Hero Section */
@@ -541,7 +575,7 @@ nav {
 }
 
 .security-list li:before {
-  content: "🔒";
+  content: "•";
   font-size: 1.2rem;
 }
 

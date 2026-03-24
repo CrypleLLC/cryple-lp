@@ -7,8 +7,8 @@
     "getEarlyAccess": "Acesso Antecipado"
   },
   "hero": {
-    "title": "Proteja Sua Vida Digital. Preserve Seu Legado.",
-    "subtitle": "Um aplicativo de segurança pessoal resistente à computação quântica que protege suas senhas, arquivos e criptomoedas diariamente — e garante que seus herdeiros os herdem através do nosso Protocolo de Sucessão Zero-Knowledge.",
+    "title": "Guarde tudo que importa. Defina quem herda o quê. Durma tranquilo.",
+    "subtitle": "O primeiro cofre digital hiper-seguro que protege sua vida hoje e garante seu legado digital amanhã — sem que nós tenhamos acesso a absolutamente nada.",
     "learnMore": "Saiba Mais",
     "demoTitle": "Provas Zero-Knowledge em Ação",
     "demoSubtitle": "Suas chaves nunca saem do seu dispositivo. Apenas você — e seus herdeiros escolhidos — podem descriptografar sua vida.",
@@ -17,46 +17,46 @@
     "demoStage3": "Dados criptografados e armazenados com segurança"
   },
   "features": {
-    "title": "Utilidade Diária. Segurança Vitalícia.",
-    "subtitle": "Gerencie sua vida digital diariamente com facilidade enquanto protege seu legado a longo prazo com criptografia pós-quântica.",
+    "title": "Por que o Cryple é Diferente?",
+    "subtitle": "Não somos apenas um gerenciador de senhas. Somos um seguro de vida para o seu mundo digital, com privacidade intocável garantida por matemática.",
     "items": [
       {
-        "title": "Uma Vida Digital Inteira Perdida Longe de Quem Você Ama?",
-        "desc": "Por que ter milhares em criptomoedas, uma vida em documentos e arquivos e manter isso longe das pessoas que você ama? Cryple protege permanentemente seu legado digital, garantindo que seus entes queridos possam acessar o que você determinou quando chegar a hora."
+        "title": "O Protocolo de Legado Digital",
+        "desc": "Funciona como um testamento automático. Escolha seus herdeiros e defina permissões granulares. Se você ficar inativo, o acesso é concedido respeitando um rigoroso tempo de contestação, permitindo também que os Guardiões acelerem o processo."
       },
       {
         "title": "Você Não É O Produto",
-        "desc": "Sem algoritmos de rastreamento, sem anúncios direcionados e sem venda de dados. Você paga pela privacidade total. Fornecemos um ecossistema premium e livre de distrações, construído exclusivamente para proteger você."
+        "desc": "Sem ads, sem rastreamento, sem cookies. Nossa assinatura grátis é realmente grátis, e você paga por mais recursos se gostar do produto. Zero-Knowledge de verdade. As fechaduras e as chaves para acessar o seu cofre são criadas no seu dispositivo. Nós não conseguimos ver suas senhas, ler suas notas ou acessar seus arquivos em hipótese alguma."
       },
       {
-        "title": "Galeria Privada",
-        "desc": "Um espaço completamente seguro para suas mídias. Tire fotos e grave vídeos diretamente no aplicativo, ignorando totalmente a galeria nativa do seu celular para que sua vida pessoal permaneça estritamente privada."
+        "title": "Cofres Isolados (Passwords vs. Secrets)",
+        "desc": "Acesse rapidamente senhas com nossa extensão de navegador para facilitar o dia a dia. Já credenciais de altíssimo valor ficam em um cofre restrito, invisível para a extensão, garantindo o máximo de blindagem."
       },
       {
-        "title": "Cofre de Segredos de Alto Valor",
-        "desc": "Mantenha seus PINs bancários, códigos de recuperação, seed phrases e vida digital bloqueados. Um cofre isolado e ultra seguro que nunca toca nas extensões do seu navegador para segurança máxima."
+        "title": "Modo Paranoico (PIN de Seis Dígitos)",
+        "desc": "Você decide seu nível de segurança. Ao ativar o Modo Paranoico, o PIN torna-se uma exigência (2FA), passando a ser estritamente necessária a utilização da sua seed phrase e do seu PIN de forma conjunta."
       },
       {
-        "title": "Notas Privadas Centralizadas",
-        "desc": "O melhor espaço exclusivo para organizar sua mente. Centralize suas ideias brilhantes, planos de viagem, listas de livros ou rotinas diárias em um editor criptografado que mais ninguém consegue ler."
+        "title": "Câmera Privada Integrada",
+        "desc": "Tire fotos de documentos sensíveis (identidades, exames) usando a câmera nativa do Cryple. As imagens são criptografadas na hora e nunca passam pela galeria comum do seu celular."
       },
       {
-        "title": "Carteira Bitcoin Integrada",
-        "desc": "Por que usar vários aplicativos? Armazene suas frases sementes com segurança e faça transações de Bitcoin a partir do mesmo lugar. Verdadeira privacidade financeira perfeitamente integrada."
+        "title": "Carteira Bitcoin Nativa",
+        "desc": "Sua chave de acesso principal também gera uma carteira Bitcoin privada. Acompanhe saldos e realize transferências de maneira integrada aos seus documentos seguros."
       },
       {
-        "title": "Chat P2P e Compartilhamento de Arquivos Criptografados",
-        "desc": "Comunique-se e compartilhe documentos sensíveis com segurança absoluta. Nossa criptografia híbrida pós-quântica garante que suas mensagens privadas e segredos compartilhados de alto valor permaneçam estritamente entre você e seus contatos de confiança."
+        "title": "Notas Privadas Criptografadas",
+        "desc": "O espaço ideal para organizar suas ideias. Guarde planos, instruções de negócios ou pensamentos em um ambiente completamente blindado."
       },
       {
-        "title": "Senhas e Extensão",
-        "desc": "Faça login em seus sites favoritos instantaneamente com nossa extensão para o Chrome. Obtenha a conveniência diária do preenchimento automático rápido aliada à tranquilidade da criptografia de nível militar."
+        "title": "Compartilhamento P2P Seguro",
+        "desc": "Envie documentos sensíveis ou credenciais para contatos de confiança através de uma rede à prova de interceptações — projetada para resistir até mesmo a futuros ataques de supercomputadores."
       }
     ]
   },
   "roadmap": {
-    "title": "Obtenha Acesso Antecipado",
-    "subtitle": "Junte-se à nossa lista de espera hoje e garanta seu lugar para nossos próximos lançamentos.",
+    "title": "Garanta seu Acesso Antecipado",
+    "subtitle": "Junte-se à nossa lista de espera hoje e garanta seu lugar nos próximos lançamentos.",
     "alpha": {
       "date": "Maio de 2026",
       "title": "Lançamento Alpha",
@@ -65,7 +65,7 @@
     "beta": {
       "date": "Julho de 2026",
       "title": "Lançamento Beta",
-      "desc": "Carteira Bitcoin, compartilhamento de arquivos P2P e testes do Protocolo de Herança Digital Pós-Quântica."
+      "desc": "Carteira Bitcoin, compartilhamento P2P seguro e testes do Protocolo de Herança Digital Pós-Quântica."
     },
     "launch": {
       "date": "Setembro de 2026",
@@ -75,24 +75,24 @@
     "discount": "Junte-se à lista de espera para ser notificado sobre o lançamento oficial. Durante o primeiro mês de lançamento, as assinaturas premium terão <bold>50% de desconto</bold>."
   },
   "howItWorks": {
-    "title": "Como Funciona",
-    "subtitle": "Simples, seguro e completamente privado em apenas alguns passos",
+    "title": "Como Funciona? (Simples e Prático)",
+    "subtitle": "Você no controle total em quatro passos diretos.",
     "steps": [
       {
-        "title": "Gere Sua Chave Mestre",
-        "desc": "Crie uma seed phrase segura de 12 palavras. Essa chave mestre offline garante que você é a única pessoa na terra que pode descriptografar sua conta."
+        "title": "1. Crie Sua Chave Única",
+        "desc": "Ao abrir o Cryple, uma chave-mestra vitalícia é gerada exclusivamente no seu dispositivo. É a única forma de abrir a sua conta."
       },
       {
-        "title": "Proteja Senhas e Arquivos",
-        "desc": "Adicione suas senhas, logins diários e faça upload de PDFs sensíveis. Tudo é instantaneamente embaralhado em códigos matemáticos no seu navegador."
+        "title": "2. Aumente a Produtividade Segura",
+        "desc": "Guarde suas senhas, anotações e faça upload de arquivos no seu cofre pessoal. Tudo isolado e protegido do mundo exterior."
       },
       {
-        "title": "Gerencie Seu Bitcoin",
-        "desc": "Sua chave mestre deriva com segurança uma carteira privada de Bitcoin. Verifique e gerencie sua riqueza digital perfeitamente ao lado de seus documentos privados."
+        "title": "3. Planeje o Futuro Hoje",
+        "desc": "Cadastre os perfis dos seus herdeiros e defina permissões granulares. Caso algo imprevisto aconteça com você, seus ativos mais valiosos estarão garantidos nas mãos certas."
       },
       {
-        "title": "Configure Seu Legado Digital",
-        "desc": "Atribua Guardiões de confiança e configure um cronômetro de inatividade. Garanta que seus herdeiros herdem automática e seguramente os itens que você configurou caso você desapareça."
+        "title": "4. Durma Tranquilo",
+        "desc": "Viva seu dia a dia sabendo que sua privacidade está inquebrável hoje, e seus entes queridos estão protegidos contra a perda digital amanhã."
       }
     ]
   },
@@ -105,8 +105,8 @@
       "Prova de propriedade via assinaturas criptográficas ECDSA P-256",
       "Criptografia pós-quântica com ML-KEM (Kyber-768)",
       "Híbrido PQXDH: X25519 + ML-KEM combinados para que ataques clássicos e quânticos precisem ser quebrados simultaneamente",
-      "2FA Perfeito (seed phrase BIP39 + PIN)",
-      "Sem transmissão de segredo mestre em texto plano, jamais"
+      "Modo Paranoico: 2FA exigindo obrigatoriamente a junção da Seed Phrase + PIN",
+      "O segredo-mestre jamais é transmitido em texto plano"
     ],
     "techSpecsTitle": "Especificações Técnicas",
     "specs": [
@@ -140,7 +140,7 @@
       },
       {
         "label": "Hash no Servidor",
-        "value": "Bcrypt (Custo 10+)"
+        "value": "Bcrypt (Fator de Custo 10+)"
       }
     ]
   },
@@ -157,7 +157,7 @@
     "privacyPolicy": "Política de Privacidade",
     "termsOfService": "Termos de Serviço",
     "securityPolicy": "Política de Segurança",
-    "copyright": "© 2026 Cryple™. Todos os direitos reservados. Construído para a privacidade. Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA"
+    "copyright": "© 2026 Cryple™. Todos os direitos reservados. Criado para a privacidade. Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EUA"
   },
   "form": {
     "agreeTo": "Eu concordo com os ",
@@ -250,7 +250,7 @@
         "items": [
           "Para notificá-lo quando o Cryple estiver pronto para acesso público ou beta.",
           "Para enviar atualizações importantes sobre o desenvolvimento da nossa plataforma.",
-          "Não vendemos, alugamos ou distribuimos seu endereço de e-mail a terceiros."
+          "Não vendemos, alugamos ou distribuímos seu endereço de e-mail a terceiros."
         ],
         "extra": "Importante: uma conta no futuro aplicativo Cryple não terá um e-mail vinculado por padrão. O e-mail que você fornecer na lista de espera não estará relacionado à conta que você eventualmente criar.",
         "extra2": "Para interações de suporte, seu e-mail será mantido exclusivamente em nosso servidor de e-mail para assistí-lo. Não vincularemos seu e-mail à sua conta no aplicativo, a menos que implementemos este recurso no futuro e você opte voluntariamente por adicioná-lo."
@@ -288,7 +288,7 @@
     "sections": [
       {
         "title": "1. Arquitetura Zero-Knowledge",
-        "content": "O Cryple foi construído do zero como um serviço zero-knowledge. Nossos modelos matemáticos garantem que nenhum funcionário, administrador ou invasor que comprometa nossos servidores possa ler seus segredos, credenciais ou notas armazenados.",
+        "content": "O Cryple foi desenvolvido do zero como um serviço zero-knowledge. Nossos modelos matemáticos garantem que nenhum funcionário, administrador ou invasor que comprometa nossos servidores possa ler seus segredos, credenciais ou notas armazenadas.",
         "note": "Operamos estritamente sob a seguinte política:",
         "items": [
           "Sua senha mestre nunca sai da janela do seu navegador.",
@@ -301,7 +301,7 @@
         "content": "Utilizamos ferramentas criptográficas padrão da indústria:",
         "note": null,
         "items": [
-          "Autenticação: PBKDF2 com alto número de iterações (100.000+) no lado do cliente, depois com hash via bcrypt ao chegar ao servidor.",
+          "Autenticação: PBKDF2 com um alto número de iterações (100.000+) no lado do cliente, depois com hash via bcrypt ao chegar ao servidor.",
           "Assinatura: Pares de chaves públicas/privadas assimétricas (ECDSA P-256) são gerados no lado do cliente para assinar desafios de token em segundo plano.",
           "Armazenamento de Dados: Arquivos e credenciais são criptografados no dispositivo do cliente usando AES-256-GCM."
         ]
@@ -311,7 +311,7 @@
         "content": "Nossa infraestrutura de servidores é protegida por limites de engenharia rigorosos contra vetores de ataque:",
         "note": null,
         "items": [
-          "Limitação de taxa é aplicada intensamente em todos os nós de entrada da API para prevenir ataques de força bruta.",
+          "Um limite de acesso (Rate Limiting) é aplicado rigorosamente em todos os nós de entrada da API para prevenir ataques de força bruta.",
           "Usamos bloqueio atômico de nonce de uso único para evitar Ataques de Replay em todos os fluxos sensíveis de renovação de JWT em segundo plano.",
           "Volumes de banco de dados e buckets de armazenamento de objetos são criptografados em repouso pelos nossos provedores de nuvem."
         ]
@@ -324,7 +324,7 @@
       },
       {
         "title": "5. Divulgação de Vulnerabilidades",
-        "content": "Se você descobrir um problema ou vulnerabilidade de segurança, por favor reporte imediatamente em vez de divulgá-lo publicamente. Estamos trabalhando em um programa de Bug Bounty, mas enquanto isso, entre em contato com nossa equipe de segurança.",
+        "content": "Se você descobrir um problema ou vulnerabilidade de segurança, por favor, reporte-o imediatamente em vez de divulgá-lo publicamente. Estamos trabalhando em um programa de Bug Bounty, mas enquanto isso, entre em contato com nossa equipe de segurança.",
         "note": null,
         "items": []
       },

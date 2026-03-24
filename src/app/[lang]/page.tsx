@@ -43,7 +43,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
           <div className="hero-buttons fade-in-up">
             <GetAppButton text={dict.nav.getEarlyAccess} />
-            <Link href="#how-it-works" className="btn-secondary">
+            <Link href="#features" className="btn-secondary">
               {dict.hero.learnMore}
             </Link>
           </div>
@@ -101,7 +101,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {/* 3 */}
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/gallery.jpg" alt="Private vault UI" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/login.png" alt="Private vault UI" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[2].title}</h3>
@@ -123,7 +123,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {/* 5 */}
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/notes.jpg" alt="Private text editor" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/gallery.jpg" alt="Private text editor" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[4].title}</h3>
@@ -156,7 +156,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {/* 8 */}
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/login.png" alt="Chrome extension" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/notes.jpg" alt="Chrome extension" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[7].title}</h3>

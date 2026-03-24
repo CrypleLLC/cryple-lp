@@ -7,8 +7,8 @@
     "getEarlyAccess": "Get Early Access"
   },
   "hero": {
-    "title": "Secure Your Digital Life. Protect Your Legacy.",
-    "subtitle": "The post-quantum vault that secures your everyday passwords, files, and crypto—and guarantees your heirs inherit them through our Zero-Knowledge Succession Protocol.",
+    "title": "Store everything that matters. Define who inherits what. Sleep peacefully.",
+    "subtitle": "The first hyper-secure digital vault that protects your life today and guarantees your digital legacy tomorrow—without us having access to absolutely anything.",
     "learnMore": "Learn More",
     "demoTitle": "Zero-Knowledge Proofs in Action",
     "demoSubtitle": "Your keys never leave your device. Only you—and your chosen heirs—can decrypt your life.",
@@ -17,82 +17,82 @@
     "demoStage3": "Data encrypted and stored securely"
   },
   "features": {
-    "title": "Everyday Utility. Lifetime Security.",
-    "subtitle": "Manage your daily digital life with ease while securing your long-term legacy with post-quantum encryption.",
+    "title": "Why is Cryple Different?",
+    "subtitle": "We are not just a password manager. We are a life insurance policy for your digital world, with untouchable privacy guaranteed by mathematics.",
     "items": [
       {
-        "title": "An Entire Digital Life Lost From People You Love?",
-        "desc": "Why having thousands in crypto, a life in documents and files and have this away from people you love? Cryple permanently secures your digital legacy, ensuring your loved ones can access it when needed."
+        "title": "The Digital Legacy Protocol",
+        "desc": "Works like an automatic will. Choose your heirs and define granular permissions. If you become inactive, access is granted respecting a strict contestation period, also allowing Guardians to accelerate the process."
       },
       {
         "title": "You Are Not The Product",
-        "desc": "No tracking algorithms, no targeted ads, and no data selling. You pay for total privacy. We provide a distraction-free, premium ecosystem built solely to protect you."
+        "desc": "No ads, no tracking, no cookies. Our free subscription is truly free, and you pay for more features if you like the product. Real Zero-Knowledge. The locks and keys to access your vault are created on your device. We cannot see your passwords, read your notes, or access your files under any circumstances."
       },
       {
-        "title": "Private Vault & Camera",
-        "desc": "A completely safe space for your media. Snap photos and videos directly into the app, bypassing your phone's native gallery entirely so your personal life stays strictly private."
+        "title": "Isolated Vaults (Passwords vs. Secrets)",
+        "desc": "Quickly access passwords with our browser extension to ease your day-to-day. High-value credentials, however, stay in a restricted vault, invisible to the extension, guaranteeing maximum shielding."
       },
       {
-        "title": "High-Value Secrets Vault",
-        "desc": "Keep your bank PINs, recovery codes, and digital life locked down. An ultra-secure, isolated vault that never touches your browser extensions for maximum safety."
+        "title": "Paranoid Mode (Six-Digit PIN)",
+        "desc": "You decide your security level. By enabling Paranoid Mode, the PIN becomes a requirement (2FA), making it strictly necessary to use your seed phrase and PIN together."
       },
       {
-        "title": "Centralized Private Notes",
-        "desc": "The ultimate unique space to organize your mind. Centralize your brilliant ideas, travel plans, book lists, or daily routines in an encrypted editor nobody else can read."
+        "title": "Built-In Private Camera",
+        "desc": "Take photos of sensitive documents (IDs, medical exams) using Cryple's native camera. Images are encrypted on the spot and never pass through your phone's common gallery."
       },
       {
-        "title": "All-in-One Bitcoin Wallet",
-        "desc": "Why use multiple apps? Store your sensitive seed phrases securely and make Bitcoin transactions right from the same place. True financial privacy seamlessly integrated."
+        "title": "Native Bitcoin Wallet",
+        "desc": "Your main access key also generates a private Bitcoin wallet. Track balances and make transfers seamlessly integrated with your secure documents."
       },
       {
-        "title": "Encrypted P2P Chat & File Sharing",
-        "desc": "Communicate and share sensitive documents with absolute security. Our post-quantum hybrid encryption guarantees that your private messages and high-value shared secrets remain strictly between you and your trusted contacts."
+        "title": "Encrypted Private Notes",
+        "desc": "The ideal space to organize your ideas. Store plans, business instructions, or thoughts in a completely shielded environment."
       },
       {
-        "title": "Passwords & Extension",
-        "desc": "Log into your favorite sites instantly with our Chrome extension. Get the daily convenience of quick autofill paired with the peace of mind of military-grade encryption."
+        "title": "Secure P2P Sharing",
+        "desc": "Send sensitive documents or credentials to trusted contacts through an interception-proof network—designed to resist even future supercomputer attacks."
       }
     ]
   },
   "roadmap": {
-    "title": "Get Early Access",
-    "subtitle": "Join our waitlist today and secure your spot for our upcoming releases.",
+    "title": "Secure Your Early Access",
+    "subtitle": "Join our waitlist today and secure your spot in our upcoming releases.",
     "alpha": {
       "date": "May 2026",
       "title": "Alpha Release",
-      "desc": "Core vault, private notes, password manager and chrome extension."
+      "desc": "Core vault, private notes, password manager and Chrome extension."
     },
     "beta": {
       "date": "July 2026",
       "title": "Beta Release",
-      "desc": "Bitcoin Wallet, P2P file sharing, and Post-Quantum Digital Inheritance testing."
+      "desc": "Bitcoin Wallet, secure P2P sharing, and Post-Quantum Digital Inheritance testing."
     },
     "launch": {
       "date": "September 2026",
-      "title": "Global Launch",
-      "desc": "Full public release. The post-quantum vault opens to everyone."
+      "title": "Official Launch",
+      "desc": "Full public release. The post-quantum vault opened to everyone."
     },
-    "discount": "Join the waitlist to be notified about the global launch. During the first month of release, premium subscriptions will have a <bold>50% discount</bold>."
+    "discount": "Join the waitlist to be notified about the official launch. During the first month of release, premium subscriptions will have a <bold>50% discount</bold>."
   },
   "howItWorks": {
-    "title": "How It Works",
-    "subtitle": "Simple, secure, and completely private in just a few steps",
+    "title": "How It Works? (Simple and Practical)",
+    "subtitle": "You in full control in four straightforward steps.",
     "steps": [
       {
-        "title": "Generate Your Master Key",
-        "desc": "Create a secure 12-word seed phrase. This offline master key guarantees you are the only person on earth who can decrypt your account."
+        "title": "1. Create Your Unique Key",
+        "desc": "Upon opening Cryple, a lifetime master key is generated exclusively on your device. It is the only way to open your account."
       },
       {
-        "title": "Secure Passwords & Files",
-        "desc": "Add your passwords, everyday logins, and upload sensitive PDFs. Everything is instantly scrambled into mathematical gibberish in your browser."
+        "title": "2. Increase Secure Productivity",
+        "desc": "Store your passwords, notes, and upload files in your personal vault. Everything isolated and protected from the outside world."
       },
       {
-        "title": "Manage Your Bitcoin",
-        "desc": "Your master key securely derives a private Bitcoin wallet. Check and manage your digital wealth seamlessly alongside your private documents."
+        "title": "3. Plan the Future Today",
+        "desc": "Register your heirs' profiles and define granular permissions. If something unexpected happens to you, your most valuable assets will be guaranteed in the right hands."
       },
       {
-        "title": "Set Up Your Digital Legacy",
-        "desc": "Assign trusted Guardians and configure an inactivity timer. Ensure your heirs automatically and securely inherit the items you have configured if you disappear."
+        "title": "4. Sleep Peacefully",
+        "desc": "Live your daily life knowing that your privacy is unbreakable today, and your loved ones are protected against digital loss tomorrow."
       }
     ]
   },
@@ -105,8 +105,8 @@
       "Proof of ownership via ECDSA P-256 cryptographic signatures",
       "Post-quantum encryption with ML-KEM (Kyber-768)",
       "Hybrid PQXDH: X25519 + ML-KEM combined so both classical and quantum attacks must be broken simultaneously",
-      "Seamless 2FA (BIP39 Seed Phrase + PIN)",
-      "No plaintext master secret transmission, ever"
+      "Paranoid Mode: perfect 2FA mandatorily requiring Seed Phrase + PIN together",
+      "The master secret is never transmitted in plaintext, ever"
     ],
     "techSpecsTitle": "Technical Specifications",
     "specs": [
@@ -140,7 +140,7 @@
       },
       {
         "label": "Server Hashing",
-        "value": "Bcrypt (Cost 10+)"
+        "value": "Bcrypt (Cost Factor 10+)"
       }
     ]
   },

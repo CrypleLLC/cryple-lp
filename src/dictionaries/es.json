@@ -4,118 +4,118 @@
     "howItWorks": "Cómo Funciona",
     "security": "Seguridad",
     "contact": "Contacto",
-    "getEarlyAccess": "Obtén Acceso Anticipado"
+    "getEarlyAccess": "Acceso Anticipado"
   },
   "hero": {
-    "title": "Asegura Tu Vida Digital. Protege Tu Legado.",
-    "subtitle": "La bóveda post-cuántica que asegura tus contraseñas, archivos y criptomonedas diarias — y garantiza que tus herederos los hereden a través de nuestro Protocolo de Sucesión de Conocimiento Cero.",
-    "learnMore": "Aprende Más",
-    "demoTitle": "Pruebas de Conocimiento Cero en Acción",
-    "demoSubtitle": "Tus llaves nunca salen de tu dispositivo. Solo tú — y tus herederos elegidos — pueden descifrar tu vida.",
-    "demoStage1": "Autenticado con frase semilla",
-    "demoStage2": "Cifrando datos con AES-256-GCM...",
-    "demoStage3": "Datos cifrados y almacenados de forma segura"
+    "title": "Guarda todo lo que importa. Define quién hereda qué. Duerme tranquilo.",
+    "subtitle": "La primera bóveda digital hipersegura que protege tu vida hoy y garantiza tu legado digital mañana — sin que nosotros tengamos acceso a absolutamente nada.",
+    "learnMore": "Saber Más",
+    "demoTitle": "Pruebas Zero-Knowledge en Acción",
+    "demoSubtitle": "Tus llaves nunca salen de tu dispositivo. Solo tú — y tus herederos elegidos — pueden desencriptar tu vida.",
+    "demoStage1": "Autenticado con la seed phrase",
+    "demoStage2": "Encriptando datos con AES-256-GCM...",
+    "demoStage3": "Datos encriptados y almacenados de forma segura"
   },
   "features": {
-    "title": "Utilidad Diaria. Seguridad de Por Vida.",
-    "subtitle": "Gestiona tu vida digital diaria con facilidad mientras proteges tu legado a largo plazo con cifrado post-cuántico.",
+    "title": "¿Por qué Cryple es Diferente?",
+    "subtitle": "No somos solo un gestor de contraseñas. Somos un seguro de vida para tu mundo digital, con privacidad intocable garantizada por las matemáticas.",
     "items": [
       {
-        "title": "¿Toda Una Vida Digital Perdida Lejos de Quienes Amas?",
-        "desc": "¿Por qué tener miles en criptomonedas, una vida en documentos y archivos y mantenerlo lejos de las personas que amas? Cryple asegura de forma permanente tu legado digital, garantizando que tus seres queridos puedan acceder a él cuando lo necesiten."
+        "title": "El Protocolo de Legado Digital",
+        "desc": "Funciona como un testamento automático. Elige a tus herederos y define permisos granulares. Si te vuelves inactivo, el acceso se concede respetando un estricto período de impugnación, permitiendo también que los Guardianes aceleren el proceso."
       },
       {
-        "title": "No Eres El Producto",
-        "desc": "Sin algoritmos de seguimiento, sin anuncios dirigidos y sin venta de datos. Pagas por privacidad total. Ofrecemos un ecosistema premium y sin distracciones construido exclusivamente para protegerte."
+        "title": "Tú No Eres El Producto",
+        "desc": "Sin anuncios, sin rastreo, sin cookies. Nuestra suscripción gratuita es realmente gratis, y pagas por más funciones si te gusta el producto. Zero-Knowledge de verdad. Las cerraduras y llaves para acceder a tu bóveda se crean en tu dispositivo. No podemos ver tus contraseñas, leer tus notas ni acceder a tus archivos bajo ninguna circunstancia."
       },
       {
-        "title": "Bóveda y Cámara Privadas",
-        "desc": "Un espacio completamente seguro para tus medios. Toma fotos y videos directamente en la aplicación, sin pasar por la galería nativa de tu teléfono para que tu vida personal permanezca estrictamente privada."
+        "title": "Bóvedas Aisladas (Passwords vs. Secrets)",
+        "desc": "Accede rápidamente a las contraseñas con nuestra extensión de navegador para facilitar el día a día. Las credenciales de alto valor, en cambio, permanecen en una bóveda restringida, invisible para la extensión, garantizando el máximo blindaje."
       },
       {
-        "title": "Bóveda de Secretos de Alto Valor",
-        "desc": "Mantén tus PINs bancarios, códigos de recuperación y vida digital bloqueados. Una bóveda ultra segura y aislada que nunca toca las extensiones de tu navegador para máxima seguridad."
+        "title": "Modo Paranoico (PIN de Seis Dígitos)",
+        "desc": "Tú decides tu nivel de seguridad. Al activar el Modo Paranoico, el PIN se convierte en un requisito (2FA), siendo estrictamente necesario el uso conjunto de tu seed phrase y tu PIN."
       },
       {
-        "title": "Notas Privadas Centralizadas",
-        "desc": "El espacio único definitivo para organizar tu mente. Centraliza tus ideas brillantes, planes de viaje, listas de libros o rutinas diarias en un editor cifrado que nadie más puede leer."
+        "title": "Cámara Privada Integrada",
+        "desc": "Toma fotos de documentos confidenciales (identificaciones, exámenes) utilizando la cámara nativa de Cryple. Las imágenes se encriptan en el acto y nunca pasan por la galería común de tu celular."
       },
       {
-        "title": "Billetera de Bitcoin Todo en Uno",
-        "desc": "¿Por qué usar múltiples aplicaciones? Almacena tus frases semilla de forma segura y realiza transacciones de Bitcoin desde el mismo lugar. Verdadera privacidad financiera perfectamente integrada."
+        "title": "Billetera Bitcoin Nativa",
+        "desc": "Tu clave de acceso principal también genera una billetera Bitcoin privada. Haz seguimiento de saldos y realiza transferencias de manera integrada con tus documentos seguros."
       },
       {
-        "title": "Chat P2P y Uso Compartido de Archivos Cifrados",
-        "desc": "Comunícate y comparte documentos confidenciales con seguridad absoluta. Nuestro cifrado híbrido post-cuántico garantiza que tus mensajes privados y secretos compartidos de alto valor permanezcan estrictamente entre tú y tus contactos de confianza."
+        "title": "Notas Privadas Encriptadas",
+        "desc": "El espacio ideal para organizar tus ideas. Guarda planes, instrucciones de negocios o pensamientos en un entorno completamente blindado."
       },
       {
-        "title": "Contraseñas y Extensión",
-        "desc": "Inicia sesión en tus sitios favoritos al instante con nuestra extensión de Chrome. Obtén la conveniencia diaria del autocompletado rápido combinada con la tranquilidad del cifrado de grado militar."
+        "title": "Compartición P2P Segura",
+        "desc": "Envía documentos confidenciales o credenciales a contactos de confianza a través de una red a prueba de intercepciones — diseñada para resistir incluso futuros ataques de supercomputadoras."
       }
     ]
   },
   "roadmap": {
-    "title": "Obtén Acceso Anticipado",
-    "subtitle": "Únete a nuestra lista de espera hoy y asegura tu lugar para nuestros próximos lanzamientos.",
+    "title": "Asegura tu Acceso Anticipado",
+    "subtitle": "Únete a nuestra lista de espera hoy y asegura tu lugar en nuestros próximos lanzamientos.",
     "alpha": {
       "date": "Mayo de 2026",
       "title": "Lanzamiento Alpha",
-      "desc": "Bóveda principal, notas privadas, administrador de contraseñas y extensión de Chrome."
+      "desc": "Bóveda principal, notas privadas, gestor de contraseñas y extensión para Chrome."
     },
     "beta": {
       "date": "Julio de 2026",
       "title": "Lanzamiento Beta",
-      "desc": "Bóveda Bitcoin, uso compartido de archivos P2P y pruebas de Herencia Digital Post-Cuántica."
+      "desc": "Billetera Bitcoin, compartición P2P segura y pruebas del Protocolo de Herencia Digital Post-Cuántica."
     },
     "launch": {
       "date": "Septiembre de 2026",
-      "title": "Lanzamiento Global",
-      "desc": "Lanzamiento público completo. La bóveda post-cuántica se abre a todos."
+      "title": "Lanzamiento Oficial",
+      "desc": "Lanzamiento público completo. La bóveda post-cuántica abierta para todos."
     },
-    "discount": "Únete a la lista de espera para recibir notificaciones sobre el lanzamiento global. Durante el primer mes de lanzamiento, las suscripciones premium tendrán un <bold>50% de descuento</bold>."
+    "discount": "Únete a la lista de espera para recibir notificaciones sobre el lanzamiento oficial. Durante el primer mes de lanzamiento, las suscripciones premium tendrán un <bold>50% de descuento</bold>."
   },
   "howItWorks": {
-    "title": "Cómo Funciona",
-    "subtitle": "Simple, seguro y completamente privado en solo unos pocos pasos",
+    "title": "¿Cómo Funciona? (Simple y Práctico)",
+    "subtitle": "Tú en control total en cuatro pasos directos.",
     "steps": [
       {
-        "title": "Genera Tu Llave Maestra",
-        "desc": "Crea una frase semilla segura de 12 palabras. Esta clave maestra fuera de línea garantiza que eres la única persona en la tierra que puede descifrar tu cuenta."
+        "title": "1. Crea Tu Clave Única",
+        "desc": "Al abrir Cryple, se genera una llave maestra vitalicia exclusivamente en tu dispositivo. Es la única forma de abrir tu cuenta."
       },
       {
-        "title": "Asegura Contraseñas y Archivos",
-        "desc": "Agrega tus contraseñas, inicios de sesión diarios y sube PDFs confidenciales. Todo se revuelve instantáneamente en galimatías matemáticos en tu navegador."
+        "title": "2. Aumenta la Productividad Segura",
+        "desc": "Guarda tus contraseñas, notas y sube archivos a tu bóveda personal. Todo aislado y protegido del mundo exterior."
       },
       {
-        "title": "Gestiona Tu Bitcoin",
-        "desc": "Tu clave maestra deriva de forma segura una billetera privada de Bitcoin. Verifica y gestiona tu riqueza digital perfectamente junto con tus documentos privados."
+        "title": "3. Planifica el Futuro Hoy",
+        "desc": "Registra los perfiles de tus herederos y define permisos granulares. En caso de que te ocurra un imprevisto, tus activos más valiosos estarán garantizados en las manos adecuadas."
       },
       {
-        "title": "Configura Tu Legado Digital",
-        "desc": "Asigna Guardianes de confianza y configura un temporizador de inactividad. Asegúrate de que tus herederos hereden automática y seguramente los elementos que has configurado si desapareces."
+        "title": "4. Duerme Tranquilo",
+        "desc": "Vive tu día a día sabiendo que tu privacidad es inquebrantable hoy, y que tus seres queridos están protegidos contra la pérdida digital mañana."
       }
     ]
   },
   "security": {
-    "title": "Seguridad de Grado Empresarial",
-    "subtitle": "Construido con las mejores prácticas criptográficas sin compromisos y arquitectura de conocimiento cero.",
+    "title": "Seguridad de Nivel Empresarial",
+    "subtitle": "Construido con las mejores prácticas criptográficas intransigentes y arquitectura Zero-Knowledge.",
     "bullets": [
-      "Cifrado del lado del cliente para que nunca veamos tus datos",
-      "Arquitectura de servidor de conocimiento cero",
+      "Encriptación en el lado del cliente para que nunca veamos tus datos",
+      "Arquitectura de servidor Zero-Knowledge",
       "Prueba de propiedad mediante firmas criptográficas ECDSA P-256",
-      "Cifrado post-cuántico con ML-KEM (Kyber-768)",
+      "Encriptación post-cuántica con ML-KEM (Kyber-768)",
       "Híbrido PQXDH: X25519 + ML-KEM combinados para que los ataques clásicos y cuánticos deban romperse simultáneamente",
-      "2FA Perfecto (Frase Semilla BIP39 + PIN)",
-      "Sin transmisión de secreto maestro en texto plano, nunca"
+      "Modo Paranoico: 2FA que exige obligatoriamente la unión de Seed Phrase + PIN",
+      "El secreto maestro nunca se transmite en texto plano"
     ],
     "techSpecsTitle": "Especificaciones Técnicas",
     "specs": [
       {
-        "label": "Cifrado Simétrico",
+        "label": "Encriptación Simétrica",
         "value": "AES-256-GCM"
       },
       {
-        "label": "Intercambio Clásico de Llaves",
+        "label": "Intercambio de Claves Clásico",
         "value": "X25519 (ECDH)"
       },
       {
@@ -128,41 +128,41 @@
       },
       {
         "label": "Derivación de Claves",
-        "value": "Teclas Determinísticas BIP32"
+        "value": "Claves Determinísticas BIP32"
       },
       {
         "label": "Hash de PIN",
-        "value": "PBKDF2-SHA256 (100k) del lado del cliente"
+        "value": "PBKDF2-SHA256 (100k) en el lado del cliente"
       },
       {
         "label": "Autenticación",
         "value": "Firmas ECDSA P-256"
       },
       {
-        "label": "Hash de Servidor",
-        "value": "Bcrypt (Costo 10+)"
+        "label": "Hash en el Servidor",
+        "value": "Bcrypt (Factor de Costo 10+)"
       }
     ]
   },
   "footer": {
     "tagline": "Tus llaves, tus datos, privacidad completa.",
     "product": "Producto",
-    "joinWaitlist": "Únete a la Lista de Espera",
+    "joinWaitlist": "Acceso Anticipado",
     "features": "Características",
     "security": "Seguridad",
     "howItWorks": "Cómo Funciona",
     "contact": "Contacto",
-    "emailUs": "Envíanos un Correo",
+    "emailUs": "Envíanos un correo",
     "legal": "Legal",
     "privacyPolicy": "Política de Privacidad",
     "termsOfService": "Términos de Servicio",
     "securityPolicy": "Política de Seguridad",
-    "copyright": "© 2026 Cryple™. Todos los derechos reservados. Construido para la privacidad. Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA"
+    "copyright": "© 2026 Cryple™. Todos los derechos reservados. Creado para la privacidad. Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU."
   },
   "form": {
     "agreeTo": "Acepto los ",
     "termsOfService": "Términos de Servicio",
-    "placeholder": "Ingresa tu correo",
+    "placeholder": "Introduce tu correo electrónico",
     "sending": "Enviando...",
     "successMessage": "¡Estás en la lista! Mantente atento a tu bandeja de entrada."
   },
@@ -173,51 +173,51 @@
     "sections": [
       {
         "title": "1. Aceptación de los Términos",
-        "content": "Al acceder o utilizar el sitio web de Cryple, aceptas quedar vinculado por estos Términos de Servicio. Si no estás de acuerdo con alguna parte de estos términos, no podrás acceder al servicio.",
+        "content": "Al acceder o utilizar el sitio web de Cryple, aceptas estar sujeto a estos Términos de Servicio. Si no estás de acuerdo con alguna parte de estos términos, no podrás acceder al servicio.",
         "items": []
       },
       {
-        "title": "2. Uso de la Lista de Espera para Acceso Anticipado",
+        "title": "2. Uso de la Lista de Espera de Acceso Anticipado",
         "content": "Proporcionamos una lista de espera para ofrecer acceso anticipado a nuestra futura aplicación. Al registrarte:",
         "items": [
           "Aceptas proporcionar información precisa y completa (como tu dirección de correo electrónico).",
-          "Reconoces que el registro en la lista de espera no garantiza acceso inmediato a la plataforma.",
+          "Reconoces que enviar tu correo a la lista de espera no garantiza acceso inmediato a la plataforma.",
           "Nos reservamos el derecho de limitar el acceso o eliminar a cualquier persona de la lista de espera a nuestra discreción."
         ]
       },
       {
         "title": "3. Disponibilidad del Servicio y Cambios",
-        "content": "Cryple es un servicio actualmente en desarrollo activo. Podemos modificar, suspender o discontinuar la lista de espera o aspectos de nuestro sitio web en cualquier momento sin previo aviso. No seremos responsables si, por cualquier razón, todo o parte del sitio no está disponible en algún momento.",
+        "content": "Cryple es un servicio actualmente en desarrollo activo. Podemos cambiar, suspender o discontinuar la lista de espera o aspectos de nuestro sitio web en cualquier momento sin previo aviso. No seremos responsables si, por alguna razón, todo o parte del sitio web no está disponible en algún momento.",
         "items": []
       },
       {
         "title": "4. Propiedad Intelectual",
-        "content": "El sitio y su contenido original (excluyendo los envíos estándar de usuarios), características y funcionalidad son y seguirán siendo propiedad exclusiva de Cryple y sus licenciantes.",
+        "content": "El sitio y su contenido original (excluyendo envíos estándar de usuarios), características y funcionalidad son y seguirán siendo propiedad exclusiva de Cryple y sus licenciantes. El sitio está protegido por derechos de autor, marcas comerciales y otras leyes.",
         "items": []
       },
       {
         "title": "5. Limitación de Responsabilidad",
-        "content": "En ningún caso Cryple, ni sus directores, empleados, socios, agentes, proveedores o afiliados, serán responsables por daños indirectos, incidentales, especiales, consecuentes o punitivos resultantes de tu acceso o uso del servicio de lista de espera.",
+        "content": "En ningún caso Cryple, ni sus directores, empleados, socios, agentes, proveedores o afiliados, serán responsables de daños indirectos, incidentales, especiales, consecuentes o punitivos resultantes de tu acceso o uso del servicio de la lista de espera.",
         "items": []
       },
       {
         "title": "6. Terminación",
-        "content": "Podemos terminar o suspender tu acceso a nuestra lista de espera de inmediato, sin previo aviso ni responsabilidad, por cualquier razón, incluyendo si incumples los Términos.",
+        "content": "Podemos terminar o suspender tu acceso a nuestra lista de espera de inmediato, sin previo aviso ni responsabilidad, por cualquier motivo, incluido si incumples los Términos.",
         "items": []
       },
       {
         "title": "7. Ley Aplicable",
-        "content": "Estos Términos se regirán e interpretarán de acuerdo con las leyes del estado de Wyoming, EE.UU.",
+        "content": "Estos Términos se regirán e interpretarán de acuerdo con las leyes del estado de Wyoming, EE. UU.",
         "items": []
       },
       {
         "title": "8. Cambios en los Términos",
-        "content": "Nos reservamos el derecho, a nuestra entera discreción, de modificar o reemplazar estos Términos en cualquier momento. Al continuar accediendo o usando nuestro sitio después de que cualquier revisión entre en vigor, aceptas quedar vinculado por los términos revisados.",
+        "content": "Nos reservamos el derecho, a nuestra entera discreción, de modificar o reemplazar estos Términos en cualquier momento. Al continuar accediendo o utilizando nuestro sitio después de que cualquier revisión entre en vigencia, aceptas estar sujeto a los términos revisados.",
         "items": []
       },
       {
         "title": "9. Contáctanos",
-        "content": "Si tienes alguna pregunta sobre estos Términos, contáctanos en: contact@cryple.io o por correo postal en: Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE.UU.",
+        "content": "Si tienes alguna pregunta sobre estos Términos, contáctanos a través del correo electrónico: contact@cryple.io o por correo postal en: Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU.",
         "items": []
       }
     ]
@@ -225,11 +225,11 @@
   "privacy": {
     "title": "Política de Privacidad",
     "lastUpdated": "Última actualización: 12 de marzo de 2026",
-    "backToHome": "← Volver al Inicio",
+    "backToHome": "← Voltar al Inicio",
     "sections": [
       {
         "title": "1. Introducción",
-        "content": "¡Bienvenido a Cryple! Los servicios son operados por Cryple LLC, ubicada en 30 N Gould St Ste R, Sheridan, WY 82801, EE.UU. Respetamos tu privacidad y estamos comprometidos a proteger tus datos personales. Esta Política de Privacidad te informa cómo cuidamos tus datos personales cuando visitas nuestro sitio web.",
+        "content": "¡Bienvenido a Cryple! Los servicios son operados por Cryple LLC, con sede en 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU. Respetamos tu privacidad y estamos comprometidos a proteger tus datos personales. Esta Política de Privacidad te informará sobre cómo cuidamos tus datos personales cuando visitas nuestro sitio web.",
         "note": null,
         "items": [],
         "extra": null,
@@ -237,27 +237,27 @@
       },
       {
         "title": "2. Datos que Recopilamos",
-        "content": "Actualmente, a través de nuestra página de inicio, recopilamos únicamente tu dirección de correo electrónico cuando te registras en nuestra lista de espera para acceso anticipado. Los correos son gestionados de forma segura por nuestro proveedor externo, Loops.so.",
-        "note": "Ningún nombre, IP, región, dispositivo u otro dato es almacenado por Cryple. Sin embargo, una dirección IP puede ser retenida permanentemente si estás involucrado en actividades que incumplan nuestros Términos de Servicio (por ejemplo, spam, ataques DDoS contra nuestra infraestructura, ataques de fuerza bruta).",
+        "content": "Actualmente, a través de nuestra página de inicio, recopilamos solo tu dirección de correo electrónico cuando te inscribes en nuestra lista de espera para acceso anticipado. Los correos electrónicos son gestionados de forma segura por nuestro proveedor externo, Loops.so.",
+        "note": "Cryple no almacena nombre, IP, región, dispositivo u otros datos. Sin embargo, una dirección IP puede retenerse permanentemente si estás involucrado en actividades que incumplan nuestros Términos de Servicio (ej.: spam, ataques DDoS contra nuestra infraestructura, ataques de fuerza bruta).",
         "items": [],
         "extra": null,
         "extra2": null
       },
       {
-        "title": "3. Cómo Usamos tus Datos y Vinculación de Cuenta",
-        "content": "Usamos los datos recopilados para los siguientes propósitos:",
+        "title": "3. Cómo Usamos Tus Datos y Vinculación de Cuentas",
+        "content": "Usamos los datos recopilados para los siguientes fines:",
         "note": null,
         "items": [
           "Para notificarte cuando Cryple esté listo para acceso público o beta.",
           "Para enviarte actualizaciones importantes sobre el desarrollo de nuestra plataforma.",
           "No vendemos, alquilamos ni distribuimos tu dirección de correo electrónico a terceros."
         ],
-        "extra": "Importante: una cuenta en la futura aplicación Cryple no tendrá un correo electrónico vinculado por defecto. El correo que proporciones en la lista de espera no estará relacionado con la cuenta que crees posteriormente.",
-        "extra2": "Para interacciones de soporte, tu correo se mantendrá únicamente en nuestro servidor de correo para asistirte. No vincularemos tu correo a tu cuenta de la aplicación a menos que implementemos esta funcionalidad en el futuro y tú elijas voluntariamente añadir un correo a tu cuenta."
+        "extra": "Importante: una cuenta en la futura aplicación de Cryple no tendrá un correo electrónico vinculado de manera predeterminada. El correo que proporciones en la lista de espera no estará relacionado con la cuenta que eventualmente crees.",
+        "extra2": "Para interacciones de soporte, tu correo se mantendrá exclusivamente en nuestro servidor de correo electrónico para asistirte. No vincularemos tu correo electrónico a tu cuenta en la aplicación a menos que implementemos esta función en el futuro y decidas voluntariamente agregarlo."
       },
       {
         "title": "4. Seguridad de Datos y \"Zero-Knowledge\"",
-        "content": "La aplicación Cryple, cuando se lance, solo almacenará datos cifrados de los usuarios. Debido a esta arquitectura \"Zero-Knowledge\", no podemos leer tus archivos cifrados ni contraseñas almacenados. Los correos de la lista de espera recopilados en nuestro sitio son gestionados de forma segura por Loops.so.",
+        "content": "La aplicación Cryple, cuando sea lanzada, mantendrá solo datos encriptados de los usuarios. Debido a esta arquitectura \"Zero-Knowledge\", no podemos leer tus archivos encriptados ni las contraseñas almacenadas. Los correos electrónicos de la lista de espera recopilados en nuestro sitio son gestionados de forma segura por Loops.so.",
         "note": null,
         "items": [],
         "extra": null,
@@ -265,7 +265,7 @@
       },
       {
         "title": "5. Tus Derechos",
-        "content": "Tienes el derecho de solicitar acceso a los datos personales que tenemos sobre ti o solicitar la eliminación de tus datos. Puedes eliminarte completamente de la lista de espera en cualquier momento haciendo clic en el enlace para darse de baja que se proporciona en cualquier correo que te enviemos.",
+        "content": "Tienes derecho a solicitar acceso a los datos personales que mantenemos sobre ti o solicitar su eliminación. Puedes darte de baja completamente de la lista de espera en cualquier momento haciendo clic en el enlace de cancelación de suscripción proporcionado en cualquier correo electrónico que te enviemos.",
         "note": null,
         "items": [],
         "extra": null,
@@ -273,7 +273,7 @@
       },
       {
         "title": "6. Contáctanos",
-        "content": "Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en: contact@cryple.io o por correo postal en: Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE.UU.",
+        "content": "Si tienes alguna duda sobre esta Política de Privacidad, contáctanos a través del correo electrónico: contact@cryple.io o por correo postal en: Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU.",
         "note": null,
         "items": [],
         "extra": null,
@@ -288,49 +288,49 @@
     "sections": [
       {
         "title": "1. Arquitectura Zero-Knowledge",
-        "content": "Cryple está construido desde cero como un servicio zero-knowledge. Nuestros modelos matemáticos garantizan que ningún empleado, administrador o atacante que comprometa nuestros servidores pueda leer tus secretos, credenciales o notas almacenados.",
+        "content": "Cryple fue desarrollado desde cero como un servicio zero-knowledge. Nuestros modelos matemáticos garantizan que ningún empleado, administrador o atacante que comprometa nuestros servidores pueda leer tus secretos, credenciales o notas almacenadas.",
         "note": "Operamos estrictamente bajo la siguiente política:",
         "items": [
           "Tu contraseña maestra nunca sale de la ventana de tu navegador.",
-          "Todo el cifrado/descifrado ocurre localmente en tu dispositivo antes de la transmisión.",
+          "Toda encriptación/desencriptación ocurre localmente en tu dispositivo antes de la transmisión.",
           "Solo almacenamos salts generados aleatoriamente, claves públicas ECDSA y payloads con hash criptográfico."
         ]
       },
       {
-        "title": "2. Prácticas Criptográficas",
+        "title": "2. Prácticas de Criptografía",
         "content": "Utilizamos herramientas criptográficas estándar de la industria:",
         "note": null,
         "items": [
-          "Autenticación: PBKDF2 con alto número de iteraciones (100.000+) del lado del cliente, luego con hash vía bcrypt al llegar al servidor.",
-          "Firma: Pares de claves públicas/privadas asimétricas (ECDSA P-256) se generan del lado del cliente para firmar desafíos de token en segundo plano.",
-          "Almacenamiento de Datos: Los archivos y credenciales se cifran en el dispositivo del cliente usando AES-256-GCM."
+          "Autenticación: PBKDF2 con un alto número de iteraciones (100.000+) en el lado del cliente, y luego con hash vía bcrypt al llegar al servidor.",
+          "Firma: Pares de claves públicas/privadas asimétricas (ECDSA P-256) se generan en el lado del cliente para firmar desafíos de tokens en segundo plano.",
+          "Almacenamiento de Datos: Los archivos y credenciales se encriptan en el dispositivo del cliente utilizando AES-256-GCM."
         ]
       },
       {
-        "title": "3. Protección de Infraestructura",
-        "content": "Nuestra infraestructura de servidores está protegida por límites de ingeniería rigurosos contra vectores de ataque:",
+        "title": "3. Protección de la Infraestructura",
+        "content": "Nuestra infraestructura de servidores está protegida por estrictos límites de ingeniería contra vectores de ataque:",
         "note": null,
         "items": [
-          "La limitación de velocidad se aplica de forma intensiva en todos los nodos de entrada de la API para prevenir ataques de fuerza bruta.",
-          "Usamos bloqueo atómico de nonce de uso único para prevenir Ataques de Repetición en todos los flujos sensibles de actualización de JWT en segundo plano.",
-          "Los volúmenes de bases de datos y buckets de almacenamiento de objetos están cifrados en reposo por nuestros proveedores de nube."
+          "Un límite de acceso (Rate Limiting) se aplica rigurosamente en todos los nodos de entrada de la API para prevenir ataques de fuerza bruta.",
+          "Usamos bloqueo atómico de nonce de un solo uso para evitar Ataques de Replay en todos los flujos sensibles de renovación de JWT en segundo plano.",
+          "Los volúmenes de base de datos y los buckets de almacenamiento de objetos están encriptados en reposo por nuestros proveedores de nube."
         ]
       },
       {
         "title": "4. Auditoría y Código Abierto",
-        "content": "Creemos que la seguridad requiere transparencia. Por ello, nuestro objetivo es una filosofía de \"Cliente de Código Abierto\", lo que significa que toda la lógica de descifrado del lado del cliente puede ser inspeccionada por investigadores de seguridad antes de su uso.",
-        "note": "Actualmente estamos realizando revisiones de seguridad internas antes de las pruebas formales independientes de penetración por terceros.",
+        "content": "Creemos que la seguridad requiere transparencia. Por ello, nuestro objetivo es una filosofía de \"Cliente de Código Abierto\", lo que significa que toda la lógica de desencriptación en el lado del cliente podrá ser inspeccionada por investigadores de seguridad antes de su uso.",
+        "note": "Actualmente estamos realizando revisiones de seguridad internas antes de realizar pruebas formales independientes de penetración por parte de terceros.",
         "items": []
       },
       {
         "title": "5. Divulgación de Vulnerabilidades",
-        "content": "Si descubres un problema o vulnerabilidad de seguridad, repórtalo de inmediato en lugar de divulgarlo públicamente. Estamos trabajando en un programa de Bug Bounty, pero mientras tanto contacta a nuestro equipo de seguridad.",
+        "content": "Si descubres un problema o vulnerabilidad de seguridad, por favor repórtalo de inmediato en lugar de divulgarlo públicamente. Estamos trabajando en un programa de Bug Bounty, pero mientras tanto, comunícate con nuestro equipo de seguridad.",
         "note": null,
         "items": []
       },
       {
         "title": "6. Información de Contacto",
-        "content": "Para divulgaciones urgentes de seguridad o preguntas sobre esta política, comunícate directamente: contact@cryple.io o por correo postal en: Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE.UU.",
+        "content": "Para divulgaciones urgentes de seguridad o preguntas sobre esta política, comunícate directamente a: contact@cryple.io o por correo postal en: Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU.",
         "note": null,
         "items": []
       }

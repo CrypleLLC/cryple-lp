@@ -4,53 +4,54 @@
     "howItWorks": "How It Works",
     "security": "Security",
     "contact": "Contact",
-    "getEarlyAccess": "Get Early Access"
+    "getEarlyAccess": "Get Early Access",
+    "tryTestApp": "Try the Test App"
   },
   "hero": {
-    "title": "Store everything that matters. Define who inherits what. Sleep peacefully.",
-    "subtitle": "The first hyper-secure digital vault that protects your life today and guarantees your digital legacy tomorrow—without us having access to absolutely anything.",
+    "title": "Store what matters. Choose who inherits it. Let an impartial clock do the rest.",
+    "subtitle": "Cryple is a zero-knowledge digital inheritance protocol. Everything is encrypted on your device, and its release to your heirs is decided by a smart contract on Arbitrum — not by us, and not by anyone who could be persuaded, hacked, or shut down.",
     "learnMore": "Learn More",
-    "demoTitle": "Zero-Knowledge Proofs in Action",
-    "demoSubtitle": "Your keys never leave your device. Only you—and your chosen heirs—can decrypt your life.",
-    "demoStage1": "Authenticated with seed phrase",
-    "demoStage2": "Encrypting data with AES-256-GCM...",
-    "demoStage3": "Data encrypted and stored securely"
+    "demoTitle": "The Dead Man's Switch, Running in Public",
+    "demoSubtitle": "The clock lives on a public blockchain. Nothing on our side can stop it, restart it, or check in on your behalf — only you can.",
+    "demoStage1": "Check-in signed on your device — clock reset",
+    "demoStage2": "No check-in past your inactivity period — contest window open",
+    "demoStage3": "Contest period elapsed — your heirs can open exactly what you left them"
   },
   "features": {
     "title": "Why is Cryple Different?",
-    "subtitle": "We are not just a password manager. We are a life insurance policy for your digital world, with untouchable privacy guaranteed by mathematics.",
+    "subtitle": "We are not a password manager, and you are not the product — no ads, no tracking, no cookies. Cryple does one thing: it makes sure the people you chose can open what you left them, and that nobody else ever can. Including us.",
     "items": [
       {
         "title": "The Digital Legacy Protocol",
-        "desc": "Works like an automatic will. Choose your heirs and define granular permissions. If you become inactive, access is granted respecting a strict contestation period, also allowing Guardians to accelerate the process."
+        "desc": "Your dead man's switch lives on Arbitrum. It counts your silence, opens a contest window, and authorizes release entirely on-chain. Anyone can advance a switch whose deadline has genuinely passed — an heir, a guardian, a public keeper bot — so the release is never ours to delay, deny, or quietly forget. What we do still hold is the encrypted data itself: the chain governs when your heirs may open it, not whether it is there to open."
       },
       {
         "title": "You Are Not The Product",
         "desc": "No ads, no tracking, no cookies. Our free subscription is truly free, and you pay for more features if you like the product. Real Zero-Knowledge. The locks and keys to access your vault are created on your device. We cannot see your passwords, read your notes, or access your files under any circumstances."
       },
       {
-        "title": "Isolated Vaults (Passwords vs. Secrets)",
-        "desc": "Quickly access passwords with our browser extension to ease your day-to-day. High-value credentials, however, stay in a restricted vault, invisible to the extension, guaranteeing maximum shielding."
+        "title": "Exactly Who Inherits Exactly What",
+        "desc": "Name your heirs and assign specific items to each one. The key for every item is re-encrypted for that person alone, on your device, while you are alive. Heirs are never notified — telling someone they were named would publish a relationship you may have chosen to keep private."
       },
       {
-        "title": "Paranoid Mode (Six-Digit PIN)",
-        "desc": "You decide your security level. By enabling Paranoid Mode, the PIN becomes a requirement (2FA), making it strictly necessary to use your seed phrase and PIN together."
+        "title": "Silence Is Not Death, So You Always Get to Object",
+        "desc": "A missed check-in releases nothing. It opens a contest period that is visible to you and cancellable by you: one signed “I'm alive” returns the switch to normal. You set both durations — how long silence lasts before your heirs can act, and how long you then have to stop it."
       },
       {
-        "title": "Built-In Private Camera",
-        "desc": "Take photos of sensitive documents (IDs, medical exams) using Cryple's native camera. Images are encrypted on the spot and never pass through your phone's common gallery."
+        "title": "Guardians Get You Back In Without Getting In",
+        "desc": "Your recovery key is split so that any k of n pieces rebuild it and anything fewer reveals nothing at all — not a partial answer, not a head start. Guardians are invited and must accept, you always hold one piece yourself as a printed Recovery Kit, and every piece is encrypted for its guardian alone. They cannot read each other's, and we cannot read any."
       },
       {
-        "title": "Native Bitcoin Wallet",
-        "desc": "Your main access key also generates a private Bitcoin wallet. Track balances and make transfers seamlessly integrated with your secure documents."
+        "title": "Your Recovery Phrase Is the Account",
+        "desc": "Twelve or twenty-four ordinary words, generated in your browser. Every key Cryple uses is derived from them the same way on every device — including the signer of your on-chain account. No email, no password reset, no wallet extension, no gas fees. Type the phrase into a new browser and your vault is simply there."
       },
       {
-        "title": "Encrypted Private Notes",
-        "desc": "The ideal space to organize your ideas. Store plans, business instructions, or thoughts in a completely shielded environment."
+        "title": "Paranoid Mode - 6 digit PIN as 2FA",
+        "desc": "Both modes use a 6-digit PIN to lock the app and encrypt the copy of your phrase on that device. In Standard mode it stays local — forget it and you simply sign back in with your phrase. In Paranoid mode the server checks it too, so it becomes a true second factor: a stolen phrase alone gets nobody in, and a forgotten PIN is reset through your guardians."
       },
       {
-        "title": "Secure P2P Sharing",
-        "desc": "Send sensitive documents or credentials to trusted contacts through an interception-proof network—designed to resist even future supercomputer attacks."
+        "title": "Built to Outlive Its Own Algorithms",
+        "desc": "Inheritance runs on a timescale of decades, and data captured today can be stored and attacked later. Your own vault is sealed with symmetric encryption keyed from your phrase — the kind a quantum computer does not break. The one place that is not enough is encrypting for another person, where two people who share no secret must agree on a key: exactly what quantum computers are expected to break. So a guardian's share and an heir's item key are wrapped with two independent algorithms at once, one classical and one post-quantum. An attacker has to break both. If either survives, your data stays sealed."
       }
     ]
   },
@@ -58,55 +59,56 @@
     "title": "Secure Your Early Access",
     "subtitle": "Join our waitlist today and secure your spot in our upcoming releases.",
     "alpha": {
-      "date": "May 2026",
-      "title": "Alpha Release",
-      "desc": "Core vault, private notes, password manager and Chrome extension."
+      "date": "September 2026",
+      "title": "Staging Release (Testnet)",
+      "desc": "Live now on Arbitrum Sepolia: the vault, encrypted notes and long-form documents, guardians and Shamir recovery, heirs and the on-chain dead man's switch — the full inheritance lifecycle, end to end."
     },
     "beta": {
-      "date": "July 2026",
-      "title": "Beta Release",
-      "desc": "Bitcoin Wallet, secure P2P sharing, and Post-Quantum Digital Inheritance testing."
+      "date": "December 2026",
+      "title": "The Drive",
+      "desc": "Encrypted file storage — images and PDFs. The place for the documents that actually matter: contracts, medical records, passports, IDs. Stored, protected and inherited exactly like everything else."
     },
     "launch": {
-      "date": "September 2026",
-      "title": "Official Launch",
-      "desc": "Full public release. The post-quantum vault opened to everyone."
+      "date": "2027 Any Time",
+      "title": "Production Launch",
+      "desc": "No date yet. Mainnet, and the vault opened to everyone."
     },
     "discount": "Join the waitlist to be notified about the official launch. During the first month of release, premium subscriptions will have a <bold>50% discount</bold>."
   },
   "howItWorks": {
-    "title": "How It Works? (Simple and Practical)",
-    "subtitle": "You in full control in four straightforward steps.",
+    "title": "How It Works? (Four Steps, Then You're Done)",
+    "subtitle": "You set it up once, while you can still make the decisions. After that, all it ever asks of you is a check-in.",
     "steps": [
       {
-        "title": "1. Create Your Unique Key",
-        "desc": "Upon opening Cryple, a lifetime master key is generated exclusively on your device. It is the only way to open your account."
+        "title": "1. Generate Your Recovery Phrase",
+        "desc": "Open Cryple and your browser generates twelve or twenty-four words, then derives your whole key tree from them locally. Nothing is sent anywhere. Write the phrase down on paper, and choose Standard or Paranoid mode."
       },
       {
-        "title": "2. Increase Secure Productivity",
-        "desc": "Store your passwords, notes, and upload files in your personal vault. Everything isolated and protected from the outside world."
+        "title": "2. Fill the Vault",
+        "desc": "Store the small things that unlock everything else — seed phrases, account details, credentials. Write notes: the letters and instructions that explain them. Write long-form documents that sync across your devices. All of it encrypted here, before it leaves."
       },
       {
-        "title": "3. Plan the Future Today",
-        "desc": "Register your heirs' profiles and define granular permissions. If something unexpected happens to you, your most valuable assets will be guaranteed in the right hands."
+        "title": "3. Name Guardians and Heirs",
+        "desc": "Invite guardians who can help you back in if you lose your phrase, then name your heirs and give each one exactly the items they should receive. Everything is re-encrypted for them on your device, while you are alive."
       },
       {
-        "title": "4. Sleep Peacefully",
-        "desc": "Live your daily life knowing that your privacy is unbreakable today, and your loved ones are protected against digital loss tomorrow."
+        "title": "4. Check In, and Live Your Life",
+        "desc": "One signed check-in resets the clock. Keep checking in and nothing ever happens. Stop, and the contest window opens — visible to you, cancellable by you — and only after it expires can your heirs open what you left them."
       }
     ]
   },
   "security": {
-    "title": "Enterprise-Grade Security",
-    "subtitle": "Built with uncompromising cryptographic best practices and zero-knowledge architecture.",
+    "title": "Security You Can Verify",
+    "subtitle": "Zero-knowledge by construction, not by policy: the server never receives anything readable, and the release is decided by a public contract instead of by us.",
     "bullets": [
-      "Client-side encryption so we never see your data",
-      "Zero-knowledge server architecture",
-      "Proof of ownership via ECDSA P-256 cryptographic signatures",
-      "Post-quantum encryption with ML-KEM (Kyber-768)",
-      "Hybrid PQXDH: X25519 + ML-KEM combined so both classical and quantum attacks must be broken simultaneously",
-      "Paranoid Mode: perfect 2FA mandatorily requiring Seed Phrase + PIN together",
-      "The master secret is never transmitted in plaintext, ever"
+      "Everything is encrypted in your browser; the server receives sealed data and stores it",
+      "Zero-knowledge by construction — there is no key on our side to decrypt with",
+      "Proof of ownership by ECDSA P-256 signature over a fresh challenge, never a transmitted secret",
+      "Post-quantum key wrapping with ML-KEM-768 (Kyber) for every heir and guardian",
+      "Hybrid PQXDH: X25519 + ML-KEM-768 combined, so classical and quantum attacks must both succeed",
+      "Paranoid Mode: a real second factor, requiring your seed phrase and your PIN together",
+      "Your recovery phrase, your PIN and your plaintext never leave your device, ever",
+      "The dead man's switch is a contract on Arbitrum — nothing server-side can check in on your behalf"
     ],
     "techSpecsTitle": "Technical Specifications",
     "specs": [
@@ -120,32 +122,40 @@
       },
       {
         "label": "Post-Quantum KEM",
-        "value": "ML-KEM / Kyber-768"
+        "value": "ML-KEM-768 / Kyber"
       },
       {
         "label": "Hybrid Protocol",
-        "value": "PQXDH (X25519 + ML-KEM)"
+        "value": "PQXDH (X25519 + ML-KEM-768)"
       },
       {
         "label": "Key Derivation",
-        "value": "BIP32 Deterministic Keys"
-      },
-      {
-        "label": "PIN Hashing",
-        "value": "PBKDF2-SHA256 (100k) client-side"
+        "value": "BIP39 → SLIP-0010 P-256"
       },
       {
         "label": "Authentication",
         "value": "ECDSA P-256 Signatures"
       },
       {
+        "label": "PIN Stretching",
+        "value": "PBKDF2-SHA256 (600k) client-side"
+      },
+      {
         "label": "Server Hashing",
-        "value": "Bcrypt (Cost Factor 10+)"
+        "value": "Argon2id (64 MiB, t=3, p=4)"
+      },
+      {
+        "label": "Guardian Recovery",
+        "value": "Shamir Secret Sharing (k-of-n)"
+      },
+      {
+        "label": "On-Chain",
+        "value": "Arbitrum · ERC-4337 + RIP-7212"
       }
     ]
   },
   "footer": {
-    "tagline": "Your keys, your data, complete privacy.",
+    "tagline": "Your keys, your data, your legacy.",
     "product": "Product",
     "joinWaitlist": "Join Waitlist",
     "features": "Features",
@@ -283,17 +293,17 @@
   },
   "securityPolicy": {
     "title": "Security Policy",
-    "lastUpdated": "Last updated: March 12, 2026",
+    "lastUpdated": "Last updated: August 27, 2026",
     "backToHome": "← Back to Home",
     "sections": [
       {
         "title": "1. Zero-Knowledge Architecture",
-        "content": "Cryple is built from the ground up as a zero-knowledge service. Our mathematical models guarantee that no employee, administrator, or attacker compromising our servers can read your stored secrets, credentials, or notes.",
+        "content": "Cryple is built from the ground up as a zero-knowledge service. Our mathematical models guarantee that no employee, administrator, or attacker compromising our servers can read your stored legacy items, credentials, or notes.",
         "note": "We operate strictly under the following policy:",
         "items": [
-          "Your master password never leaves your browser window.",
+          "Your recovery phrase and your PIN never leave your browser.",
           "All encryption/decryption happens locally on your device before transmission.",
-          "We only store randomly generated salts, ECDSA public keys, and cryptographically hashed payloads."
+          "We only store randomly generated salts, ECDSA public keys, and encrypted payloads."
         ]
       },
       {
@@ -301,9 +311,10 @@
         "content": "We leverage industry-standard cryptographic tools:",
         "note": null,
         "items": [
-          "Authentication: PBKDF2 with high iterations (100,000+) on the client side, then hashed via bcrypt upon reaching the server.",
-          "Signing: Asymmetric public/private key-pairs (ECDSA P-256) are generated client-side to sign background token challenges.",
-          "Data Storage: Files and credentials are encrypted on the client device using AES-256-GCM."
+          "Authentication: ECDSA P-256 signatures over a client-generated challenge; in Paranoid Mode the PIN is stretched client-side with PBKDF2-SHA256 (600,000 iterations) and stored server-side as an Argon2id hash.",
+          "Signing: Asymmetric public/private key-pairs (ECDSA P-256) are derived client-side from your recovery phrase and sign every challenge and privileged action.",
+          "Data Storage: Legacy items, notes and documents are encrypted on the client device using AES-256-GCM.",
+          "Post-Quantum: Anything encrypted for another person — a guardian's share, an heir's item key — is wrapped with the hybrid PQXDH construction, X25519 combined with ML-KEM-768."
         ]
       },
       {
@@ -312,24 +323,35 @@
         "note": null,
         "items": [
           "Rate limiting is enforced heavily across all API ingress nodes to prevent bruteforcing.",
-          "We use atomic single-use nonce locking to prevent Replay Attacks for all sensitive background JWT refresh flows.",
-          "Database volumes and object storage buckets are encrypted at rest via our cloud providers."
+          "We use atomic single-use nonce locking to prevent Replay Attacks for all sensitive authentication flows.",
+          "Database volumes and object storage buckets are encrypted at rest via our cloud providers.",
+          "The inheritance clock is a smart contract on Arbitrum, not a server job: nothing on our side can check in on a user's behalf, and no outage of ours can stop it."
         ]
       },
       {
-        "title": "4. Auditing & Open Source",
+        "title": "4. What This Model Does Not Cover",
+        "content": "A security policy that lists only strengths is marketing. These are the limits of our architecture, stated plainly, so you can weigh them before you rely on us.",
+        "note": "Each of these is a known and accepted limitation of the current design, not an oversight:",
+        "items": [
+          "Data availability. Your encrypted data lives in our storage. The blockchain proves what that data was and decides when your heirs are authorized to open it, but it cannot serve the data itself. If our storage were lost or withheld, the on-chain proof would survive and the ciphertext would not. The chain removes our discretion over the timing of an inheritance; it does not remove our custody of the bytes.",
+          "The confidentiality window. An heir's wrapped key is stored from the moment you assign it, alongside the ciphertext. A compromised backend could hand both to an heir before the switch has fired, and that heir's own keys would open them. No contract can prevent this, because no contract ever holds key material. The chain guarantees the timing of authorization and the integrity of the data — not the confidentiality window.",
+          "Recipient key authenticity. The public keys of your guardians and heirs are served by our API. A malicious backend could substitute its own keys at setup time and read what was wrapped for that person afterwards. Out-of-band verification of key fingerprints is the mitigation, and it is not built yet."
+        ]
+      },
+      {
+        "title": "5. Auditing & Open Source",
         "content": "We believe security requires transparency. Therefore, our target is an \"Open Source Client\" philosophy, meaning all client-side decryption logic is inspectable by security researchers before usage.",
         "note": "We are presently undergoing internal security reviews ahead of formal independent third-party penetration testing.",
         "items": []
       },
       {
-        "title": "5. Vulnerability Disclosure",
+        "title": "6. Vulnerability Disclosure",
         "content": "If you discover a security issue or vulnerability please report it immediately rather than disclosing it publicly. We are working on a Bug Bounty program, but in the meantime please contact our security team.",
         "note": null,
         "items": []
       },
       {
-        "title": "6. Contact Information",
+        "title": "7. Contact Information",
         "content": "For urgent security disclosures, or questions regarding this policy, please reach out directly: contact@cryple.io or by mail at Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA.",
         "note": null,
         "items": []

@@ -4,53 +4,54 @@
     "howItWorks": "Cómo Funciona",
     "security": "Seguridad",
     "contact": "Contacto",
-    "getEarlyAccess": "Acceso Anticipado"
+    "getEarlyAccess": "Acceso Anticipado",
+    "tryTestApp": "Probar la App de Prueba"
   },
   "hero": {
-    "title": "Guarda todo lo que importa. Define quién hereda qué. Duerme tranquilo.",
-    "subtitle": "La primera bóveda digital hipersegura que protege tu vida hoy y garantiza tu legado digital mañana — sin que nosotros tengamos acceso a absolutamente nada.",
+    "title": "Guarda lo que importa. Elige quién lo hereda. Deja que un reloj imparcial haga el resto.",
+    "subtitle": "Cryple es un protocolo de herencia digital zero-knowledge. Todo se encripta en tu dispositivo, y su liberación a tus herederos la decide un smart contract en Arbitrum — no nosotros, ni nadie a quien se pueda presionar, hackear o cerrar.",
     "learnMore": "Saber Más",
-    "demoTitle": "Pruebas Zero-Knowledge en Acción",
-    "demoSubtitle": "Tus llaves nunca salen de tu dispositivo. Solo tú — y tus herederos elegidos — pueden desencriptar tu vida.",
-    "demoStage1": "Autenticado con la seed phrase",
-    "demoStage2": "Encriptando datos con AES-256-GCM...",
-    "demoStage3": "Datos encriptados y almacenados de forma segura"
+    "demoTitle": "El Dead Man's Switch, Funcionando en Público",
+    "demoSubtitle": "El reloj vive en una blockchain pública. Nada de nuestro lado puede detenerlo, reiniciarlo ni registrar actividad en tu nombre — solo tú puedes.",
+    "demoStage1": "Check-in firmado en tu dispositivo — reloj reiniciado",
+    "demoStage2": "Sin check-in tras tu período de inactividad — ventana de impugnación abierta",
+    "demoStage3": "Período de impugnación vencido — tus herederos pueden abrir exactamente lo que les dejaste"
   },
   "features": {
     "title": "¿Por qué Cryple es Diferente?",
-    "subtitle": "No somos solo un gestor de contraseñas. Somos un seguro de vida para tu mundo digital, con privacidad intocable garantizada por las matemáticas.",
+    "subtitle": "No somos un gestor de contraseñas, y tú no eres el producto — sin anuncios, sin rastreo, sin cookies. Cryple hace una sola cosa: asegurar que las personas que elegiste puedan abrir lo que les dejaste, y que nadie más pueda hacerlo jamás. Nosotros incluidos.",
     "items": [
       {
         "title": "El Protocolo de Legado Digital",
-        "desc": "Funciona como un testamento automático. Elige a tus herederos y define permisos granulares. Si te vuelves inactivo, el acceso se concede respetando un estricto período de impugnación, permitiendo también que los Guardianes aceleren el proceso."
+        "desc": "Tu Dead Man's Switch vive en Arbitrum. Cuenta tu silencio, abre una ventana de impugnación y autoriza la liberación completamente on-chain. Cualquiera puede avanzar un switch cuyo plazo realmente venció — un heredero, un guardián, un bot público — así que la liberación nunca es nuestra para retrasarla, negarla u olvidarla en silencio. Lo que sí seguimos guardando son los datos encriptados: la blockchain gobierna cuándo tus herederos pueden abrirlos, no si están ahí para ser abiertos."
       },
       {
         "title": "Tú No Eres El Producto",
         "desc": "Sin anuncios, sin rastreo, sin cookies. Nuestra suscripción gratuita es realmente gratis, y pagas por más funciones si te gusta el producto. Zero-Knowledge de verdad. Las cerraduras y llaves para acceder a tu bóveda se crean en tu dispositivo. No podemos ver tus contraseñas, leer tus notas ni acceder a tus archivos bajo ninguna circunstancia."
       },
       {
-        "title": "Bóvedas Aisladas (Passwords vs. Secrets)",
-        "desc": "Accede rápidamente a las contraseñas con nuestra extensión de navegador para facilitar el día a día. Las credenciales de alto valor, en cambio, permanecen en una bóveda restringida, invisible para la extensión, garantizando el máximo blindaje."
+        "title": "Exactamente Quién Hereda Exactamente Qué",
+        "desc": "Nombra a tus herederos y asigna elementos específicos a cada uno. La clave de cada elemento se re-encripta solo para esa persona, en tu dispositivo, mientras estás vivo. A los herederos nunca se les avisa — decirle a alguien que fue nombrado publicaría una relación que quizá elegiste mantener privada."
       },
       {
-        "title": "Modo Paranoico (PIN de Seis Dígitos)",
-        "desc": "Tú decides tu nivel de seguridad. Al activar el Modo Paranoico, el PIN se convierte en un requisito (2FA), siendo estrictamente necesario el uso conjunto de tu seed phrase y tu PIN."
+        "title": "El Silencio No Es la Muerte, Así Que Siempre Puedes Objetar",
+        "desc": "Un check-in perdido no libera nada. Abre un período de impugnación visible para ti y cancelable por ti: un solo «estoy vivo» firmado devuelve el switch a la normalidad. Tú fijas ambas duraciones — cuánto dura el silencio antes de que tus herederos puedan actuar, y cuánto tiempo tienes después para detenerlo."
       },
       {
-        "title": "Cámara Privada Integrada",
-        "desc": "Toma fotos de documentos confidenciales (identificaciones, exámenes) utilizando la cámara nativa de Cryple. Las imágenes se encriptan en el acto y nunca pasan por la galería común de tu celular."
+        "title": "Los Guardianes Te Dejan Volver a Entrar Sin Entrar Ellos",
+        "desc": "Tu clave de recuperación se divide de modo que k de n piezas cualesquiera la reconstruyen y cualquier cantidad menor no revela absolutamente nada — ni una respuesta parcial, ni una ventaja. Los guardianes son invitados y deben aceptar, tú siempre conservas una pieza como Kit de Recuperación impreso, y cada pieza está encriptada solo para su guardián. Ellos no pueden leer las de los demás, y nosotros no podemos leer ninguna."
       },
       {
-        "title": "Billetera Bitcoin Nativa",
-        "desc": "Tu clave de acceso principal también genera una billetera Bitcoin privada. Haz seguimiento de saldos y realiza transferencias de manera integrada con tus documentos seguros."
+        "title": "Tu Seed Phrase Es la Cuenta",
+        "desc": "Doce o veinticuatro palabras corrientes, generadas en tu navegador. Todas las claves que usa Cryple se derivan de ellas de la misma forma en cada dispositivo — incluida la que firma por tu cuenta on-chain. Sin email, sin restablecer contraseña, sin extensión de billetera, sin comisiones de gas. Escribe la frase en un navegador nuevo y tu bóveda simplemente está ahí."
       },
       {
-        "title": "Notas Privadas Encriptadas",
-        "desc": "El espacio ideal para organizar tus ideas. Guarda planes, instrucciones de negocios o pensamientos en un entorno completamente blindado."
+        "title": "Modo Paranoico - PIN de 6 dígitos como 2FA",
+        "desc": "Los dos modos usan un PIN de 6 dígitos para bloquear la app y encriptar la copia de tu frase en ese dispositivo. En el modo Estándar es solo local: si lo olvidas, vuelves a entrar con tu frase y eliges otro. En el modo Paranoico el servidor también lo verifica, así que se convierte en un segundo factor real: una frase robada por sí sola no deja entrar a nadie, y un PIN olvidado se restablece a través de tus guardianes."
       },
       {
-        "title": "Compartición P2P Segura",
-        "desc": "Envía documentos confidenciales o credenciales a contactos de confianza a través de una red a prueba de intercepciones — diseñada para resistir incluso futuros ataques de supercomputadoras."
+        "title": "Hecha para Sobrevivir a Sus Propios Algoritmos",
+        "desc": "La herencia opera en una escala de décadas, y los datos capturados hoy pueden almacenarse y atacarse después. Tu propia bóveda está sellada con encriptación simétrica derivada de tu frase — de la clase que una computadora cuántica no rompe. El único punto donde eso no basta es al encriptar para otra persona, donde dos personas que no comparten ningún secreto deben acordar una clave: justo lo que se espera que rompan las computadoras cuánticas. Por eso la pieza de un guardián y la clave de un heredero se envuelven con dos algoritmos independientes a la vez, uno clásico y uno post-cuántico. Un atacante tiene que romper ambos. Si uno sobrevive, tus datos siguen sellados."
       }
     ]
   },
@@ -58,55 +59,56 @@
     "title": "Asegura tu Acceso Anticipado",
     "subtitle": "Únete a nuestra lista de espera hoy y asegura tu lugar en nuestros próximos lanzamientos.",
     "alpha": {
-      "date": "Mayo de 2026",
-      "title": "Lanzamiento Alpha",
-      "desc": "Bóveda principal, notas privadas, gestor de contraseñas y extensión para Chrome."
+      "date": "Septiembre de 2026",
+      "title": "Versión de Staging (Testnet)",
+      "desc": "En marcha ahora en Arbitrum Sepolia: la bóveda, notas encriptadas y documentos extensos, guardianes y recuperación Shamir, herederos y el Dead Man's Switch on-chain — el ciclo completo de la herencia, de principio a fin."
     },
     "beta": {
-      "date": "Julio de 2026",
-      "title": "Lanzamiento Beta",
-      "desc": "Billetera Bitcoin, compartición P2P segura y pruebas del Protocolo de Herencia Digital Post-Cuántica."
+      "date": "Diciembre de 2026",
+      "title": "El Drive",
+      "desc": "Almacenamiento de archivos encriptados — imágenes y PDF. El lugar para los documentos que de verdad importan: contratos, historiales médicos, pasaportes, identificaciones. Guardados, protegidos y heredados igual que todo lo demás."
     },
     "launch": {
-      "date": "Septiembre de 2026",
-      "title": "Lanzamiento Oficial",
-      "desc": "Lanzamiento público completo. La bóveda post-cuántica abierta para todos."
+      "date": "2027 En Cualquier Momento",
+      "title": "Lanzamiento en Producción",
+      "desc": "Todavía sin fecha. Mainnet, y la bóveda abierta para todos."
     },
     "discount": "Únete a la lista de espera para recibir notificaciones sobre el lanzamiento oficial. Durante el primer mes de lanzamiento, las suscripciones premium tendrán un <bold>50% de descuento</bold>."
   },
   "howItWorks": {
-    "title": "¿Cómo Funciona? (Simple y Práctico)",
-    "subtitle": "Tú en control total en cuatro pasos directos.",
+    "title": "¿Cómo Funciona? (Cuatro Pasos y Listo)",
+    "subtitle": "Lo configuras una vez, mientras aún puedes tomar las decisiones. Después de eso, lo único que te pide es un check-in.",
     "steps": [
       {
-        "title": "1. Crea Tu Clave Única",
-        "desc": "Al abrir Cryple, se genera una llave maestra vitalicia exclusivamente en tu dispositivo. Es la única forma de abrir tu cuenta."
+        "title": "1. Genera Tu Seed Phrase",
+        "desc": "Abre Cryple y tu navegador genera doce o veinticuatro palabras, y luego deriva localmente todo tu árbol de claves. No se envía nada a ninguna parte. Anota la frase en papel y elige el modo Estándar o Paranoico."
       },
       {
-        "title": "2. Aumenta la Productividad Segura",
-        "desc": "Guarda tus contraseñas, notas y sube archivos a tu bóveda personal. Todo aislado y protegido del mundo exterior."
+        "title": "2. Llena la Bóveda",
+        "desc": "Guarda las cosas pequeñas que desbloquean todo lo demás: seed phrases, datos de cuentas, credenciales. Escribe notas: las cartas e instrucciones que las explican. Escribe documentos extensos que se sincronizan entre tus dispositivos. Todo encriptado aquí, antes de salir."
       },
       {
-        "title": "3. Planifica el Futuro Hoy",
-        "desc": "Registra los perfiles de tus herederos y define permisos granulares. En caso de que te ocurra un imprevisto, tus activos más valiosos estarán garantizados en las manos adecuadas."
+        "title": "3. Nombra Guardianes y Herederos",
+        "desc": "Invita a guardianes que puedan ayudarte a volver a entrar si pierdes tu frase, luego nombra a tus herederos y dale a cada uno exactamente los elementos que debe recibir. Todo se re-encripta para ellos en tu dispositivo, mientras estás vivo."
       },
       {
-        "title": "4. Duerme Tranquilo",
-        "desc": "Vive tu día a día sabiendo que tu privacidad es inquebrantable hoy, y que tus seres queridos están protegidos contra la pérdida digital mañana."
+        "title": "4. Haz Check-in y Vive Tu Vida",
+        "desc": "Un check-in firmado reinicia el reloj. Sigue haciéndolo y nunca pasa nada. Deja de hacerlo y se abre la ventana de impugnación — visible para ti, cancelable por ti — y solo cuando vence pueden tus herederos abrir lo que les dejaste."
       }
     ]
   },
   "security": {
-    "title": "Seguridad de Nivel Empresarial",
-    "subtitle": "Construido con las mejores prácticas criptográficas intransigentes y arquitectura Zero-Knowledge.",
+    "title": "Seguridad Que Puedes Verificar",
+    "subtitle": "Zero-knowledge por construcción, no por política: el servidor nunca recibe nada legible, y la liberación la decide un contrato público en lugar de nosotros.",
     "bullets": [
-      "Encriptación en el lado del cliente para que nunca veamos tus datos",
-      "Arquitectura de servidor Zero-Knowledge",
-      "Prueba de propiedad mediante firmas criptográficas ECDSA P-256",
-      "Encriptación post-cuántica con ML-KEM (Kyber-768)",
-      "Híbrido PQXDH: X25519 + ML-KEM combinados para que los ataques clásicos y cuánticos deban romperse simultáneamente",
-      "Modo Paranoico: 2FA que exige obligatoriamente la unión de Seed Phrase + PIN",
-      "El secreto maestro nunca se transmite en texto plano"
+      "Todo se encripta en tu navegador; el servidor recibe datos sellados y los almacena",
+      "Zero-knowledge por construcción — de nuestro lado no existe ninguna clave para desencriptar",
+      "Prueba de propiedad mediante firma ECDSA P-256 sobre un desafío nuevo, nunca un secreto transmitido",
+      "Encapsulamiento post-cuántico de claves con ML-KEM-768 (Kyber) para cada heredero y guardián",
+      "Híbrido PQXDH: X25519 + ML-KEM-768 combinados, para que los ataques clásicos y cuánticos deban tener éxito ambos",
+      "Modo Paranoico: un segundo factor real, que exige tu seed phrase y tu PIN juntos",
+      "Tu seed phrase, tu PIN y tu texto plano nunca salen de tu dispositivo, jamás",
+      "El Dead Man's Switch es un contrato en Arbitrum — nada del lado del servidor puede hacer check-in por ti"
     ],
     "techSpecsTitle": "Especificaciones Técnicas",
     "specs": [
@@ -120,32 +122,40 @@
       },
       {
         "label": "KEM Post-Cuántica",
-        "value": "ML-KEM / Kyber-768"
+        "value": "ML-KEM-768 / Kyber"
       },
       {
         "label": "Protocolo Híbrido",
-        "value": "PQXDH (X25519 + ML-KEM)"
+        "value": "PQXDH (X25519 + ML-KEM-768)"
       },
       {
         "label": "Derivación de Claves",
-        "value": "Claves Determinísticas BIP32"
-      },
-      {
-        "label": "Hash de PIN",
-        "value": "PBKDF2-SHA256 (100k) en el lado del cliente"
+        "value": "BIP39 → SLIP-0010 P-256"
       },
       {
         "label": "Autenticación",
         "value": "Firmas ECDSA P-256"
       },
       {
+        "label": "Estiramiento del PIN",
+        "value": "PBKDF2-SHA256 (600k) en el cliente"
+      },
+      {
         "label": "Hash en el Servidor",
-        "value": "Bcrypt (Factor de Costo 10+)"
+        "value": "Argon2id (64 MiB, t=3, p=4)"
+      },
+      {
+        "label": "Recuperación con Guardianes",
+        "value": "Esquema de Shamir (k-de-n)"
+      },
+      {
+        "label": "On-Chain",
+        "value": "Arbitrum · ERC-4337 + RIP-7212"
       }
     ]
   },
   "footer": {
-    "tagline": "Tus llaves, tus datos, privacidad completa.",
+    "tagline": "Tus claves, tus datos, tu legado.",
     "product": "Producto",
     "joinWaitlist": "Acceso Anticipado",
     "features": "Características",
@@ -283,17 +293,17 @@
   },
   "securityPolicy": {
     "title": "Política de Seguridad",
-    "lastUpdated": "Última actualización: 12 de marzo de 2026",
+    "lastUpdated": "Última actualización: 27 de agosto de 2026",
     "backToHome": "← Volver al Inicio",
     "sections": [
       {
         "title": "1. Arquitectura Zero-Knowledge",
-        "content": "Cryple fue desarrollado desde cero como un servicio zero-knowledge. Nuestros modelos matemáticos garantizan que ningún empleado, administrador o atacante que comprometa nuestros servidores pueda leer tus secretos, credenciales o notas almacenadas.",
+        "content": "Cryple está construida desde cero como un servicio zero-knowledge. Nuestros modelos matemáticos garantizan que ningún empleado, administrador o atacante que comprometa nuestros servidores pueda leer tus elementos de legado, credenciales o notas almacenadas.",
         "note": "Operamos estrictamente bajo la siguiente política:",
         "items": [
-          "Tu contraseña maestra nunca sale de la ventana de tu navegador.",
+          "Tu seed phrase y tu PIN nunca salen de tu navegador.",
           "Toda encriptación/desencriptación ocurre localmente en tu dispositivo antes de la transmisión.",
-          "Solo almacenamos salts generados aleatoriamente, claves públicas ECDSA y payloads con hash criptográfico."
+          "Solo almacenamos salts generados aleatoriamente, claves públicas ECDSA y payloads encriptados."
         ]
       },
       {
@@ -301,9 +311,10 @@
         "content": "Utilizamos herramientas criptográficas estándar de la industria:",
         "note": null,
         "items": [
-          "Autenticación: PBKDF2 con un alto número de iteraciones (100.000+) en el lado del cliente, y luego con hash vía bcrypt al llegar al servidor.",
-          "Firma: Pares de claves públicas/privadas asimétricas (ECDSA P-256) se generan en el lado del cliente para firmar desafíos de tokens en segundo plano.",
-          "Almacenamiento de Datos: Los archivos y credenciales se encriptan en el dispositivo del cliente utilizando AES-256-GCM."
+          "Autenticación: firmas ECDSA P-256 sobre un desafío generado por el cliente; en Modo Paranoico el PIN se estira en el cliente con PBKDF2-SHA256 (600.000 iteraciones) y se guarda en el servidor como un hash Argon2id.",
+          "Firma: los pares de claves asimétricas (ECDSA P-256) se derivan en el cliente a partir de tu seed phrase y firman cada desafío y cada acción privilegiada.",
+          "Almacenamiento de Datos: los elementos de legado, notas y documentos se encriptan en el dispositivo cliente usando AES-256-GCM.",
+          "Post-Cuántico: todo lo que se encripta para otra persona — la pieza de un guardián, la clave de un heredero — se envuelve con la construcción híbrida PQXDH, X25519 combinado con ML-KEM-768."
         ]
       },
       {
@@ -311,25 +322,36 @@
         "content": "Nuestra infraestructura de servidores está protegida por estrictos límites de ingeniería contra vectores de ataque:",
         "note": null,
         "items": [
-          "Un límite de acceso (Rate Limiting) se aplica rigurosamente en todos los nodos de entrada de la API para prevenir ataques de fuerza bruta.",
-          "Usamos bloqueo atómico de nonce de un solo uso para evitar Ataques de Replay en todos los flujos sensibles de renovación de JWT en segundo plano.",
-          "Los volúmenes de base de datos y los buckets de almacenamiento de objetos están encriptados en reposo por nuestros proveedores de nube."
+          "Se aplica limitación de tasa de forma estricta en todos los nodos de entrada de la API para prevenir ataques de fuerza bruta.",
+          "Usamos bloqueo atómico de nonces de un solo uso para prevenir Ataques de Repetición en todos los flujos de autenticación sensibles.",
+          "Los volúmenes de base de datos y los buckets de almacenamiento están encriptados en reposo por nuestros proveedores cloud.",
+          "El reloj de la herencia es un smart contract en Arbitrum, no una tarea de servidor: nada de nuestro lado puede hacer check-in en nombre de un usuario, y ninguna caída nuestra puede detenerlo."
         ]
       },
       {
-        "title": "4. Auditoría y Código Abierto",
+        "title": "4. Lo Que Este Modelo No Cubre",
+        "content": "Una política de seguridad que solo enumera fortalezas es publicidad. Estos son los límites de nuestra arquitectura, dichos con claridad, para que puedas sopesarlos antes de confiar en nosotros.",
+        "note": "Cada uno de estos es una limitación conocida y aceptada del diseño actual, no un descuido:",
+        "items": [
+          "Disponibilidad de los datos. Tus datos encriptados viven en nuestro almacenamiento. La blockchain prueba qué eran esos datos y decide cuándo tus herederos quedan autorizados a abrirlos, pero no puede servir los datos en sí. Si nuestro almacenamiento se perdiera o fuera retenido, la prueba on-chain sobreviviría y el texto cifrado no. La blockchain elimina nuestra discreción sobre el momento de una herencia; no elimina nuestra custodia de los bytes.",
+          "La ventana de confidencialidad. La clave envuelta de un heredero se almacena desde el momento en que se la asignas, junto al texto cifrado. Un backend comprometido podría entregar ambos a un heredero antes de que el switch se dispare, y las propias claves de ese heredero los abrirían. Ningún contrato puede impedirlo, porque ningún contrato guarda jamás material de claves. La blockchain garantiza el momento de la autorización y la integridad de los datos — no la ventana de confidencialidad.",
+          "Autenticidad de las claves del destinatario. Las claves públicas de tus guardianes y herederos las sirve nuestra API. Un backend malicioso podría sustituirlas por las suyas durante la configuración y leer después lo que se encriptó para esa persona. La mitigación es verificar las huellas de las claves por un canal externo, y todavía no está construida."
+        ]
+      },
+      {
+        "title": "5. Auditoría y Código Abierto",
         "content": "Creemos que la seguridad requiere transparencia. Por ello, nuestro objetivo es una filosofía de \"Cliente de Código Abierto\", lo que significa que toda la lógica de desencriptación en el lado del cliente podrá ser inspeccionada por investigadores de seguridad antes de su uso.",
         "note": "Actualmente estamos realizando revisiones de seguridad internas antes de realizar pruebas formales independientes de penetración por parte de terceros.",
         "items": []
       },
       {
-        "title": "5. Divulgación de Vulnerabilidades",
+        "title": "6. Divulgación de Vulnerabilidades",
         "content": "Si descubres un problema o vulnerabilidad de seguridad, por favor repórtalo de inmediato en lugar de divulgarlo públicamente. Estamos trabajando en un programa de Bug Bounty, pero mientras tanto, comunícate con nuestro equipo de seguridad.",
         "note": null,
         "items": []
       },
       {
-        "title": "6. Información de Contacto",
+        "title": "7. Información de Contacto",
         "content": "Para divulgaciones urgentes de seguridad o preguntas sobre esta política, comunícate directamente a: contact@cryple.io o por correo postal en: Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU.",
         "note": null,
         "items": []

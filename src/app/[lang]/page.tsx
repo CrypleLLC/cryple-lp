@@ -6,6 +6,10 @@ import GetAppButton from "@/components/GetAppButton";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { getDictionary } from "@/lib/dictionaries";
 
+const showRoadmapTimeline: boolean = true;
+const showEmailSubscription: boolean = false;
+const TEST_APP_URL = 'https://test-app.cryple.io';
+
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
@@ -28,7 +32,11 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </ul>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
             <LanguageSwitcher currentLang={lang} />
-            <EarlyAccessButton text={dict.nav.getEarlyAccess} />
+            {showEmailSubscription ? (
+              <EarlyAccessButton text={dict.nav.getEarlyAccess} />
+            ) : (
+              <a href={TEST_APP_URL} className="cta-button">{dict.nav.tryTestApp}</a>
+            )}
           </div>
         </nav>
       </header>
@@ -42,7 +50,11 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </p>
 
           <div className="hero-buttons fade-in-up">
-            <GetAppButton text={dict.nav.getEarlyAccess} />
+            {showEmailSubscription ? (
+              <GetAppButton text={dict.nav.getEarlyAccess} />
+            ) : (
+              <a href={TEST_APP_URL} className="btn-primary">{dict.nav.tryTestApp}</a>
+            )}
             <Link href="#features" className="btn-secondary">
               {dict.hero.learnMore}
             </Link>
@@ -79,7 +91,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {/* 1 */}
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/family.jpg" alt="Family" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/digital-padlock.png" alt="On-chain dead man's switch" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[0].title}</h3>
@@ -90,7 +102,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {/* 2 */}
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/confident.jpg" alt="Confident person" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/confident.jpg" alt="Zero-knowledge privacy" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[1].title}</h3>
@@ -100,8 +112,10 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
             {/* 3 */}
             <div className="feature-row">
-              <div className="feature-image-container">
-                <Image src="/login.png" alt="Private vault UI" fill sizes="(max-width: 768px) 100vw, 50vw" />
+              <div className="feature-media">
+                <div className="feature-image-container">
+                  <Image src="/family.jpg" alt="Granular inheritance assignment" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                </div>
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[2].title}</h3>
@@ -112,7 +126,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {/* 4 */}
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/digital-padlock.png" alt="Secure secrets vault" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/thestandingdesk.jpg" alt="Contest period countdown" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[3].title}</h3>
@@ -123,7 +137,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {/* 5 */}
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/gallery.jpg" alt="Private text editor" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/guardians.jpg" alt="Guardians and Shamir recovery" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[4].title}</h3>
@@ -134,7 +148,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {/* 6 */}
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/wallet.jpg" alt="Bitcoin wallet interface" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/bip39.jpg" alt="Recovery phrase" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[5].title}</h3>
@@ -145,7 +159,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {/* 7 */}
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/chat.jpg" alt="Secure vault" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/paranoid.jpg" alt="Standard and Paranoid modes" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[6].title}</h3>
@@ -156,7 +170,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {/* 8 */}
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/notes.jpg" alt="Chrome extension" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/notes.jpg" alt="Post-quantum encryption" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[7].title}</h3>
@@ -171,52 +185,60 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section id="early-access" className="cta-section">
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1rem' }}>
           <h2>{dict.roadmap.title}</h2>
-          <p style={{ marginBottom: "2rem" }}>{dict.roadmap.subtitle}</p>
+          {showEmailSubscription && (
+            <p style={{ marginBottom: "2rem" }}>{dict.roadmap.subtitle}</p>
+          )}
 
-          <div className="roadmap-timeline">
-            <div className="timeline-item alpha">
-              <div className="timeline-marker"></div>
-              <div className="timeline-content-top">
-                <h4 className="timeline-date">{dict.roadmap.alpha.date}</h4>
-                <p className="timeline-title">{dict.roadmap.alpha.title}</p>
+          {showRoadmapTimeline && (
+            <div className="roadmap-timeline">
+              <div className="timeline-item alpha">
+                <div className="timeline-marker"></div>
+                <div className="timeline-content-top">
+                  <h4 className="timeline-date">{dict.roadmap.alpha.date}</h4>
+                  <p className="timeline-title">{dict.roadmap.alpha.title}</p>
+                </div>
+                <div className="timeline-content-bottom">
+                  <p className="timeline-desc">{dict.roadmap.alpha.desc}</p>
+                </div>
               </div>
-              <div className="timeline-content-bottom">
-                <p className="timeline-desc">{dict.roadmap.alpha.desc}</p>
-              </div>
-            </div>
             
-            <div className="timeline-item beta">
-              <div className="timeline-marker"></div>
-              <div className="timeline-content-top">
-                <p className="timeline-desc">{dict.roadmap.beta.desc}</p>
+              <div className="timeline-item beta">
+                <div className="timeline-marker"></div>
+                <div className="timeline-content-top">
+                  <p className="timeline-desc">{dict.roadmap.beta.desc}</p>
+                </div>
+                <div className="timeline-content-bottom">
+                  <h4 className="timeline-date">{dict.roadmap.beta.date}</h4>
+                  <p className="timeline-title">{dict.roadmap.beta.title}</p>
+                </div>
               </div>
-              <div className="timeline-content-bottom">
-                <h4 className="timeline-date">{dict.roadmap.beta.date}</h4>
-                <p className="timeline-title">{dict.roadmap.beta.title}</p>
+
+              <div className="timeline-item launch">
+                <div className="timeline-marker"></div>
+                <div className="timeline-content-top">
+                  <h4 className="timeline-date">{dict.roadmap.launch.date}</h4>
+                  <p className="timeline-title">{dict.roadmap.launch.title}</p>
+                </div>
+                <div className="timeline-content-bottom">
+                  <p className="timeline-desc">{dict.roadmap.launch.desc}</p>
+                </div>
               </div>
             </div>
+          )}
 
-            <div className="timeline-item launch">
-              <div className="timeline-marker"></div>
-              <div className="timeline-content-top">
-                <h4 className="timeline-date">{dict.roadmap.launch.date}</h4>
-                <p className="timeline-title">{dict.roadmap.launch.title}</p>
+          {showEmailSubscription && (
+            <>
+              <div style={{ marginTop: '3rem', marginBottom: '2.5rem' }}>
+                <p style={{ margin: 0, fontSize: '1.1rem', fontWeight: 500, color: 'white', opacity: 0.9 }} dangerouslySetInnerHTML={{__html: dict.roadmap.discount}}>
+                </p>
               </div>
-              <div className="timeline-content-bottom">
-                <p className="timeline-desc">{dict.roadmap.launch.desc}</p>
-              </div>
-            </div>
-          </div>
 
-          <div style={{ marginTop: '3rem', marginBottom: '2.5rem' }}>
-            <p style={{ margin: 0, fontSize: '1.1rem', fontWeight: 500, color: 'white', opacity: 0.9 }} dangerouslySetInnerHTML={{__html: dict.roadmap.discount}}>
-            </p>
-          </div>
-
-          <EmailForm 
-            text={dict.nav.getEarlyAccess} 
-            dictText={dict.form}
-          />
+              <EmailForm
+                text={dict.nav.getEarlyAccess}
+                dictText={dict.form}
+              />
+            </>
+          )}
         </div>
       </section>
 
@@ -231,7 +253,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           <div className="steps">
             <div className="step">
               <div className="step-icon">
-                <Image src="/icons/generate.svg" alt="Generate Icon" width={196} height={196} />
+                <Image src="/icons/generate.svg" alt="Recovery phrase icon" width={196} height={196} />
               </div>
               <h3>{dict.howItWorks.steps[0].title}</h3>
               <p>{dict.howItWorks.steps[0].desc}</p>
@@ -239,7 +261,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
             <div className="step">
               <div className="step-icon">
-                <Image src="/icons/secure.svg" alt="Secure Icon" width={196} height={196} />
+                <Image src="/icons/secure.svg" alt="Vault icon" width={196} height={196} />
               </div>
               <h3>{dict.howItWorks.steps[1].title}</h3>
               <p>{dict.howItWorks.steps[1].desc}</p>
@@ -247,7 +269,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
             <div className="step">
               <div className="step-icon">
-                <Image src="/icons/bitcoin.svg" alt="Bitcoin Icon" width={196} height={196} />
+                <Image src="/icons/bitcoin.svg" alt="Guardians and heirs icon" width={196} height={196} />
               </div>
               <h3>{dict.howItWorks.steps[2].title}</h3>
               <p>{dict.howItWorks.steps[2].desc}</p>
@@ -255,7 +277,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
             <div className="step">
               <div className="step-icon">
-                <Image src="/icons/anywhere.svg" alt="Inheritance Icon" width={196} height={196} />
+                <Image src="/icons/anywhere.svg" alt="Check-in icon" width={196} height={196} />
               </div>
               <h3>{dict.howItWorks.steps[3].title}</h3>
               <p>{dict.howItWorks.steps[3].desc}</p>
@@ -309,7 +331,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           <div className="footer-section">
             <h4>{dict.footer.product}</h4>
             <ul>
-              <li><Link href="#early-access">{dict.footer.joinWaitlist}</Link></li>
+              {showEmailSubscription && (
+                <li><Link href="#early-access">{dict.footer.joinWaitlist}</Link></li>
+              )}
               <li><Link href="#features">{dict.footer.features}</Link></li>
               <li><Link href="#security">{dict.footer.security}</Link></li>
               <li><Link href="#how-it-works">{dict.footer.howItWorks}</Link></li>

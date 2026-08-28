@@ -184,7 +184,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       {/* Early Access Form Section */}
       <section id="early-access" className="cta-section">
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1rem' }}>
-          <h2>{dict.roadmap.title}</h2>
+          <h2>{showEmailSubscription ? dict.roadmap.title : dict.roadmap.timelineTitle}</h2>
           {showEmailSubscription && (
             <p style={{ marginBottom: "2rem" }}>{dict.roadmap.subtitle}</p>
           )}

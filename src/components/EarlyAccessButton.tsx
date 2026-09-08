@@ -7,7 +7,7 @@ export default function EarlyAccessButton({ text = "Get Early Access" }: { text?
     e.preventDefault();
     const formSection = document.getElementById('early-access');
     if (formSection) {
-      formSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      formSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
 

@@ -7,8 +7,18 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { getDictionary } from "@/lib/dictionaries";
 
 const showRoadmapTimeline: boolean = true;
-const showEmailSubscription: boolean = false;
+const showEmailSubscription: boolean = true;
 const TEST_APP_URL = 'https://test-app.cryple.io';
+
+const vaultIcons = [
+  '/icons/secrets.svg',
+  '/icons/notes.svg',
+  '/icons/documents.svg',
+  '/icons/drive.svg',
+  '/icons/safe-sharing.svg',
+  '/icons/password-manager.svg',
+  '/icons/bitcoin-wallet.svg',
+];
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -30,13 +40,12 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             <li><Link href="#security">{dict.nav.security}</Link></li>
             <li><Link href="#contact">{dict.nav.contact}</Link></li>
           </ul>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <div className="nav-actions">
             <LanguageSwitcher currentLang={lang} />
-            {showEmailSubscription ? (
+            {showEmailSubscription && (
               <EarlyAccessButton text={dict.nav.getEarlyAccess} />
-            ) : (
-              <a href={TEST_APP_URL} className="cta-button">{dict.nav.tryTestApp}</a>
             )}
+            <a href={TEST_APP_URL} className="cta-button cta-button-secondary">{dict.nav.tryTestApp}</a>
           </div>
         </nav>
       </header>
@@ -60,21 +69,39 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             </Link>
           </div>
 
-          <div className="demo-preview fade-in-up">
-            <h3 style={{ marginBottom: '1rem', fontWeight: 600 }}>{dict.hero.demoTitle}</h3>
-            <p style={{ opacity: 0.8 }}>{dict.hero.demoSubtitle}</p>
-            <div style={{ 
-              marginTop: '1.5rem', 
-              padding: '1rem', 
-              background: 'rgba(0,0,0,0.2)', 
-              borderRadius: '0.5rem', 
-              fontFamily: 'monospace', 
-              fontSize: '0.9rem' 
-            }}>
-              <div style={{ color: '#10b981' }}>{dict.hero.demoStage1}</div>
-              <div style={{ color: '#f59e0b' }}>{dict.hero.demoStage2}</div>
-              <div style={{ color: '#10b981' }}>{dict.hero.demoStage3}</div>
+          {/* <div className="demo-preview fade-in-up">
+            <h3>{dict.hero.demoTitle}</h3>
+            <p>{dict.hero.demoSubtitle}</p>
+            <div className="demo-log">
+              <div className="demo-log-ok">{dict.hero.demoStage1}</div>
+              <div className="demo-log-warn">{dict.hero.demoStage2}</div>
+              <div className="demo-log-ok">{dict.hero.demoStage3}</div>
             </div>
+          </div> */}
+
+          <div className="vault-showcase fade-in-up">
+            <p className="vault-label">{dict.hero.vaultLabel}</p>
+            {(() => {
+              const items = dict.hero.vaultItems as string[];
+              const nodes = items.map((item: string, i: number) => ({ item, icon: vaultIcons[i] }));
+              const rows = [nodes.slice(0, 4), nodes.slice(4)];
+              return (
+                <div className="vault-chain">
+                  {rows.map((row, ri: number) => (
+                    <ul className="vault-row" key={ri}>
+                      {row.map((n) => (
+                        <li className="vault-node" key={n.item}>
+                          <span className="vault-node-ring">
+                            <Image src={n.icon} alt="" width={44} height={44} loading="eager" />
+                          </span>
+                          <span className="vault-node-label">{n.item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  ))}
+                </div>
+              );
+            })()}
           </div>
         </div>
       </section>
@@ -114,7 +141,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             <div className="feature-row">
               <div className="feature-media">
                 <div className="feature-image-container">
-                  <Image src="/family.jpg" alt="Granular inheritance assignment" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                  <Image src="/thestandingdesk.jpg" alt="Granular inheritance assignment" fill sizes="(max-width: 768px) 100vw, 50vw" />
                 </div>
               </div>
               <div className="feature-text">
@@ -126,7 +153,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {/* 4 */}
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/thestandingdesk.jpg" alt="Contest period countdown" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/notes.jpg" alt="Contest period countdown" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[3].title}</h3>
@@ -170,7 +197,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {/* 8 */}
             <div className="feature-row">
               <div className="feature-image-container">
-                <Image src="/notes.jpg" alt="Post-quantum encryption" fill sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/happy.avif" alt="Post-quantum encryption" fill sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
               <div className="feature-text">
                 <h3>{dict.features.items[7].title}</h3>
@@ -228,7 +255,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
           {showEmailSubscription && (
             <>
-              <div style={{ marginTop: '3rem', marginBottom: '2.5rem' }}>
+              <div style={{ marginBottom: '2.5rem' }}>
                 <p style={{ margin: 0, fontSize: '1.1rem', fontWeight: 500, color: 'white', opacity: 0.9 }} dangerouslySetInnerHTML={{__html: dict.roadmap.discount}}>
                 </p>
               </div>

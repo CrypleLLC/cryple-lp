@@ -5,53 +5,66 @@
     "security": "Segurança",
     "contact": "Contato",
     "getEarlyAccess": "Acesso Antecipado",
-    "tryTestApp": "Acessar o App de Teste"
+    "tryTestApp": "Testar o App"
   },
   "hero": {
-    "title": "Guarde o que importa. Escolha quem herda. Deixe um relógio imparcial fazer o resto.",
-    "subtitle": "A Cryple é um protocolo de herança digital zero-knowledge. Tudo é criptografado no seu dispositivo, e a liberação para os seus herdeiros é decidida por um smart contract na Arbitrum — não por nós, e não por alguém que possa ser pressionado, hackeado ou fechado.",
+    "title": "Armazene dados online que só você pode ler.",
+    "subtitle": "A Cryple é um cofre zero-knowledge para o que você não pode perder: senhas, seed phrases, notas, documentos e arquivos. Tudo é criptografado no seu navegador antes de sair, e as chaves são derivadas de uma frase de recuperação que só você tem.",
     "learnMore": "Saiba Mais",
-    "demoTitle": "O Dead Man's Switch, Rodando em Público",
-    "demoSubtitle": "O relógio vive em uma blockchain pública. Nada do nosso lado pode pará-lo, reiniciá-lo ou registrar atividade no seu lugar — só você pode.",
-    "demoStage1": "Check-in assinado no seu dispositivo — relógio reiniciado",
-    "demoStage2": "Sem check-in após o seu período de inatividade — janela de contestação aberta",
-    "demoStage3": "Período de contestação encerrado — seus herdeiros podem abrir exatamente o que você deixou"
+    "vaultLabel": "Tudo em um só cofre",
+    "vaultItems": [
+      "Segredos",
+      "Notas",
+      "Documentos",
+      "Drive",
+      "Compartilhamento seguro",
+      "Senhas",
+      "Carteira Bitcoin"
+    ],
+    "demoTitle": "O Que Os Nossos Servidores Recebem de Verdade",
+    "demoSubtitle": "A criptografia acontece no seu navegador. O que chega aqui é um blob selado e o pouco que o roteamento exige — e não existe chave do nosso lado para abrir.",
+    "demoStage1": "Criptografado no seu dispositivo — AES-256-GCM, a chave nunca é enviada",
+    "demoStage2": "Armazenado por nós: o texto cifrado, o tamanho dele e quando mudou",
+    "demoStage3": "Legível por nós: nada. Nem com ordem judicial, nem por engano"
   },
   "features": {
     "title": "Por que a Cryple é Diferente?",
-    "subtitle": "Não somos um gerenciador de senhas, e você não é o produto — sem anúncios, sem rastreamento, sem cookies. A Cryple faz uma coisa só: garantir que as pessoas que você escolheu consigam abrir o que você deixou, e que mais ninguém jamais consiga. Nós inclusive.",
+    "subtitle": "Todo cofre diz ser de conhecimento zero. Uma frase de recuperação é como uma carteira cripto funciona. Pós-quântico é uma linha na ficha técnica de alguém. A Cryple reúne as três ao mesmo tempo, e é a combinação — não uma delas — que ninguém mais está entregando.",
     "items": [
       {
-        "title": "O Protocolo de Legado Digital",
-        "desc": "Seu Dead Man's Switch vive na Arbitrum. Ele conta o seu silêncio, abre uma janela de contestação e autoriza a liberação inteiramente on-chain. Qualquer pessoa pode avançar um switch cujo prazo realmente venceu — um herdeiro, um guardião, um bot público — então a liberação nunca é nossa para atrasar, negar ou esquecer em silêncio. O que continuamos guardando são os dados criptografados: a blockchain governa quando seus herdeiros podem abri-los, não se eles estão lá para serem abertos."
+        "title": "Conhecimento Zero por Construção, Não por Política",
+        "badge": "Conhecimento Zero",
+        "desc": "Cada item ganha a própria chave aleatória, gerada no seu dispositivo e envelopada por uma chave derivada da sua frase de recuperação. O que chega aos nossos servidores é um blob selado e o pouco que o roteamento precisa — o tamanho dele e quando mudou. Não existe chave mestra, nem banco de recuperação, nem ferramenta de suporte que abra o seu cofre. Não porque prometemos não olhar, mas porque do nosso lado não há nada com que olhar."
       },
       {
         "title": "Você Não É o Produto",
-        "desc": "Sem anúncios, sem rastreamento, sem cookies. Nossa assinatura gratuita é realmente gratuita, e você paga por mais recursos se gostar do produto. Zero-Knowledge de verdade. As fechaduras e chaves para acessar o seu cofre são criadas no seu dispositivo. Não podemos ver suas senhas, ler suas notas nem acessar seus arquivos em nenhuma circunstância."
+        "desc": "Sem anúncios, sem rastreamento, sem cookies. Nosso plano gratuito é gratuito de verdade, e você paga quando quiser mais espaço. Zero-knowledge é a arquitetura, não o marketing: as fechaduras e as chaves são feitas no seu dispositivo, e não podemos ver suas senhas, ler suas notas ou abrir seus arquivos em nenhuma circunstância."
       },
       {
-        "title": "Exatamente Quem Herda Exatamente o Quê",
-        "desc": "Nomeie seus herdeiros e atribua itens específicos a cada um. A chave de cada item é recriptografada só para aquela pessoa, no seu dispositivo, enquanto você está vivo. Herdeiros nunca são avisados — contar a alguém que foi nomeado publicaria uma relação que você talvez tenha escolhido manter privada."
+        "title": "Tudo o Que Você Realmente Precisa Guardar",
+        "desc": "Segredos pequenos que destrancam todo o resto — seed phrases, dados de contas, credenciais. Notas para o que precisa de explicação. Documentos longos que sincronizam entre seus dispositivos enquanto você escreve. Arquivos criptografados vêm a seguir. Um cofre, uma frase, e todo tipo de coisa que hoje você espalha entre um app de notas, um drive e uma gaveta."
       },
       {
-        "title": "Silêncio Não É Morte, Então Você Sempre Pode Contestar",
-        "desc": "Um check-in perdido não libera nada. Ele abre um período de contestação visível para você e cancelável por você: um único “estou vivo” assinado devolve o switch ao normal. Você define as duas durações — quanto tempo o silêncio dura antes que seus herdeiros possam agir, e quanto tempo você tem depois para impedir."
+        "title": "Escreva num Dispositivo, Leia em Qualquer Outro",
+        "desc": "Documentos sincronizam enquanto você digita, criptografados o caminho inteiro. Seus dispositivos chegam ao mesmo texto sem que nossos servidores o vejam — eles guardam e repassam mudanças seladas, e não mesclam nada. Abra um navegador novo, digite sua frase, e está tudo lá."
       },
       {
-        "title": "Guardiões Devolvem o Seu Acesso Sem Ganhar Acesso",
-        "desc": "Sua chave de recuperação é dividida de modo que quaisquer k de n pedaços a reconstroem e qualquer quantidade menor não revela absolutamente nada — nem uma resposta parcial, nem uma vantagem. Guardiões são convidados e precisam aceitar, você sempre guarda um pedaço como Kit de Recuperação impresso, e cada pedaço é criptografado só para o seu guardião. Eles não conseguem ler o dos outros, e nós não conseguimos ler nenhum."
+        "title": "O Que Você Recebe no Lugar de um Reset",
+        "desc": "Consideramos deixar pessoas de confiança guardarem pedaços da sua chave e decidimos não fazer: qualquer porta construída para você é uma porta que existe. Então damos o artefato no lugar — um kit imprimível no cadastro, e palavras claras sobre a sua responsabilidade, antes de ela ser sua."
       },
       {
-        "title": "Sua Seed Phrase É a Conta",
-        "desc": "Doze ou vinte e quatro palavras comuns, geradas no seu navegador. Todas as chaves que a Cryple usa derivam delas, do mesmo jeito em qualquer dispositivo — inclusive a que assina pela sua conta on-chain. Sem e-mail, sem redefinir senha, sem extensão de carteira, sem taxa de gas. Digite a frase em um navegador novo e o seu cofre simplesmente está lá."
+        "title": "A Sua Frase de Recuperação É a Conta",
+        "badge": "Autenticação BIP39",
+        "desc": "Doze ou vinte e quatro palavras comuns, geradas no seu navegador. Toda chave que a Cryple usa é derivada delas da mesma forma em todos os dispositivos — sem e-mail, sem senha, sem extensão de carteira, sem taxa de gás. Digite a frase num navegador novo e o cofre está lá. Isso também significa que ninguém consegue devolver o seu acesso, nós inclusive: a frase é a conta, então perdê-la é perder tudo, e é por isso que exigimos que você confira a sua cópia antes de começar."
       },
       {
-        "title": "Modo Paranoico - PIN de 6 dígitos como 2FA",
-        "desc": "Os dois modos usam um PIN de 6 dígitos para trancar o app e criptografar a cópia da sua seed phrase naquele dispositivo. No modo Padrão ele é só local: se você esquecer, basta entrar de novo com a sua frase e escolher outro. No modo Paranoico o servidor também confere, então ele vira um segundo fator de verdade: uma frase roubada sozinha não deixa ninguém entrar, e um PIN esquecido é redefinido através dos seus guardiões."
+        "title": "Modo Paranoid — um PIN de 6 dígitos como segundo fator",
+        "desc": "Os dois modos usam um PIN de 6 dígitos para trancar o app e criptografar a cópia da sua frase naquele dispositivo. No modo Padrão ele fica local — esqueceu, entra de novo com a frase e não perde nada. No modo Paranoid o servidor também confere, então uma frase roubada sozinha não entra. Essa proteção é real e o custo dela também: um PIN esquecido encerra uma conta Paranoid, e dizemos isso na tela em que você o liga."
       },
       {
-        "title": "Feita para Sobreviver aos Próprios Algoritmos",
-        "desc": "Herança acontece numa escala de décadas, e dados capturados hoje podem ser guardados e atacados depois. O seu próprio cofre é selado com criptografia simétrica derivada da sua frase — do tipo que um computador quântico não quebra. O único ponto em que isso não basta é ao criptografar para outra pessoa, onde duas pessoas que não compartilham segredo nenhum precisam concordar em uma chave: exatamente o que se espera que os computadores quânticos quebrem. Por isso o pedaço de um guardião e a chave de um herdeiro são envolvidos por dois algoritmos independentes ao mesmo tempo, um clássico e um pós-quântico. O atacante precisa quebrar os dois. Se um sobreviver, seus dados continuam selados."
+        "title": "Já Fora do Alcance Quântico",
+        "badge": "Pós-Quântico",
+        "desc": "Seu cofre é selado com AES-256 derivado da sua frase, e a criptografia simétrica é justamente o que sobrevive a um computador quântico — o algoritmo de Grover corta o expoente pela metade e nada além disso. O que um computador quântico realmente quebra é a criptografia de chave pública, e ela só é necessária quando duas pessoas que não compartilham segredo algum precisam concordar numa chave. Por isso a troca por trás do compartilhamento privado combina um algoritmo clássico com um pós-quântico, e o atacante tem que quebrar os dois. Está implementado, especificado e verificado contra vetores de teste fixos."
       }
     ]
   },
@@ -61,24 +74,24 @@
     "subtitle": "Junte-se à nossa lista de espera hoje e garanta seu lugar nos próximos lançamentos.",
     "alpha": {
       "date": "Setembro de 2026",
-      "title": "Versão de Staging (Testnet)",
-      "desc": "No ar agora na Arbitrum Sepolia: o cofre, notas criptografadas e documentos longos, guardiões e recuperação Shamir, herdeiros e o Dead Man's Switch on-chain — o ciclo completo da herança, de ponta a ponta."
+      "title": "Release de Staging",
+      "desc": "No ar agora: o cofre, notas criptografadas e documentos longos que sincronizam entre dispositivos, nos modos Padrão e Paranoid."
     },
     "beta": {
       "date": "Dezembro de 2026",
       "title": "O Drive",
-      "desc": "Armazenamento de arquivos criptografados — imagens e PDFs. O lugar para os documentos que realmente importam: contratos, exames médicos, passaportes, documentos de identidade. Guardados, protegidos e herdados como todo o resto."
+      "desc": "Armazenamento de arquivos criptografados — imagens e PDFs. O lugar para os documentos que realmente importam: contratos, exames médicos, passaportes, documentos. Selados no seu dispositivo exatamente como todo o resto. Depois vem o compartilhamento privado: enviar um item para uma pessoa, ainda ponta a ponta."
     },
     "launch": {
       "date": "2027 A Qualquer Momento",
       "title": "Lançamento em Produção",
-      "desc": "Ainda sem data. Mainnet, e o cofre aberto para todos."
+      "desc": "Ainda sem data. O cofre aberto para todos."
     },
     "discount": "Junte-se à lista de espera para ser notificado sobre o lançamento oficial. Durante o primeiro mês de lançamento, as assinaturas premium terão <bold>50% de desconto</bold>."
   },
   "howItWorks": {
     "title": "Como Funciona? (Quatro Passos e Pronto)",
-    "subtitle": "Você configura uma vez, enquanto ainda pode tomar as decisões. Depois disso, a única coisa que ele pede é um check-in.",
+    "subtitle": "Você configura uma vez, em alguns minutos, e depois disso ele só guarda as coisas.",
     "steps": [
       {
         "title": "1. Gere Sua Seed Phrase",
@@ -89,27 +102,27 @@
         "desc": "Guarde as coisas pequenas que destravam todo o resto: seed phrases, dados de contas, credenciais. Escreva notas: as cartas e instruções que explicam tudo isso. Escreva documentos longos que sincronizam entre os seus dispositivos. Tudo criptografado aqui, antes de sair."
       },
       {
-        "title": "3. Nomeie Guardiões e Herdeiros",
-        "desc": "Convide guardiões que possam devolver o seu acesso se você perder a frase, depois nomeie seus herdeiros e dê a cada um exatamente os itens que deve receber. Tudo é recriptografado para eles no seu dispositivo, enquanto você está vivo."
+        "title": "3. Abra em Qualquer Lugar",
+        "desc": "A sua frase é a conta, então um navegador novo não precisa de mais nada. Digite e o cofre está lá, decriptado localmente. Defina um PIN de 6 dígitos em cada dispositivo para voltar com seis dígitos em vez de doze palavras."
       },
       {
-        "title": "4. Faça Check-in e Viva Sua Vida",
-        "desc": "Um check-in assinado reinicia o relógio. Continue fazendo e nada nunca acontece. Pare, e a janela de contestação abre — visível para você, cancelável por você — e só depois que ela vence seus herdeiros podem abrir o que você deixou."
+        "title": "4. Guarde a Frase num Lugar de Verdade",
+        "desc": "Imprima o kit que entregamos no cadastro, ou escreva as palavras no papel, e guarde onde você guardaria um passaporte. Esta é a única parte que não podemos fazer por você, e a que mais importa: ninguém — nós inclusive — consegue emitir outra."
       }
     ]
   },
   "security": {
     "title": "Segurança Que Você Pode Verificar",
-    "subtitle": "Zero-knowledge por construção, não por política: o servidor nunca recebe nada legível, e a liberação é decidida por um contrato público em vez de por nós.",
+    "subtitle": "Zero-knowledge por construção, não por política: o servidor nunca recebe nada legível, porque as chaves são feitas no seu dispositivo e nunca são enviadas.",
     "bullets": [
       "Tudo é criptografado no seu navegador; o servidor recebe dados selados e os armazena",
-      "Zero-knowledge por construção — do nosso lado não existe chave alguma para descriptografar",
-      "Prova de propriedade por assinatura ECDSA P-256 sobre um desafio novo, nunca um segredo transmitido",
-      "Encapsulamento pós-quântico de chaves com ML-KEM-768 (Kyber) para cada herdeiro e guardião",
-      "Híbrido PQXDH: X25519 + ML-KEM-768 combinados, para que ataques clássicos e quânticos precisem ambos dar certo",
-      "Modo Paranoico: um segundo fator de verdade, exigindo sua seed phrase e seu PIN juntos",
-      "Sua seed phrase, seu PIN e seu texto puro nunca saem do seu dispositivo, jamais",
-      "O Dead Man's Switch é um contrato na Arbitrum — nada do lado do servidor pode fazer check-in por você"
+      "Zero-knowledge por construção — não existe chave do nosso lado para decriptar",
+      "Prova de posse por assinatura ECDSA P-256 sobre um desafio novo, nunca um segredo transmitido",
+      "Seus dados em repouso usam AES-256-GCM — simétrico, e já fora do alcance de um computador quântico",
+      "PQXDH híbrido para criptografar para outra conta: X25519 + ML-KEM-768 combinados, para que um ataque clássico e um quântico tenham de dar certo juntos",
+      "Modo Paranoid: um segundo fator de verdade, exigindo a sua frase de recuperação e o seu PIN juntos",
+      "A sua frase de recuperação, o seu PIN e o seu texto puro nunca saem do seu dispositivo",
+      "Nenhuma recuperação de conta, por design — não há caminho de volta que possam nos obrigar a usar"
     ],
     "techSpecsTitle": "Especificações Técnicas",
     "specs": [
@@ -123,11 +136,11 @@
       },
       {
         "label": "KEM Pós-Quântica",
-        "value": "ML-KEM-768 / Kyber"
+        "value": "ML-KEM-768 (FIPS 203) — para compartilhamento"
       },
       {
         "label": "Protocolo Híbrido",
-        "value": "PQXDH (X25519 + ML-KEM-768)"
+        "value": "PQXDH (X25519 + ML-KEM-768) — para compartilhamento"
       },
       {
         "label": "Derivação de Chaves",
@@ -144,19 +157,11 @@
       {
         "label": "Hash no Servidor",
         "value": "Argon2id (64 MiB, t=3, p=4)"
-      },
-      {
-        "label": "Recuperação com Guardiões",
-        "value": "Esquema de Shamir (k-de-n)"
-      },
-      {
-        "label": "On-Chain",
-        "value": "Arbitrum · ERC-4337 + RIP-7212"
       }
     ]
   },
   "footer": {
-    "tagline": "Suas chaves, seus dados, seu legado.",
+    "tagline": "Suas chaves, seus dados. De mais ninguém.",
     "product": "Produto",
     "joinWaitlist": "Acesso Antecipado",
     "features": "Recursos",
@@ -299,7 +304,7 @@
     "sections": [
       {
         "title": "1. Arquitetura Zero-Knowledge",
-        "content": "A Cryple é construída desde a base como um serviço zero-knowledge. Nossos modelos matemáticos garantem que nenhum funcionário, administrador ou atacante que comprometa nossos servidores consiga ler seus itens de legado, credenciais ou notas armazenadas.",
+        "content": "A Cryple é construída desde a base como um serviço zero-knowledge. A nossa arquitetura faz com que nenhum funcionário, administrador ou atacante que comprometa os nossos servidores consiga ler os seus itens, credenciais, notas ou documentos.",
         "note": "Operamos estritamente sob a seguinte política:",
         "items": [
           "Sua seed phrase e seu PIN nunca saem do seu navegador.",
@@ -314,8 +319,8 @@
         "items": [
           "Autenticação: assinaturas ECDSA P-256 sobre um desafio gerado pelo cliente; no Modo Paranoico o PIN é alongado no cliente com PBKDF2-SHA256 (600.000 iterações) e guardado no servidor como um hash Argon2id.",
           "Assinatura: os pares de chaves assimétricas (ECDSA P-256) são derivados no cliente a partir da sua seed phrase e assinam cada desafio e cada ação privilegiada.",
-          "Armazenamento de Dados: itens de legado, notas e documentos são criptografados no dispositivo cliente usando AES-256-GCM.",
-          "Pós-Quântico: tudo que é criptografado para outra pessoa — o pedaço de um guardião, a chave de um herdeiro — é envolvido pela construção híbrida PQXDH, X25519 combinado com ML-KEM-768."
+          "Armazenamento de Dados: itens do cofre, notas e documentos são criptografados no dispositivo cliente com AES-256-GCM, cada um sob a própria chave.",
+          "Pós-Quântico: a construção híbrida PQXDH — X25519 combinado com ML-KEM-768 — está implementada e especificada para criptografar para outra pessoa. O compartilhamento privado é a funcionalidade que vai usá-la; ainda não foi lançada."
         ]
       },
       {
@@ -323,10 +328,9 @@
         "content": "Nossa infraestrutura de servidores é protegida por limites de engenharia rigorosos contra vetores de ataque:",
         "note": null,
         "items": [
-          "Limitação de taxa é aplicada com rigor em todos os nós de entrada da API para impedir força bruta.",
-          "Usamos travamento atômico de nonces de uso único para impedir Ataques de Repetição em todos os fluxos sensíveis de autenticação.",
-          "Volumes de banco de dados e buckets de armazenamento são criptografados em repouso pelos nossos provedores de nuvem.",
-          "O relógio da herança é um smart contract na Arbitrum, não uma tarefa de servidor: nada do nosso lado pode fazer check-in em nome de um usuário, e nenhuma queda nossa pode pará-lo."
+          "Travamento de nonce de uso único impede ataques de replay em toda autenticação e ação privilegiada.",
+          "Volumes de banco de dados e buckets de object storage são criptografados em repouso pelos nossos provedores de nuvem.",
+          "O rate limiting nos endpoints de autenticação está desenhado e ainda não foi implantado. Até que seja, um PIN de 6 dígitos no modo Paranoid é defendido apenas pelo custo de processamento do servidor, e preferimos dizer isso a insinuar um controle que não operamos."
         ]
       },
       {
@@ -334,9 +338,9 @@
         "content": "Uma política de segurança que lista apenas os pontos fortes é publicidade. Estes são os limites da nossa arquitetura, ditos com clareza, para que você possa pesá-los antes de depender de nós.",
         "note": "Cada um destes é uma limitação conhecida e aceita do desenho atual, não um descuido:",
         "items": [
-          "Disponibilidade dos dados. Seus dados criptografados vivem no nosso armazenamento. A blockchain prova o que aqueles dados eram e decide quando seus herdeiros ficam autorizados a abri-los, mas não pode servir os dados em si. Se o nosso armazenamento fosse perdido ou retido, a prova on-chain sobreviveria e o texto cifrado não. A blockchain remove a nossa discricionariedade sobre o momento de uma herança; não remove a nossa custódia dos bytes.",
-          "A janela de confidencialidade. A chave envelopada de um herdeiro fica armazenada desde o momento em que você a atribui, ao lado do texto cifrado. Um backend comprometido poderia entregar ambos a um herdeiro antes de o switch disparar, e as próprias chaves desse herdeiro os abririam. Nenhum contrato pode impedir isso, porque nenhum contrato jamais guarda material de chaves. A blockchain garante o momento da autorização e a integridade dos dados — não a janela de confidencialidade.",
-          "Autenticidade das chaves do destinatário. As chaves públicas dos seus guardiões e herdeiros são servidas pela nossa API. Um backend malicioso poderia substituí-las pelas suas durante a configuração e ler depois o que foi criptografado para aquela pessoa. A mitigação é verificar as impressões digitais das chaves por um canal externo, e ela ainda não foi construída."
+          "Disponibilidade dos dados. Os seus dados criptografados ficam no nosso armazenamento. Não conseguimos lê-los, mas os guardamos: se o nosso armazenamento se perdesse ou fosse retido, o texto cifrado iria junto. Zero-knowledge tira a nossa capacidade de ler os seus dados; não tira a nossa custódia dos bytes. Mantenha a sua própria cópia de qualquer coisa que você não possa repor.",
+          "Metadados. Não vemos o que você guarda, mas vemos que você guarda: quantos itens existem, o tamanho aproximado deles e quando mudaram. Criptografar conteúdo não é o mesmo que esconder atividade, e não afirmamos escondê-la.",
+          "Perder a sua frase é definitivo. Não existe caminho de recuperação, então não há nada que um atacante subverta nem nada que um tribunal possa exigir — e igualmente nada que possamos lhe oferecer se a frase se foi. É a troca, dita uma vez e honrada nos dois sentidos."
         ]
       },
       {

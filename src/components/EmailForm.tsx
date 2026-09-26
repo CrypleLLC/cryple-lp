@@ -8,6 +8,7 @@ interface EmailFormProps {
   inputStyle?: string;
   containerStyle?: string;
   text?: string;
+  termsHref?: string;
   dictText?: {
     agreeTo: string;
     termsOfService: string;
@@ -22,6 +23,7 @@ export default function EmailForm({
   inputStyle = "",
   containerStyle = "",
   text = "Get Early Access",
+  termsHref = "/terms",
   dictText = {
     agreeTo: "I agree to the ",
     termsOfService: "Terms of Service",
@@ -118,7 +120,7 @@ export default function EmailForm({
                 style={{ cursor: "pointer", width: "16px", height: "16px", accentColor: "#6366f1" }}
               />
               <label htmlFor={`terms-${formId}`} style={{ cursor: "pointer" }}>
-                {dictText.agreeTo}<Link href="/terms" style={{ color: "#ffffff", textDecoration: "underline" }} target="_blank">{dictText.termsOfService}</Link>
+                {dictText.agreeTo}<Link href={termsHref} style={{ color: "#ffffff", textDecoration: "underline" }} target="_blank">{dictText.termsOfService}</Link>
               </label>
             </div>
             {status === "error" && message && (

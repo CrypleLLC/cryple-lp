@@ -1,11 +1,20 @@
 {
+  "meta": {
+    "title": "Cryple — Zero-Knowledge Encrypted Vault for Passwords, Seed Phrases and Files",
+    "description": "A zero-knowledge vault for passwords, seed phrases, notes, documents and files. Encrypted in your browser with keys from a recovery phrase only you hold.",
+    "ogImageTagline": "Zero-knowledge encrypted vault for passwords, seed phrases, notes and files.",
+    "privacyDescription": "How Cryple handles your data: what the landing page collects, why, and how long it is kept.",
+    "termsDescription": "The terms that apply when you use the Cryple website and join the early access waitlist.",
+    "securityPolicyDescription": "How to report a security vulnerability in Cryple, and how we handle disclosures."
+  },
   "nav": {
     "features": "Features",
     "howItWorks": "How It Works",
     "security": "Security",
     "contact": "Contact",
     "getEarlyAccess": "Get Early Access",
-    "tryTestApp": "Try the App"
+    "tryTestApp": "Try the App",
+    "language": "Language"
   },
   "hero": {
     "title": "Store data online that only you can read.",
@@ -33,37 +42,45 @@
       {
         "title": "Zero-Knowledge by Construction, Not by Policy",
         "badge": "Zero-Knowledge",
-        "desc": "Every item gets its own random key, generated on your device and wrapped under a key derived from your recovery phrase. What reaches our servers is a sealed blob and the little that routing needs — its size, and when it changed. There is no master key, no recovery database, no support tool that opens your vault. Not because we promise not to look, but because there is nothing on our side to look with."
+        "desc": "Every item gets its own random key, generated on your device and wrapped under a key derived from your recovery phrase. What reaches our servers is a sealed blob and the little that routing needs — its size, and when it changed. There is no master key, no recovery database, no support tool that opens your vault. Not because we promise not to look, but because there is nothing on our side to look with.",
+        "imageAlt": "A glowing padlock over a field of digital data"
       },
       {
         "title": "You Are Not The Product",
-        "desc": "No ads, no tracking, no cookies. Our free tier is genuinely free, and you pay when you want more room. Zero-knowledge is the architecture, not the marketing: the locks and the keys are made on your device, and we cannot see your passwords, read your notes, or open your files under any circumstances."
+        "desc": "No ads, no tracking, no cookies. Our free tier is genuinely free, and you pay when you want more room. Zero-knowledge is the architecture, not the marketing: the locks and the keys are made on your device, and we cannot see your passwords, read your notes, or open your files under any circumstances.",
+        "imageAlt": "A confident woman in sunglasses on a city street"
       },
       {
         "title": "Everything You Actually Need to Keep",
-        "desc": "Small secrets that unlock everything else — seed phrases, account details, credentials. Notes for the things that need explaining. Long-form documents that sync across your devices as you write. Encrypted files are next. One vault, one phrase, every kind of thing you would otherwise scatter across a notes app, a drive and a drawer."
+        "desc": "Small secrets that unlock everything else — seed phrases, account details, credentials. Notes for the things that need explaining. Long-form documents that sync across your devices as you write. Encrypted files are next. One vault, one phrase, every kind of thing you would otherwise scatter across a notes app, a drive and a drawer.",
+        "imageAlt": "A man working at a standing desk by a window"
       },
       {
         "title": "Write on One Device, Read on Any Other",
-        "desc": "Documents sync as you type, encrypted the whole way. Your devices agree on the text without our servers ever seeing it — they store and forward sealed changes and merge nothing. Open a new browser, type your phrase, and everything is simply there."
+        "desc": "Documents sync as you type, encrypted the whole way. Your devices agree on the text without our servers ever seeing it — they store and forward sealed changes and merge nothing. Open a new browser, type your phrase, and everything is simply there.",
+        "imageAlt": "A man at his desk reading on his phone next to an open laptop"
       },
       {
         "title": "What You Get Instead of a Reset",
-        "desc": "We considered letting trusted contacts hold pieces of your key and decided against it: any door built for you is a door that exists. So we give you the artifact instead — a printable kit at sign-up, and plain words about what you are responsible for, before you are responsible for it."
+        "desc": "We considered letting trusted contacts hold pieces of your key and decided against it: any door built for you is a door that exists. So we give you the artifact instead — a printable kit at sign-up, and plain words about what you are responsible for, before you are responsible for it.",
+        "imageAlt": "A single key lying on a dark surface"
       },
       {
         "title": "Your Recovery Phrase Is the Account",
         "badge": "BIP39 Authentication",
-        "desc": "Twelve or twenty-four ordinary words, generated in your browser. Every key Cryple uses is derived from them the same way on every device — no email, no password. Type the phrase into a new browser and your vault is simply there. It also means nobody can let you back in, including us: the phrase is the account, so losing it loses everything, which is why we make you verify your copy before you begin."
+        "desc": "Twelve or twenty-four ordinary words, generated in your browser. Every key Cryple uses is derived from them the same way on every device — no email, no password. Type the phrase into a new browser and your vault is simply there. It also means nobody can let you back in, including us: the phrase is the account, so losing it loses everything, which is why we make you verify your copy before you begin.",
+        "imageAlt": "A steel backup plate for a recovery phrase on a pile of word tiles"
       },
       {
         "title": "Paranoid Mode — a 6-Digit PIN as a Second Factor",
-        "desc": "Both modes use a 6-digit PIN to lock the app and encrypt the copy of your phrase on that device. In Standard mode it stays local — forget it and you sign back in with your phrase, losing nothing. In Paranoid mode the server checks it too, so a stolen phrase alone gets nobody in. That protection is real and so is its cost: a forgotten PIN ends a Paranoid account, and we say so on the screen where you turn it on."
+        "desc": "Both modes use a 6-digit PIN to lock the app and encrypt the copy of your phrase on that device. In Standard mode it stays local — forget it and you sign back in with your phrase, losing nothing. In Paranoid mode the server checks it too, so a stolen phrase alone gets nobody in. That protection is real and so is its cost: a forgotten PIN ends a Paranoid account, and we say so on the screen where you turn it on.",
+        "imageAlt": "An eye peering through a hole in a dark wall"
       },
       {
         "title": "Already Beyond Quantum Reach",
         "badge": "Post-Quantum",
-        "desc": "Your vault is sealed with AES-256 keyed from your phrase, and symmetric encryption is precisely what survives a quantum computer — Grover's algorithm halves the exponent and nothing more. What a quantum computer does break is public-key cryptography, and that is only needed when two people who share no secret must agree on a key. So the exchange behind private sharing combines a classical algorithm with a post-quantum one, and an attacker has to break both. It is implemented, specified, and machine-checked against fixed test vectors."
+        "desc": "Your vault is sealed with AES-256 keyed from your phrase, and symmetric encryption is precisely what survives a quantum computer — Grover's algorithm halves the exponent and nothing more. What a quantum computer does break is public-key cryptography, and that is only needed when two people who share no secret must agree on a key. So the exchange behind private sharing combines a classical algorithm with a post-quantum one, and an attacker has to break both. It is implemented, specified, and machine-checked against fixed test vectors.",
+        "imageAlt": "A cheerful woman in sunglasses making peace signs"
       }
     ]
   },
@@ -82,31 +99,35 @@
       "desc": "Encrypted file storage — images and PDFs. The place for the documents that actually matter: contracts, medical records, passports, IDs. Sealed on your device exactly like everything else. Private sharing follows: send one item to one person, still end-to-end."
     },
     "launch": {
-      "date": "2027 Any Time",
+      "date": "2027",
       "title": "Production Launch",
       "desc": "No date yet. The vault opened to everyone."
     },
-    "discount": "Join the waitlist to be notified about the official launch. During the first month of release, premium subscriptions will have a <bold>50% discount</bold>."
+    "discount": "Join the waitlist to be notified about the official launch. During the first month of release, premium subscriptions will have a <strong>50% discount</strong>."
   },
   "howItWorks": {
-    "title": "How It Works? (Four Steps, Then You're Done)",
+    "title": "How It Works",
     "subtitle": "You set it up once, in a couple of minutes, and after that it just holds things.",
     "steps": [
       {
         "title": "1. Generate Your Recovery Phrase",
-        "desc": "Open Cryple and your browser generates twelve or twenty-four words, then derives your whole key tree from them locally. Nothing is sent anywhere. Write the phrase down on paper, and choose Standard or Paranoid mode."
+        "desc": "Open Cryple and your browser generates twelve or twenty-four words, then derives your whole key tree from them locally. Nothing is sent anywhere. Write the phrase down on paper, and choose Standard or Paranoid mode.",
+        "imageAlt": "Illustration of generating a recovery phrase"
       },
       {
         "title": "2. Fill the Vault",
-        "desc": "Store the small things that unlock everything else — seed phrases, account details, credentials. Write notes: the letters and instructions that explain them. Write long-form documents that sync across your devices. All of it encrypted here, before it leaves."
+        "desc": "Store the small things that unlock everything else — seed phrases, account details, credentials. Write notes: the letters and instructions that explain them. Write long-form documents that sync across your devices. All of it encrypted here, before it leaves.",
+        "imageAlt": "Illustration of a secured vault"
       },
       {
         "title": "3. Open It Anywhere",
-        "desc": "Your phrase is the account, so a new browser needs nothing else. Type it in and your vault is there, decrypted locally. Set a 6-digit PIN on each device so coming back is six digits rather than twelve words."
+        "desc": "Your phrase is the account, so a new browser needs nothing else. Type it in and your vault is there, decrypted locally. Set a 6-digit PIN on each device so coming back is six digits rather than twelve words.",
+        "imageAlt": "Illustration of opening the vault from any device"
       },
       {
         "title": "4. Put the Phrase Somewhere Real",
-        "desc": "Print the kit we give you at sign-up, or write the words on paper, and store it where you would keep a passport. This is the one part we cannot do for you, and the one part that matters most: nobody — us included — can issue you another."
+        "desc": "Print the kit we give you at sign-up, or write the words on paper, and store it where you would keep a passport. This is the one part we cannot do for you, and the one part that matters most: nobody — us included — can issue you another.",
+        "imageAlt": "Illustration of storing the recovery phrase safely"
       }
     ]
   },

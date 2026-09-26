@@ -1,5 +1,13 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getDictionary } from '@/lib/dictionaries';
+import { pageMetadata } from '@/lib/site';
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
+  return pageMetadata(lang, '/terms', dict.terms.title, dict.meta.termsDescription);
+}
 
 export default async function TermsOfService({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;

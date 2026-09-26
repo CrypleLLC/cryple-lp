@@ -1,11 +1,20 @@
 {
+  "meta": {
+    "title": "Cryple — Bóveda Cifrada de Conocimiento Cero para Contraseñas, Frases Semilla y Archivos",
+    "description": "Una bóveda de conocimiento cero para contraseñas, frases semilla, notas, documentos y archivos. Cifrada en tu navegador con claves de una frase que solo tú tienes.",
+    "ogImageTagline": "Bóveda cifrada de conocimiento cero para contraseñas, frases semilla, notas y archivos.",
+    "privacyDescription": "Cómo Cryple trata tus datos: qué recoge la página, por qué y durante cuánto tiempo se conservan.",
+    "termsDescription": "Los términos que se aplican al usar el sitio web de Cryple y unirte a la lista de espera.",
+    "securityPolicyDescription": "Cómo reportar una vulnerabilidad de seguridad en Cryple y cómo gestionamos las divulgaciones."
+  },
   "nav": {
     "features": "Funciones",
     "howItWorks": "Cómo Funciona",
     "security": "Seguridad",
     "contact": "Contacto",
     "getEarlyAccess": "Acceso Anticipado",
-    "tryTestApp": "Probar la App"
+    "tryTestApp": "Probar la App",
+    "language": "Idioma"
   },
   "hero": {
     "title": "Almacene datos en línea que solo tú puedes leer.",
@@ -33,37 +42,45 @@
       {
         "title": "Conocimiento Cero por Construcción, No por Política",
         "badge": "Conocimiento Cero",
-        "desc": "Cada elemento recibe su propia clave aleatoria, generada en tu dispositivo y envuelta bajo una clave derivada de tu frase de recuperación. Lo que llega a nuestros servidores es un blob sellado y lo poco que el enrutamiento necesita — su tamaño y cuándo cambió. No hay clave maestra, ni base de datos de recuperación, ni herramienta de soporte que abra tu bóveda. No porque prometamos no mirar, sino porque de nuestro lado no hay nada con qué mirar."
+        "desc": "Cada elemento recibe su propia clave aleatoria, generada en tu dispositivo y envuelta bajo una clave derivada de tu frase de recuperación. Lo que llega a nuestros servidores es un blob sellado y lo poco que el enrutamiento necesita — su tamaño y cuándo cambió. No hay clave maestra, ni base de datos de recuperación, ni herramienta de soporte que abra tu bóveda. No porque prometamos no mirar, sino porque de nuestro lado no hay nada con qué mirar.",
+        "imageAlt": "Un candado luminoso sobre un campo de datos digitales"
       },
       {
         "title": "Tú No Eres el Producto",
-        "desc": "Sin anuncios, sin rastreo, sin cookies. Nuestro plan gratuito es gratuito de verdad, y pagas cuando quieres más espacio. Zero-knowledge es la arquitectura, no el marketing: las cerraduras y las llaves se hacen en tu dispositivo, y no podemos ver tus contraseñas, leer tus notas ni abrir tus archivos bajo ninguna circunstancia."
+        "desc": "Sin anuncios, sin rastreo, sin cookies. Nuestro plan gratuito es gratuito de verdad, y pagas cuando quieres más espacio. Zero-knowledge es la arquitectura, no el marketing: las cerraduras y las llaves se hacen en tu dispositivo, y no podemos ver tus contraseñas, leer tus notas ni abrir tus archivos bajo ninguna circunstancia.",
+        "imageAlt": "Una mujer segura de sí misma con gafas de sol en una calle de la ciudad"
       },
       {
         "title": "Todo lo Que de Verdad Necesitas Guardar",
-        "desc": "Secretos pequeños que abren todo lo demás — frases semilla, datos de cuentas, credenciales. Notas para lo que necesita explicación. Documentos extensos que se sincronizan entre tus dispositivos mientras escribes. Los archivos encriptados vienen después. Una bóveda, una frase, y todo tipo de cosa que hoy repartes entre una app de notas, un drive y un cajón."
+        "desc": "Secretos pequeños que abren todo lo demás — frases semilla, datos de cuentas, credenciales. Notas para lo que necesita explicación. Documentos extensos que se sincronizan entre tus dispositivos mientras escribes. Los archivos encriptados vienen después. Una bóveda, una frase, y todo tipo de cosa que hoy repartes entre una app de notas, un drive y un cajón.",
+        "imageAlt": "Un hombre trabajando en un escritorio de pie junto a una ventana"
       },
       {
         "title": "Escribe en un Dispositivo, Lee en Cualquier Otro",
-        "desc": "Los documentos se sincronizan mientras escribes, encriptados todo el camino. Tus dispositivos llegan al mismo texto sin que nuestros servidores lo vean — guardan y reenvían cambios sellados, y no fusionan nada. Abre un navegador nuevo, escribe tu frase, y todo está ahí."
+        "desc": "Los documentos se sincronizan mientras escribes, encriptados todo el camino. Tus dispositivos llegan al mismo texto sin que nuestros servidores lo vean — guardan y reenvían cambios sellados, y no fusionan nada. Abre un navegador nuevo, escribe tu frase, y todo está ahí.",
+        "imageAlt": "Un hombre en su escritorio leyendo en el móvil junto a un portátil abierto"
       },
       {
         "title": "Lo Que Recibes en Lugar de un Restablecimiento",
-        "desc": "Consideramos dejar que personas de confianza guardaran piezas de tu clave y decidimos que no: cualquier puerta construida para ti es una puerta que existe. Así que damos el artefacto en su lugar — un kit imprimible al registrarte, y palabras claras sobre tu responsabilidad, antes de que sea tuya."
+        "desc": "Consideramos dejar que personas de confianza guardaran piezas de tu clave y decidimos que no: cualquier puerta construida para ti es una puerta que existe. Así que damos el artefacto en su lugar — un kit imprimible al registrarte, y palabras claras sobre tu responsabilidad, antes de que sea tuya.",
+        "imageAlt": "Una llave sola sobre una superficie oscura"
       },
       {
         "title": "Tu Frase de Recuperación Es la Cuenta",
         "badge": "Autenticación BIP39",
-        "desc": "Doce o veinticuatro palabras corrientes, generadas en tu navegador. Cada clave que Cryple usa se deriva de ellas igual en todos los dispositivos — sin correo, sin contraseña. Escribe la frase en un navegador nuevo y tu bóveda está ahí. También significa que nadie puede devolverte el acceso, nosotros incluidos: la frase es la cuenta, así que perderla es perderlo todo, y por eso te hacemos verificar tu copia antes de empezar."
+        "desc": "Doce o veinticuatro palabras corrientes, generadas en tu navegador. Cada clave que Cryple usa se deriva de ellas igual en todos los dispositivos — sin correo, sin contraseña. Escribe la frase en un navegador nuevo y tu bóveda está ahí. También significa que nadie puede devolverte el acceso, nosotros incluidos: la frase es la cuenta, así que perderla es perderlo todo, y por eso te hacemos verificar tu copia antes de empezar.",
+        "imageAlt": "Una placa de acero para respaldar la frase de recuperación sobre fichas de palabras"
       },
       {
         "title": "Modo Paranoid — un PIN de 6 dígitos como segundo factor",
-        "desc": "Los dos modos usan un PIN de 6 dígitos para bloquear la app y encriptar la copia de tu frase en ese dispositivo. En modo Estándar se queda local — lo olvidas y vuelves a entrar con tu frase, sin perder nada. En modo Paranoid el servidor también lo comprueba, así que una frase robada por sí sola no entra. Esa protección es real y su costo también: un PIN olvidado termina una cuenta Paranoid, y lo decimos en la pantalla donde lo activas."
+        "desc": "Los dos modos usan un PIN de 6 dígitos para bloquear la app y encriptar la copia de tu frase en ese dispositivo. En modo Estándar se queda local — lo olvidas y vuelves a entrar con tu frase, sin perder nada. En modo Paranoid el servidor también lo comprueba, así que una frase robada por sí sola no entra. Esa protección es real y su costo también: un PIN olvidado termina una cuenta Paranoid, y lo decimos en la pantalla donde lo activas.",
+        "imageAlt": "Un ojo que mira a través de un agujero en una pared oscura"
       },
       {
         "title": "Ya Fuera del Alcance Cuántico",
         "badge": "Post-Cuántico",
-        "desc": "Tu bóveda está sellada con AES-256 derivado de tu frase, y el cifrado simétrico es justamente lo que sobrevive a una computadora cuántica — el algoritmo de Grover reduce el exponente a la mitad y nada más. Lo que una computadora cuántica sí rompe es la criptografía de clave pública, y esa solo hace falta cuando dos personas que no comparten ningún secreto deben acordar una clave. Por eso el intercambio detrás del compartir privado combina un algoritmo clásico con uno post-cuántico, y el atacante tiene que romper los dos. Está implementado, especificado y verificado contra vectores de prueba fijos."
+        "desc": "Tu bóveda está sellada con AES-256 derivado de tu frase, y el cifrado simétrico es justamente lo que sobrevive a una computadora cuántica — el algoritmo de Grover reduce el exponente a la mitad y nada más. Lo que una computadora cuántica sí rompe es la criptografía de clave pública, y esa solo hace falta cuando dos personas que no comparten ningún secreto deben acordar una clave. Por eso el intercambio detrás del compartir privado combina un algoritmo clásico con uno post-cuántico, y el atacante tiene que romper los dos. Está implementado, especificado y verificado contra vectores de prueba fijos.",
+        "imageAlt": "Una mujer alegre con gafas de sol haciendo el signo de la paz"
       }
     ]
   },
@@ -82,31 +99,35 @@
       "desc": "Almacenamiento de archivos encriptados — imágenes y PDF. El lugar para los documentos que de verdad importan: contratos, historiales médicos, pasaportes, identificaciones. Sellados en tu dispositivo igual que todo lo demás. Después viene el compartir privado: enviar un elemento a una persona, siempre de extremo a extremo."
     },
     "launch": {
-      "date": "2027 En Cualquier Momento",
+      "date": "2027",
       "title": "Lanzamiento en Producción",
       "desc": "Aún sin fecha. La bóveda abierta para todos."
     },
-    "discount": "Únete a la lista de espera para recibir notificaciones sobre el lanzamiento oficial. Durante el primer mes de lanzamiento, las suscripciones premium tendrán un <bold>50% de descuento</bold>."
+    "discount": "Únete a la lista de espera para recibir notificaciones sobre el lanzamiento oficial. Durante el primer mes de lanzamiento, las suscripciones premium tendrán un <strong>50% de descuento</strong>."
   },
   "howItWorks": {
-    "title": "¿Cómo Funciona? (Cuatro Pasos y Listo)",
+    "title": "Cómo Funciona",
     "subtitle": "Lo configuras una vez, en un par de minutos, y a partir de ahí solo guarda cosas.",
     "steps": [
       {
         "title": "1. Genera Tu Seed Phrase",
-        "desc": "Abre Cryple y tu navegador genera doce o veinticuatro palabras, y luego deriva localmente todo tu árbol de claves. No se envía nada a ninguna parte. Anota la frase en papel y elige el modo Estándar o Paranoico."
+        "desc": "Abre Cryple y tu navegador genera doce o veinticuatro palabras, y luego deriva localmente todo tu árbol de claves. No se envía nada a ninguna parte. Anota la frase en papel y elige el modo Estándar o Paranoico.",
+        "imageAlt": "Ilustración de la generación de una frase de recuperación"
       },
       {
         "title": "2. Llena la Bóveda",
-        "desc": "Guarda las cosas pequeñas que desbloquean todo lo demás: seed phrases, datos de cuentas, credenciales. Escribe notas: las cartas e instrucciones que las explican. Escribe documentos extensos que se sincronizan entre tus dispositivos. Todo encriptado aquí, antes de salir."
+        "desc": "Guarda las cosas pequeñas que desbloquean todo lo demás: seed phrases, datos de cuentas, credenciales. Escribe notas: las cartas e instrucciones que las explican. Escribe documentos extensos que se sincronizan entre tus dispositivos. Todo encriptado aquí, antes de salir.",
+        "imageAlt": "Ilustración de una bóveda protegida"
       },
       {
         "title": "3. Ábrela en Cualquier Parte",
-        "desc": "Tu frase es la cuenta, así que un navegador nuevo no necesita nada más. Escríbela y tu bóveda está ahí, desencriptada localmente. Pon un PIN de 6 dígitos en cada dispositivo para volver con seis dígitos en lugar de doce palabras."
+        "desc": "Tu frase es la cuenta, así que un navegador nuevo no necesita nada más. Escríbela y tu bóveda está ahí, desencriptada localmente. Pon un PIN de 6 dígitos en cada dispositivo para volver con seis dígitos en lugar de doce palabras.",
+        "imageAlt": "Ilustración de abrir la bóveda desde cualquier dispositivo"
       },
       {
         "title": "4. Guarda la Frase en un Lugar Real",
-        "desc": "Imprime el kit que te damos al registrarte, o escribe las palabras en papel, y guárdalo donde guardarías un pasaporte. Esta es la única parte que no podemos hacer por ti, y la que más importa: nadie — nosotros incluidos — puede emitirte otra."
+        "desc": "Imprime el kit que te damos al registrarte, o escribe las palabras en papel, y guárdalo donde guardarías un pasaporte. Esta es la única parte que no podemos hacer por ti, y la que más importa: nadie — nosotros incluidos — puede emitirte otra.",
+        "imageAlt": "Ilustración de guardar la frase de recuperación en un lugar seguro"
       }
     ]
   },

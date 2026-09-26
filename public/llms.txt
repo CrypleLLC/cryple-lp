@@ -1,0 +1,66 @@
+# Cryple
+
+> Cryple is a zero-knowledge encrypted vault for passwords, seed phrases, notes, long-form documents and, soon, files. Everything is encrypted in the browser before it is sent, with keys derived from a BIP39 recovery phrase that only the user holds. The recovery phrase is the account: there is no email, no password, and no account recovery of any kind.
+
+Cryple is built by Cryple LLC (Sheridan, Wyoming, USA). The website is available in English, Spanish and Brazilian Portuguese.
+
+## What it stores
+
+- Secrets: seed phrases, account details, credentials
+- Notes
+- Long-form documents that sync across devices as you type, encrypted end to end; the server stores and forwards sealed changes and merges nothing
+- Passwords
+- Encrypted file storage (images and PDFs) and private sharing of one item with one person, planned for December 2026
+
+## How it works
+
+1. The browser generates a 12- or 24-word BIP39 recovery phrase and derives every key from it locally. Nothing is sent.
+2. Every item gets its own random key, generated on the device and wrapped under a key derived from the phrase.
+3. The server receives a sealed blob plus the little that routing needs: its size and when it changed. There is no master key, no recovery database and no support tool that can open a vault.
+4. Typing the phrase into a new browser restores the whole vault. A 6-digit PIN locks the app on each device.
+
+## Security model
+
+- Zero-knowledge by construction, not by policy: Cryple cannot read user data, including under legal compulsion, because it never holds a key that could decrypt it.
+- Losing the recovery phrase means losing the vault. Nobody, including Cryple, can restore access. Users verify their copy of the phrase at sign-up and receive a printable recovery kit.
+- Standard mode: the PIN stays on the device; forgetting it only means signing in again with the phrase.
+- Paranoid mode: the server also checks the PIN, so the phrase and the PIN together are required (two factors). Forgetting the PIN ends a Paranoid account.
+- Post-quantum: data at rest uses AES-256-GCM, which survives quantum attacks. Sharing between accounts uses PQXDH, a hybrid of X25519 and ML-KEM-768, so an attacker must break both a classical and a post-quantum algorithm.
+
+## Technical specifications
+
+- Symmetric encryption: AES-256-GCM
+- Classic key exchange: X25519 (ECDH)
+- Post-quantum KEM: ML-KEM-768 (FIPS 203), for sharing
+- Hybrid protocol: PQXDH (X25519 + ML-KEM-768), for sharing
+- Key derivation: BIP39 → SLIP-0010 P-256
+- Authentication: ECDSA P-256 signature over a fresh server challenge; no secret is transmitted
+- PIN stretching: PBKDF2-SHA256, 600,000 iterations, client-side
+- Server hashing: Argon2id (64 MiB, t=3, p=4)
+
+## Business model and pricing
+
+- No ads, no tracking, no cookies.
+- A free tier; paid plans add storage. Final prices are not published yet.
+- Waitlist members get 50% off premium subscriptions during the first month after launch.
+
+## Release status
+
+- September 2026: staging release, live now at https://test-app.cryple.io. It includes the vault, encrypted notes and synced documents, in Standard and Paranoid mode.
+- December 2026: the Drive (encrypted files) and private sharing.
+- 2027: production launch; no date yet.
+
+## Pages
+
+- [Home (English)](https://cryple.io/): product overview, features, security model and roadmap
+- [Home (Español)](https://cryple.io/es)
+- [Home (Português, Brasil)](https://cryple.io/pt-br)
+- [Try the app](https://test-app.cryple.io): staging release
+- [Security policy](https://cryple.io/security-policy): how to report a vulnerability
+- [Privacy policy](https://cryple.io/privacy): the landing page collects only the waitlist email address
+- [Terms of service](https://cryple.io/terms)
+
+## Contact
+
+- Email: contact@cryple.io
+- Mail: Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA

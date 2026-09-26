@@ -2,7 +2,7 @@
 
 import { usePathname, useRouter } from 'next/navigation';
 
-export default function LanguageSwitcher({ currentLang }: { currentLang: string }) {
+export default function LanguageSwitcher({ currentLang, label }: { currentLang: string; label: string }) {
   const router = useRouter();
   const pathname = usePathname();
 
@@ -34,6 +34,7 @@ export default function LanguageSwitcher({ currentLang }: { currentLang: string 
   return (
     <select 
       value={currentLang}
+      aria-label={label}
       onChange={handleLanguageChange}
       className="language-select"
     >

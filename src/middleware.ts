@@ -12,6 +12,7 @@ export function middleware(request: NextRequest) {
     pathname.startsWith('/_next') ||
     pathname.includes('/api/') ||
     pathname.startsWith('/icons') ||
+    pathname.endsWith('/opengraph-image') ||
     pathname.match(/\.(png|jpg|jpeg|svg|webp|ico)$/)
   ) {
     return;
@@ -20,7 +21,7 @@ export function middleware(request: NextRequest) {
   // Prevent users from manually typing the default locale /en in the URL. Redirect them to the root.
   if (pathname === '/en' || pathname.startsWith('/en/')) {
     const newPath = pathname.replace(/^\/en/, '') || '/';
-    return NextResponse.redirect(new URL(newPath, request.url));
+    return NextResponse.redirect(new URL(newPath, request.url), 308);
   }
 
   // Check if there is a supported non-default locale in the pathname (like /pt-br or /es)

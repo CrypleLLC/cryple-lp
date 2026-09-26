@@ -1,5 +1,7 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getDictionary } from '@/lib/dictionaries';
+import { pageMetadata } from '@/lib/site';
 
 type Section = {
   title: string;
@@ -9,6 +11,12 @@ type Section = {
   extra?: string;
   extra2?: string;
 };
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
+  return pageMetadata(lang, '/privacy', dict.privacy.title, dict.meta.privacyDescription);
+}
 
 export default async function PrivacyPolicy({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;

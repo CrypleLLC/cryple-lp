@@ -1,11 +1,20 @@
 {
+  "meta": {
+    "title": "Cryple — Cofre Criptografado de Conhecimento Zero para Senhas, Seed Phrases e Arquivos",
+    "description": "Um cofre de conhecimento zero para senhas, seed phrases, notas, documentos e arquivos. Criptografado no seu navegador com chaves de uma frase que só você tem.",
+    "ogImageTagline": "Cofre criptografado de conhecimento zero para senhas, seed phrases, notas e arquivos.",
+    "privacyDescription": "Como a Cryple trata os seus dados: o que a página coleta, por quê e por quanto tempo é mantido.",
+    "termsDescription": "Os termos que se aplicam ao usar o site da Cryple e entrar na lista de espera.",
+    "securityPolicyDescription": "Como reportar uma vulnerabilidade de segurança na Cryple e como tratamos as divulgações."
+  },
   "nav": {
     "features": "Recursos",
     "howItWorks": "Como Funciona",
     "security": "Segurança",
     "contact": "Contato",
     "getEarlyAccess": "Acesso Antecipado",
-    "tryTestApp": "Testar o App"
+    "tryTestApp": "Testar o App",
+    "language": "Idioma"
   },
   "hero": {
     "title": "Armazene dados online que só você pode ler.",
@@ -33,37 +42,45 @@
       {
         "title": "Conhecimento Zero por Construção, Não por Política",
         "badge": "Conhecimento Zero",
-        "desc": "Cada item ganha a própria chave aleatória, gerada no seu dispositivo e envelopada por uma chave derivada da sua frase de recuperação. O que chega aos nossos servidores é um blob selado e o pouco que o roteamento precisa — o tamanho dele e quando mudou. Não existe chave mestra, nem banco de recuperação, nem ferramenta de suporte que abra o seu cofre. Não porque prometemos não olhar, mas porque do nosso lado não há nada com que olhar."
+        "desc": "Cada item ganha a própria chave aleatória, gerada no seu dispositivo e envelopada por uma chave derivada da sua frase de recuperação. O que chega aos nossos servidores é um blob selado e o pouco que o roteamento precisa — o tamanho dele e quando mudou. Não existe chave mestra, nem banco de recuperação, nem ferramenta de suporte que abra o seu cofre. Não porque prometemos não olhar, mas porque do nosso lado não há nada com que olhar.",
+        "imageAlt": "Um cadeado luminoso sobre um campo de dados digitais"
       },
       {
         "title": "Você Não É o Produto",
-        "desc": "Sem anúncios, sem rastreamento, sem cookies. Nosso plano gratuito é gratuito de verdade, e você paga quando quiser mais espaço. Zero-knowledge é a arquitetura, não o marketing: as fechaduras e as chaves são feitas no seu dispositivo, e não podemos ver suas senhas, ler suas notas ou abrir seus arquivos em nenhuma circunstância."
+        "desc": "Sem anúncios, sem rastreamento, sem cookies. Nosso plano gratuito é gratuito de verdade, e você paga quando quiser mais espaço. Zero-knowledge é a arquitetura, não o marketing: as fechaduras e as chaves são feitas no seu dispositivo, e não podemos ver suas senhas, ler suas notas ou abrir seus arquivos em nenhuma circunstância.",
+        "imageAlt": "Uma mulher confiante de óculos escuros numa rua da cidade"
       },
       {
         "title": "Tudo o Que Você Realmente Precisa Guardar",
-        "desc": "Segredos pequenos que destrancam todo o resto — seed phrases, dados de contas, credenciais. Notas para o que precisa de explicação. Documentos longos que sincronizam entre seus dispositivos enquanto você escreve. Arquivos criptografados vêm a seguir. Um cofre, uma frase, e todo tipo de coisa que hoje você espalha entre um app de notas, um drive e uma gaveta."
+        "desc": "Segredos pequenos que destrancam todo o resto — seed phrases, dados de contas, credenciais. Notas para o que precisa de explicação. Documentos longos que sincronizam entre seus dispositivos enquanto você escreve. Arquivos criptografados vêm a seguir. Um cofre, uma frase, e todo tipo de coisa que hoje você espalha entre um app de notas, um drive e uma gaveta.",
+        "imageAlt": "Um homem trabalhando numa mesa em pé ao lado de uma janela"
       },
       {
         "title": "Escreva num Dispositivo, Leia em Qualquer Outro",
-        "desc": "Documentos sincronizam enquanto você digita, criptografados o caminho inteiro. Seus dispositivos chegam ao mesmo texto sem que nossos servidores o vejam — eles guardam e repassam mudanças seladas, e não mesclam nada. Abra um navegador novo, digite sua frase, e está tudo lá."
+        "desc": "Documentos sincronizam enquanto você digita, criptografados o caminho inteiro. Seus dispositivos chegam ao mesmo texto sem que nossos servidores o vejam — eles guardam e repassam mudanças seladas, e não mesclam nada. Abra um navegador novo, digite sua frase, e está tudo lá.",
+        "imageAlt": "Um homem à mesa lendo no celular ao lado de um notebook aberto"
       },
       {
         "title": "O Que Você Recebe no Lugar de um Reset",
-        "desc": "Consideramos deixar pessoas de confiança guardarem pedaços da sua chave e decidimos não fazer: qualquer porta construída para você é uma porta que existe. Então damos o artefato no lugar — um kit imprimível no cadastro, e palavras claras sobre a sua responsabilidade, antes de ela ser sua."
+        "desc": "Consideramos deixar pessoas de confiança guardarem pedaços da sua chave e decidimos não fazer: qualquer porta construída para você é uma porta que existe. Então damos o artefato no lugar — um kit imprimível no cadastro, e palavras claras sobre a sua responsabilidade, antes de ela ser sua.",
+        "imageAlt": "Uma única chave sobre uma superfície escura"
       },
       {
         "title": "A Sua Frase de Recuperação É a Conta",
         "badge": "Autenticação BIP39",
-        "desc": "Doze ou vinte e quatro palavras comuns, geradas no seu navegador. Toda chave que a Cryple usa é derivada delas da mesma forma em todos os dispositivos — sem e-mail, sem senha. Digite a frase num navegador novo e o cofre está lá. Isso também significa que ninguém consegue devolver o seu acesso, nós inclusive: a frase é a conta, então perdê-la é perder tudo, e é por isso que exigimos que você confira a sua cópia antes de começar."
+        "desc": "Doze ou vinte e quatro palavras comuns, geradas no seu navegador. Toda chave que a Cryple usa é derivada delas da mesma forma em todos os dispositivos — sem e-mail, sem senha. Digite a frase num navegador novo e o cofre está lá. Isso também significa que ninguém consegue devolver o seu acesso, nós inclusive: a frase é a conta, então perdê-la é perder tudo, e é por isso que exigimos que você confira a sua cópia antes de começar.",
+        "imageAlt": "Uma placa de aço para backup da frase de recuperação sobre peças com palavras"
       },
       {
         "title": "Modo Paranoid — um PIN de 6 dígitos como segundo fator",
-        "desc": "Os dois modos usam um PIN de 6 dígitos para trancar o app e criptografar a cópia da sua frase naquele dispositivo. No modo Padrão ele fica local — esqueceu, entra de novo com a frase e não perde nada. No modo Paranoid o servidor também confere, então uma frase roubada sozinha não entra. Essa proteção é real e o custo dela também: um PIN esquecido encerra uma conta Paranoid, e dizemos isso na tela em que você o liga."
+        "desc": "Os dois modos usam um PIN de 6 dígitos para trancar o app e criptografar a cópia da sua frase naquele dispositivo. No modo Padrão ele fica local — esqueceu, entra de novo com a frase e não perde nada. No modo Paranoid o servidor também confere, então uma frase roubada sozinha não entra. Essa proteção é real e o custo dela também: um PIN esquecido encerra uma conta Paranoid, e dizemos isso na tela em que você o liga.",
+        "imageAlt": "Um olho espiando por um buraco numa parede escura"
       },
       {
         "title": "Já Fora do Alcance Quântico",
         "badge": "Pós-Quântico",
-        "desc": "Seu cofre é selado com AES-256 derivado da sua frase, e a criptografia simétrica é justamente o que sobrevive a um computador quântico — o algoritmo de Grover corta o expoente pela metade e nada além disso. O que um computador quântico realmente quebra é a criptografia de chave pública, e ela só é necessária quando duas pessoas que não compartilham segredo algum precisam concordar numa chave. Por isso a troca por trás do compartilhamento privado combina um algoritmo clássico com um pós-quântico, e o atacante tem que quebrar os dois. Está implementado, especificado e verificado contra vetores de teste fixos."
+        "desc": "Seu cofre é selado com AES-256 derivado da sua frase, e a criptografia simétrica é justamente o que sobrevive a um computador quântico — o algoritmo de Grover corta o expoente pela metade e nada além disso. O que um computador quântico realmente quebra é a criptografia de chave pública, e ela só é necessária quando duas pessoas que não compartilham segredo algum precisam concordar numa chave. Por isso a troca por trás do compartilhamento privado combina um algoritmo clássico com um pós-quântico, e o atacante tem que quebrar os dois. Está implementado, especificado e verificado contra vetores de teste fixos.",
+        "imageAlt": "Uma mulher alegre de óculos escuros fazendo o sinal de paz"
       }
     ]
   },
@@ -82,31 +99,35 @@
       "desc": "Armazenamento de arquivos criptografados — imagens e PDFs. O lugar para os documentos que realmente importam: contratos, exames médicos, passaportes, documentos. Selados no seu dispositivo exatamente como todo o resto. Depois vem o compartilhamento privado: enviar um item para uma pessoa, ainda ponta a ponta."
     },
     "launch": {
-      "date": "2027 A Qualquer Momento",
+      "date": "2027",
       "title": "Lançamento em Produção",
       "desc": "Ainda sem data. O cofre aberto para todos."
     },
-    "discount": "Junte-se à lista de espera para ser notificado sobre o lançamento oficial. Durante o primeiro mês de lançamento, as assinaturas premium terão <bold>50% de desconto</bold>."
+    "discount": "Junte-se à lista de espera para ser notificado sobre o lançamento oficial. Durante o primeiro mês de lançamento, as assinaturas premium terão <strong>50% de desconto</strong>."
   },
   "howItWorks": {
-    "title": "Como Funciona? (Quatro Passos e Pronto)",
+    "title": "Como Funciona",
     "subtitle": "Você configura uma vez, em alguns minutos, e depois disso ele só guarda as coisas.",
     "steps": [
       {
         "title": "1. Gere Sua Seed Phrase",
-        "desc": "Abra a Cryple e o seu navegador gera doze ou vinte e quatro palavras, e então deriva toda a sua árvore de chaves localmente. Nada é enviado a lugar nenhum. Anote a frase no papel e escolha o modo Padrão ou Paranoico."
+        "desc": "Abra a Cryple e o seu navegador gera doze ou vinte e quatro palavras, e então deriva toda a sua árvore de chaves localmente. Nada é enviado a lugar nenhum. Anote a frase no papel e escolha o modo Padrão ou Paranoico.",
+        "imageAlt": "Ilustração da geração de uma frase de recuperação"
       },
       {
         "title": "2. Preencha o Cofre",
-        "desc": "Guarde as coisas pequenas que destravam todo o resto: seed phrases, dados de contas, credenciais. Escreva notas: as cartas e instruções que explicam tudo isso. Escreva documentos longos que sincronizam entre os seus dispositivos. Tudo criptografado aqui, antes de sair."
+        "desc": "Guarde as coisas pequenas que destravam todo o resto: seed phrases, dados de contas, credenciais. Escreva notas: as cartas e instruções que explicam tudo isso. Escreva documentos longos que sincronizam entre os seus dispositivos. Tudo criptografado aqui, antes de sair.",
+        "imageAlt": "Ilustração de um cofre protegido"
       },
       {
         "title": "3. Abra em Qualquer Lugar",
-        "desc": "A sua frase é a conta, então um navegador novo não precisa de mais nada. Digite e o cofre está lá, decriptado localmente. Defina um PIN de 6 dígitos em cada dispositivo para voltar com seis dígitos em vez de doze palavras."
+        "desc": "A sua frase é a conta, então um navegador novo não precisa de mais nada. Digite e o cofre está lá, decriptado localmente. Defina um PIN de 6 dígitos em cada dispositivo para voltar com seis dígitos em vez de doze palavras.",
+        "imageAlt": "Ilustração de abrir o cofre em qualquer dispositivo"
       },
       {
         "title": "4. Guarde a Frase num Lugar de Verdade",
-        "desc": "Imprima o kit que entregamos no cadastro, ou escreva as palavras no papel, e guarde onde você guardaria um passaporte. Esta é a única parte que não podemos fazer por você, e a que mais importa: ninguém — nós inclusive — consegue emitir outra."
+        "desc": "Imprima o kit que entregamos no cadastro, ou escreva as palavras no papel, e guarde onde você guardaria um passaporte. Esta é a única parte que não podemos fazer por você, e a que mais importa: ninguém — nós inclusive — consegue emitir outra.",
+        "imageAlt": "Ilustração de guardar a frase de recuperação em local seguro"
       }
     ]
   },

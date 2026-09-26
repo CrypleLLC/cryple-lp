@@ -6,16 +6,10 @@ import EarlyAccessButton from "@/components/EarlyAccessButton";
 import GetAppButton from "@/components/GetAppButton";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { getDictionary } from "@/lib/dictionaries";
-import { CONTACT_EMAIL, SITE_NAME, SITE_URL, TEST_APP_URL, languageTag, localizedPath, localizedUrl, locales, pageMetadata } from "@/lib/site";
+import { CONTACT_EMAIL, SITE_NAME, SITE_URL, TEST_APP_URL, languageTag, localizedPath, localizedUrl, pageMetadata } from "@/lib/site";
 
 const showRoadmapTimeline: boolean = true;
 const showEmailSubscription: boolean = true;
-
-const languageNames: Record<string, string> = {
-  'en': 'English',
-  'es': 'Español',
-  'pt-br': 'Português (Brasil)',
-};
 
 const vaultIcons = [
   '/icons/secrets.svg',
@@ -464,19 +458,6 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             <p className="footer-section-title">{dict.footer.contact}</p>
             <ul>
               <li><a href="mailto:contact@cryple.io">{dict.footer.emailUs}</a></li>
-            </ul>
-          </div>
-
-          <div className="footer-section">
-            <p className="footer-section-title">{dict.nav.language}</p>
-            <ul>
-              {locales.map((locale) => (
-                <li key={locale}>
-                  <Link href={localizedPath(locale)} hrefLang={languageTag(locale)} aria-current={locale === lang ? 'page' : undefined}>
-                    {languageNames[locale]}
-                  </Link>
-                </li>
-              ))}
             </ul>
           </div>
 

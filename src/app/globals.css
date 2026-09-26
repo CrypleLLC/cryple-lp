@@ -1109,6 +1109,24 @@ footer {
     padding: 0.6rem 1rem;
     font-size: 0.9rem;
   }
+
+  .footer-content {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .footer-section.brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer-section li {
+    line-height: 1.35;
+  }
+
+  .footer-section li + li {
+    margin-top: 0.6rem;
+  }
 }
 
 /* Animations */

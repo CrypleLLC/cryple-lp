@@ -17,7 +17,6 @@ const vaultIcons = [
   '/icons/drive.svg',
   '/icons/safe-sharing.svg',
   '/icons/password-manager.svg',
-  '/icons/bitcoin-wallet.svg',
 ];
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
@@ -84,7 +83,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {(() => {
               const items = dict.hero.vaultItems as string[];
               const nodes = items.map((item: string, i: number) => ({ item, icon: vaultIcons[i] }));
-              const rows = [nodes.slice(0, 4), nodes.slice(4)];
+              const rows = [nodes.slice(0, 3), nodes.slice(3)];
               return (
                 <div className="vault-chain">
                   {rows.map((row, ri: number) => (

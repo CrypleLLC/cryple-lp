@@ -18,8 +18,7 @@
       "Documentos",
       "Drive",
       "Compartir seguro",
-      "Contraseñas",
-      "Cartera Bitcoin"
+      "Contraseñas"
     ],
     "demoTitle": "Lo Que Nuestros Servidores Reciben Realmente",
     "demoSubtitle": "El cifrado ocurre en tu navegador. Lo que llega aquí es un blob sellado y lo poco que exige el enrutamiento — y no hay clave de nuestro lado para abrirlo.",
@@ -29,7 +28,7 @@
   },
   "features": {
     "title": "¿Por qué Cryple es Diferente?",
-    "subtitle": "Toda bóveda dice ser de conocimiento cero. Una frase de recuperación es como funciona una wallet. Lo post-cuántico es una línea en la ficha técnica de alguien. Cryple reúne las tres a la vez, y es la combinación — no una de ellas — lo que nadie más está entregando.",
+    "subtitle": "Toda bóveda dice ser de conocimiento cero. Lo post-cuántico es una línea en la ficha técnica de alguien. Cryple reúne las tres a la vez, y es la combinación — no una de ellas — lo que nadie más está entregando.",
     "items": [
       {
         "title": "Conocimiento Cero por Construcción, No por Política",
@@ -55,7 +54,7 @@
       {
         "title": "Tu Frase de Recuperación Es la Cuenta",
         "badge": "Autenticación BIP39",
-        "desc": "Doce o veinticuatro palabras corrientes, generadas en tu navegador. Cada clave que Cryple usa se deriva de ellas igual en todos los dispositivos — sin correo, sin contraseña, sin extensión de wallet, sin tarifas de gas. Escribe la frase en un navegador nuevo y tu bóveda está ahí. También significa que nadie puede devolverte el acceso, nosotros incluidos: la frase es la cuenta, así que perderla es perderlo todo, y por eso te hacemos verificar tu copia antes de empezar."
+        "desc": "Doce o veinticuatro palabras corrientes, generadas en tu navegador. Cada clave que Cryple usa se deriva de ellas igual en todos los dispositivos — sin correo, sin contraseña. Escribe la frase en un navegador nuevo y tu bóveda está ahí. También significa que nadie puede devolverte el acceso, nosotros incluidos: la frase es la cuenta, así que perderla es perderlo todo, y por eso te hacemos verificar tu copia antes de empezar."
       },
       {
         "title": "Modo Paranoid — un PIN de 6 dígitos como segundo factor",

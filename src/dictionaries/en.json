@@ -18,8 +18,7 @@
       "Documents",
       "Drive",
       "Safe sharing",
-      "Passwords",
-      "Bitcoin wallet"
+      "Passwords"
     ],
     "demoTitle": "What Our Servers Actually Receive",
     "demoSubtitle": "Encryption happens in your browser. What arrives here is a sealed blob and the little that routing it requires — and there is no key on our side to open it with.",
@@ -29,7 +28,7 @@
   },
   "features": {
     "title": "Why is Cryple Different?",
-    "subtitle": "Every vault claims zero-knowledge. A recovery phrase is how a crypto wallet works. Post-quantum is a line on someone's spec sheet. Cryple is all three at once, and it is the combination — not any one of them — that nobody else is shipping.",
+    "subtitle": "Every vault claims zero-knowledge. Post-quantum is a line on someone's spec sheet. Cryple is all three at once, and it is the combination — not any one of them — that nobody else is shipping.",
     "items": [
       {
         "title": "Zero-Knowledge by Construction, Not by Policy",
@@ -55,7 +54,7 @@
       {
         "title": "Your Recovery Phrase Is the Account",
         "badge": "BIP39 Authentication",
-        "desc": "Twelve or twenty-four ordinary words, generated in your browser. Every key Cryple uses is derived from them the same way on every device — no email, no password, no wallet extension, no gas fees. Type the phrase into a new browser and your vault is simply there. It also means nobody can let you back in, including us: the phrase is the account, so losing it loses everything, which is why we make you verify your copy before you begin."
+        "desc": "Twelve or twenty-four ordinary words, generated in your browser. Every key Cryple uses is derived from them the same way on every device — no email, no password. Type the phrase into a new browser and your vault is simply there. It also means nobody can let you back in, including us: the phrase is the account, so losing it loses everything, which is why we make you verify your copy before you begin."
       },
       {
         "title": "Paranoid Mode — a 6-Digit PIN as a Second Factor",

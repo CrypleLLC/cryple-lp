@@ -18,8 +18,7 @@
       "Documentos",
       "Drive",
       "Compartilhamento seguro",
-      "Senhas",
-      "Carteira Bitcoin"
+      "Senhas"
     ],
     "demoTitle": "O Que Os Nossos Servidores Recebem de Verdade",
     "demoSubtitle": "A criptografia acontece no seu navegador. O que chega aqui é um blob selado e o pouco que o roteamento exige — e não existe chave do nosso lado para abrir.",
@@ -29,7 +28,7 @@
   },
   "features": {
     "title": "Por que a Cryple é Diferente?",
-    "subtitle": "Todo cofre diz ser de conhecimento zero. Uma frase de recuperação é como uma carteira cripto funciona. Pós-quântico é uma linha na ficha técnica de alguém. A Cryple reúne as três ao mesmo tempo, e é a combinação — não uma delas — que ninguém mais está entregando.",
+    "subtitle": "Todo cofre diz ser de conhecimento zero. Pós-quântico é uma linha na ficha técnica de alguém. A Cryple reúne as três ao mesmo tempo, e é a combinação — não uma delas — que ninguém mais está entregando.",
     "items": [
       {
         "title": "Conhecimento Zero por Construção, Não por Política",
@@ -55,7 +54,7 @@
       {
         "title": "A Sua Frase de Recuperação É a Conta",
         "badge": "Autenticação BIP39",
-        "desc": "Doze ou vinte e quatro palavras comuns, geradas no seu navegador. Toda chave que a Cryple usa é derivada delas da mesma forma em todos os dispositivos — sem e-mail, sem senha, sem extensão de carteira, sem taxa de gás. Digite a frase num navegador novo e o cofre está lá. Isso também significa que ninguém consegue devolver o seu acesso, nós inclusive: a frase é a conta, então perdê-la é perder tudo, e é por isso que exigimos que você confira a sua cópia antes de começar."
+        "desc": "Doze ou vinte e quatro palavras comuns, geradas no seu navegador. Toda chave que a Cryple usa é derivada delas da mesma forma em todos os dispositivos — sem e-mail, sem senha. Digite a frase num navegador novo e o cofre está lá. Isso também significa que ninguém consegue devolver o seu acesso, nós inclusive: a frase é a conta, então perdê-la é perder tudo, e é por isso que exigimos que você confira a sua cópia antes de começar."
       },
       {
         "title": "Modo Paranoid — um PIN de 6 dígitos como segundo fator",

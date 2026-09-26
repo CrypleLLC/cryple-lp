@@ -2,7 +2,7 @@
 
 The marketing site for the Cryple app. Next.js 16 App Router, no CSS framework — all styling lives in `src/app/globals.css` as plain CSS with hardcoded hex values.
 
-Product overview: [application-overview.md](../api-general/.docs/application-overview.md)
+Product overview: [application-overview.md](../api-general/docs/application-overview.md)
 
 ## Localisation
 
@@ -18,28 +18,27 @@ Spanish and Portuguese run roughly 20-30% longer than English. The header is the
 
 ### Feature icons
 
-Seven marks in `public/icons/`, drawn for the vault showcase in the hero:
+Six marks in `public/icons/`, drawn for the vault showcase in the hero:
 
-| File | Feature |
-| --- | --- |
-| `secrets.svg` | Secrets — a key |
-| `notes.svg` | Notes — one page, folded corner |
-| `documents.svg` | Documents — two stacked pages |
-| `drive.svg` | Drive — a cloud |
-| `safe-sharing.svg` | Safe sharing — a padlock bridging two nodes |
+| File                   | Feature                                          |
+| ---------------------- | ------------------------------------------------ |
+| `secrets.svg`          | Secrets — a key                                  |
+| `notes.svg`            | Notes — one page, folded corner                  |
+| `documents.svg`        | Documents — two stacked pages                    |
+| `drive.svg`            | Drive — a cloud                                  |
+| `safe-sharing.svg`     | Safe sharing — a padlock bridging two nodes      |
 | `password-manager.svg` | Password manager — a card holding a key and dots |
-| `bitcoin-wallet.svg` | Bitcoin wallet — a wallet with a ₿ mark |
 
 Rules for anything added to this set:
 
 - 64×64 `viewBox`, stroke width 2.5, `stroke-linecap`/`stroke-linejoin` round
 - `#4f46e5` for structure, `#e0e7ff` for fill mass, `#8b5cf6` for exactly one detail, `#ffffff` for negative space
 - Colours are baked in. They read on white, on `#f9fafb` and on the `#e0e7ff` card, but **not** on the dark gradient — the indigo fill goes muddy. A dark variant needs a second file: fill `rgba(255,255,255,.14)`, strokes `#c7d2fe` and `#a5b4fc`. CSS cannot reach inside an `<img>`.
-- Four of the seven describe stored things, so each takes a distinct silhouette rather than a variation on a page. An eighth icon has to respect that.
+- Four of the six describe stored things, so each takes a distinct silhouette rather than a variation on a page. A seventh icon has to respect that.
 
 ### Filled variant
 
-`public/icons/filled/` holds the same seven marks with the outlines dropped and the bodies filled with a violet gradient at 135°, detail knocked out in white.
+`public/icons/filled/` holds the same six marks with the outlines dropped and the bodies filled with a violet gradient at 135°, detail knocked out in white.
 
 The ramp is `#4338ca → #a78bfa` (Indigo 700 → Violet 400), **not** the site's Action gradient. The Action gradient (`#6366f1 → #8b5cf6`) has no lightness step — 67% to 66% — so at icon size it reads as flat colour. A gradient is legible through change in value, not hue; this ramp steps 51% to 76% and reads at 52px.
 
@@ -47,7 +46,7 @@ Unlike the outline set it carries its own contrast, so one file works on white, 
 
 The gradient is mapped to the artwork's bounds (`x1=8 y1=8 x2=56 y2=56`, `userSpaceOnUse`), not to the full 64×64 canvas. Mapped to the canvas, a shape that does not reach the corners samples only the middle of the ramp and looks flat.
 
-Gradient ids are namespaced per icon (`g-secrets`, `g-drive`, …). SVG gradient ids are global once inlined into a page, so identical ids across files would make every icon adopt the first one's gradient — keep the prefix if you add an eighth.
+Gradient ids are namespaced per icon (`g-secrets`, `g-drive`, …). SVG gradient ids are global once inlined into a page, so identical ids across files would make every icon adopt the first one's gradient — keep the prefix if you add a seventh.
 
 Caveat: the gradient's darker stop is 3.3:1 against `#1f2937`, fine for a decorative icon beside a label but not as the sole content of a control on a dark surface.
 

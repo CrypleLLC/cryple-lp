@@ -6,6 +6,6 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 # Project Purpose
 
-This is the landing page of the Cryple App, you can get an overview of the app in the [application-overview.md](../api-general/.docs/application-overview.md) file.
+This is the landing page of the Cryple App, you can get an overview of the app in the [application-overview.md](../api-general/docs/application-overview.md) file.
 
 <!-- END:nextjs-agent-rules -->

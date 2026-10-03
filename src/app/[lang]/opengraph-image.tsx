@@ -4,7 +4,7 @@ import { ImageResponse } from 'next/og';
 import { getDictionary } from '@/lib/dictionaries';
 import { SITE_NAME, locales } from '@/lib/site';
 
-export const alt = 'Cryple — zero-knowledge encrypted vault';
+export const alt = 'Zekke — zero-knowledge encrypted vault';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -40,7 +40,7 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ lan
           <span style={{ fontSize: 68, fontWeight: 800, lineHeight: 1.1 }}>{dict.hero.title}</span>
           <span style={{ fontSize: 34, color: '#c7d2fe', lineHeight: 1.3 }}>{dict.meta.ogImageTagline}</span>
         </div>
-        <span style={{ fontSize: 28, color: '#a5b4fc' }}>cryple.io</span>
+        <span style={{ fontSize: 28, color: '#a5b4fc' }}>Zekke.io</span>
       </div>
     ),
     size,

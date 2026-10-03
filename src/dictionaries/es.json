@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "Cryple — Bóveda Cifrada de Conocimiento Cero para Contraseñas, Frases Semilla y Archivos",
+    "title": "Zekke — Bóveda Cifrada de Conocimiento Cero para Contraseñas, Frases Semilla y Archivos",
     "description": "Una bóveda de conocimiento cero para contraseñas, frases semilla, notas, documentos y archivos. Cifrada en tu navegador con claves de una frase que solo tú tienes.",
     "ogImageTagline": "Bóveda cifrada de conocimiento cero para contraseñas, frases semilla, notas y archivos.",
-    "privacyDescription": "Cómo Cryple trata tus datos: qué recoge la página, por qué y durante cuánto tiempo se conservan.",
-    "termsDescription": "Los términos que se aplican al usar el sitio web de Cryple y unirte a la lista de espera.",
-    "securityPolicyDescription": "Cómo reportar una vulnerabilidad de seguridad en Cryple y cómo gestionamos las divulgaciones."
+    "privacyDescription": "Cómo Zekke trata tus datos: qué recoge la página, por qué y durante cuánto tiempo se conservan.",
+    "termsDescription": "Los términos que se aplican al usar el sitio web de Zekke y unirte a la lista de espera.",
+    "securityPolicyDescription": "Cómo reportar una vulnerabilidad de seguridad en Zekke y cómo gestionamos las divulgaciones."
   },
   "nav": {
     "features": "Funciones",
@@ -18,7 +18,7 @@
   },
   "hero": {
     "title": "Almacene datos en línea que solo tú puedes leer.",
-    "subtitle": "Cryple es una bóveda zero-knowledge para lo que no puedes permitirte perder: contraseñas, frases semilla, notas, documentos y archivos. Todo se encripta en tu navegador antes de salir, y las claves se derivan de una frase de recuperación que solo tú tienes.",
+    "subtitle": "Zekke es una bóveda zero-knowledge para lo que no puedes permitirte perder: contraseñas, frases semilla, notas, documentos y archivos. Todo se encripta en tu navegador antes de salir, y las claves se derivan de una frase de recuperación que solo tú tienes.",
     "learnMore": "Saber Más",
     "vaultLabel": "Todo en una sola bóveda",
     "vaultItems": [
@@ -36,8 +36,8 @@
     "demoStage3": "Legible por nosotros: nada. Ni con una orden judicial, ni por error"
   },
   "features": {
-    "title": "¿Por qué Cryple es Diferente?",
-    "subtitle": "Toda bóveda dice ser de conocimiento cero. Lo post-cuántico es una línea en la ficha técnica de alguien. Cryple reúne las tres a la vez, y es la combinación — no una de ellas — lo que nadie más está entregando.",
+    "title": "¿Por qué Zekke es Diferente?",
+    "subtitle": "Toda bóveda dice ser de conocimiento cero. Lo post-cuántico es una línea en la ficha técnica de alguien. Zekke reúne las tres a la vez, y es la combinación — no una de ellas — lo que nadie más está entregando.",
     "items": [
       {
         "title": "Conocimiento Cero por Construcción, No por Política",
@@ -68,7 +68,7 @@
       {
         "title": "Tu Frase de Recuperación Es la Cuenta",
         "badge": "Autenticación BIP39",
-        "desc": "Doce o veinticuatro palabras corrientes, generadas en tu navegador. Cada clave que Cryple usa se deriva de ellas igual en todos los dispositivos — sin correo, sin contraseña. Escribe la frase en un navegador nuevo y tu bóveda está ahí. También significa que nadie puede devolverte el acceso, nosotros incluidos: la frase es la cuenta, así que perderla es perderlo todo, y por eso te hacemos verificar tu copia antes de empezar.",
+        "desc": "Doce o veinticuatro palabras corrientes, generadas en tu navegador. Cada clave que Zekke usa se deriva de ellas igual en todos los dispositivos — sin correo, sin contraseña. Escribe la frase en un navegador nuevo y tu bóveda está ahí. También significa que nadie puede devolverte el acceso, nosotros incluidos: la frase es la cuenta, así que perderla es perderlo todo, y por eso te hacemos verificar tu copia antes de empezar.",
         "imageAlt": "Una placa de acero para respaldar la frase de recuperación sobre fichas de palabras"
       },
       {
@@ -111,7 +111,7 @@
     "steps": [
       {
         "title": "1. Genera Tu Seed Phrase",
-        "desc": "Abre Cryple y tu navegador genera doce o veinticuatro palabras, y luego deriva localmente todo tu árbol de claves. No se envía nada a ninguna parte. Anota la frase en papel y elige el modo Estándar o Paranoico.",
+        "desc": "Abre Zekke y tu navegador genera doce o veinticuatro palabras, y luego deriva localmente todo tu árbol de claves. No se envía nada a ninguna parte. Anota la frase en papel y elige el modo Estándar o Paranoico.",
         "imageAlt": "Ilustración de la generación de una frase de recuperación"
       },
       {
@@ -193,7 +193,7 @@
     "privacyPolicy": "Política de Privacidad",
     "termsOfService": "Términos de Servicio",
     "securityPolicy": "Política de Seguridad",
-    "copyright": "© 2026 Cryple™. Todos los derechos reservados. Creado para la privacidad. Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU."
+    "copyright": "© 2026 Zekke™. Todos los derechos reservados. Creado para la privacidad. Zekke LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU."
   },
   "form": {
     "agreeTo": "Acepto los ",
@@ -209,7 +209,7 @@
     "sections": [
       {
         "title": "1. Aceptación de los Términos",
-        "content": "Al acceder o utilizar el sitio web de Cryple, aceptas estar sujeto a estos Términos de Servicio. Si no estás de acuerdo con alguna parte de estos términos, no podrás acceder al servicio.",
+        "content": "Al acceder o utilizar el sitio web de Zekke, aceptas estar sujeto a estos Términos de Servicio. Si no estás de acuerdo con alguna parte de estos términos, no podrás acceder al servicio.",
         "items": []
       },
       {
@@ -223,17 +223,17 @@
       },
       {
         "title": "3. Disponibilidad del Servicio y Cambios",
-        "content": "Cryple es un servicio actualmente en desarrollo activo. Podemos cambiar, suspender o discontinuar la lista de espera o aspectos de nuestro sitio web en cualquier momento sin previo aviso. No seremos responsables si, por alguna razón, todo o parte del sitio web no está disponible en algún momento.",
+        "content": "Zekke es un servicio actualmente en desarrollo activo. Podemos cambiar, suspender o discontinuar la lista de espera o aspectos de nuestro sitio web en cualquier momento sin previo aviso. No seremos responsables si, por alguna razón, todo o parte del sitio web no está disponible en algún momento.",
         "items": []
       },
       {
         "title": "4. Propiedad Intelectual",
-        "content": "El sitio y su contenido original (excluyendo envíos estándar de usuarios), características y funcionalidad son y seguirán siendo propiedad exclusiva de Cryple y sus licenciantes. El sitio está protegido por derechos de autor, marcas comerciales y otras leyes.",
+        "content": "El sitio y su contenido original (excluyendo envíos estándar de usuarios), características y funcionalidad son y seguirán siendo propiedad exclusiva de Zekke y sus licenciantes. El sitio está protegido por derechos de autor, marcas comerciales y otras leyes.",
         "items": []
       },
       {
         "title": "5. Limitación de Responsabilidad",
-        "content": "En ningún caso Cryple, ni sus directores, empleados, socios, agentes, proveedores o afiliados, serán responsables de daños indirectos, incidentales, especiales, consecuentes o punitivos resultantes de tu acceso o uso del servicio de la lista de espera.",
+        "content": "En ningún caso Zekke, ni sus directores, empleados, socios, agentes, proveedores o afiliados, serán responsables de daños indirectos, incidentales, especiales, consecuentes o punitivos resultantes de tu acceso o uso del servicio de la lista de espera.",
         "items": []
       },
       {
@@ -253,7 +253,7 @@
       },
       {
         "title": "9. Contáctanos",
-        "content": "Si tienes alguna pregunta sobre estos Términos, contáctanos a través del correo electrónico: contact@cryple.io o por correo postal en: Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU.",
+        "content": "Si tienes alguna pregunta sobre estos Términos, contáctanos a través del correo electrónico: contact@Zekke.io o por correo postal en: Zekke LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU.",
         "items": []
       }
     ]
@@ -265,7 +265,7 @@
     "sections": [
       {
         "title": "1. Introducción",
-        "content": "¡Bienvenido a Cryple! Los servicios son operados por Cryple LLC, con sede en 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU. Respetamos tu privacidad y estamos comprometidos a proteger tus datos personales. Esta Política de Privacidad te informará sobre cómo cuidamos tus datos personales cuando visitas nuestro sitio web.",
+        "content": "¡Bienvenido a Zekke! Los servicios son operados por Zekke LLC, con sede en 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU. Respetamos tu privacidad y estamos comprometidos a proteger tus datos personales. Esta Política de Privacidad te informará sobre cómo cuidamos tus datos personales cuando visitas nuestro sitio web.",
         "note": null,
         "items": [],
         "extra": null,
@@ -274,7 +274,7 @@
       {
         "title": "2. Datos que Recopilamos",
         "content": "Actualmente, a través de nuestra página de inicio, recopilamos solo tu dirección de correo electrónico cuando te inscribes en nuestra lista de espera para acceso anticipado. Los correos electrónicos son gestionados de forma segura por nuestro proveedor externo, Loops.so.",
-        "note": "Cryple no almacena nombre, IP, región, dispositivo u otros datos. Sin embargo, una dirección IP puede retenerse permanentemente si estás involucrado en actividades que incumplan nuestros Términos de Servicio (ej.: spam, ataques DDoS contra nuestra infraestructura, ataques de fuerza bruta).",
+        "note": "Zekke no almacena nombre, IP, región, dispositivo u otros datos. Sin embargo, una dirección IP puede retenerse permanentemente si estás involucrado en actividades que incumplan nuestros Términos de Servicio (ej.: spam, ataques DDoS contra nuestra infraestructura, ataques de fuerza bruta).",
         "items": [],
         "extra": null,
         "extra2": null
@@ -284,16 +284,16 @@
         "content": "Usamos los datos recopilados para los siguientes fines:",
         "note": null,
         "items": [
-          "Para notificarte cuando Cryple esté listo para acceso público o beta.",
+          "Para notificarte cuando Zekke esté listo para acceso público o beta.",
           "Para enviarte actualizaciones importantes sobre el desarrollo de nuestra plataforma.",
           "No vendemos, alquilamos ni distribuimos tu dirección de correo electrónico a terceros."
         ],
-        "extra": "Importante: una cuenta en la futura aplicación de Cryple no tendrá un correo electrónico vinculado de manera predeterminada. El correo que proporciones en la lista de espera no estará relacionado con la cuenta que eventualmente crees.",
+        "extra": "Importante: una cuenta en la futura aplicación de Zekke no tendrá un correo electrónico vinculado de manera predeterminada. El correo que proporciones en la lista de espera no estará relacionado con la cuenta que eventualmente crees.",
         "extra2": "Para interacciones de soporte, tu correo se mantendrá exclusivamente en nuestro servidor de correo electrónico para asistirte. No vincularemos tu correo electrónico a tu cuenta en la aplicación a menos que implementemos esta función en el futuro y decidas voluntariamente agregarlo."
       },
       {
         "title": "4. Seguridad de Datos y \"Zero-Knowledge\"",
-        "content": "La aplicación Cryple, cuando sea lanzada, mantendrá solo datos encriptados de los usuarios. Debido a esta arquitectura \"Zero-Knowledge\", no podemos leer tus archivos encriptados ni las contraseñas almacenadas. Los correos electrónicos de la lista de espera recopilados en nuestro sitio son gestionados de forma segura por Loops.so.",
+        "content": "La aplicación Zekke, cuando sea lanzada, mantendrá solo datos encriptados de los usuarios. Debido a esta arquitectura \"Zero-Knowledge\", no podemos leer tus archivos encriptados ni las contraseñas almacenadas. Los correos electrónicos de la lista de espera recopilados en nuestro sitio son gestionados de forma segura por Loops.so.",
         "note": null,
         "items": [],
         "extra": null,
@@ -309,7 +309,7 @@
       },
       {
         "title": "6. Contáctanos",
-        "content": "Si tienes alguna duda sobre esta Política de Privacidad, contáctanos a través del correo electrónico: contact@cryple.io o por correo postal en: Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU.",
+        "content": "Si tienes alguna duda sobre esta Política de Privacidad, contáctanos a través del correo electrónico: contact@Zekke.io o por correo postal en: Zekke LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU.",
         "note": null,
         "items": [],
         "extra": null,
@@ -324,7 +324,7 @@
     "sections": [
       {
         "title": "1. Arquitectura Zero-Knowledge",
-        "content": "Cryple está construida desde cero como un servicio zero-knowledge. Nuestra arquitectura hace que ningún empleado, administrador o atacante que comprometa nuestros servidores pueda leer tus elementos, credenciales, notas o documentos.",
+        "content": "Zekke está construida desde cero como un servicio zero-knowledge. Nuestra arquitectura hace que ningún empleado, administrador o atacante que comprometa nuestros servidores pueda leer tus elementos, credenciales, notas o documentos.",
         "note": "Operamos estrictamente bajo la siguiente política:",
         "items": [
           "Tu seed phrase y tu PIN nunca salen de tu navegador.",
@@ -377,7 +377,7 @@
       },
       {
         "title": "7. Información de Contacto",
-        "content": "Para divulgaciones urgentes de seguridad o preguntas sobre esta política, comunícate directamente a: contact@cryple.io o por correo postal en: Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU.",
+        "content": "Para divulgaciones urgentes de seguridad o preguntas sobre esta política, comunícate directamente a: contact@Zekke.io o por correo postal en: Zekke LLC, 30 N Gould St Ste R, Sheridan, WY 82801, EE. UU.",
         "note": null,
         "items": []
       }

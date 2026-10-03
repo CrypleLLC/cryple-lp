@@ -1,39 +1,44 @@
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
 
-export const SITE_URL = 'https://cryple.io';
-export const SITE_NAME = 'Cryple';
-export const CONTACT_EMAIL = 'contact@cryple.io';
-export const TEST_APP_URL = 'https://test-app.cryple.io';
+export const SITE_URL = "https://Zekke.io";
+export const SITE_NAME = "Zekke";
+export const CONTACT_EMAIL = "contact@Zekke.io";
+export const TEST_APP_URL = "https://test-app.Zekke.io";
 
-export const locales = ['en', 'es', 'pt-br'] as const;
-export const defaultLocale = 'en';
+export const locales = ["en", "es", "pt-br"] as const;
+export const defaultLocale = "en";
 
 const languageTags: Record<string, string> = {
-  'en': 'en',
-  'es': 'es',
-  'pt-br': 'pt-BR',
+  en: "en",
+  es: "es",
+  "pt-br": "pt-BR",
 };
 
 const openGraphLocales: Record<string, string> = {
-  'en': 'en_US',
-  'es': 'es_ES',
-  'pt-br': 'pt_BR',
+  en: "en_US",
+  es: "es_ES",
+  "pt-br": "pt_BR",
 };
 
-export const languageTag = (lang: string) => languageTags[lang] ?? languageTags[defaultLocale];
+export const languageTag = (lang: string) =>
+  languageTags[lang] ?? languageTags[defaultLocale];
 
-export const openGraphLocale = (lang: string) => openGraphLocales[lang] ?? openGraphLocales[defaultLocale];
+export const openGraphLocale = (lang: string) =>
+  openGraphLocales[lang] ?? openGraphLocales[defaultLocale];
 
-export const localizedPath = (lang: string, path = '') => {
-  const prefix = lang === defaultLocale ? '' : `/${lang}`;
-  return `${prefix}${path}` || '/';
+export const localizedPath = (lang: string, path = "") => {
+  const prefix = lang === defaultLocale ? "" : `/${lang}`;
+  return `${prefix}${path}` || "/";
 };
 
-export const localizedUrl = (lang: string, path = '') => `${SITE_URL}${localizedPath(lang, path)}`;
+export const localizedUrl = (lang: string, path = "") =>
+  `${SITE_URL}${localizedPath(lang, path)}`;
 
-export const languageAlternates = (path = '') => ({
-  ...Object.fromEntries(locales.map((locale) => [languageTag(locale), localizedUrl(locale, path)])),
-  'x-default': localizedUrl(defaultLocale, path),
+export const languageAlternates = (path = "") => ({
+  ...Object.fromEntries(
+    locales.map((locale) => [languageTag(locale), localizedUrl(locale, path)]),
+  ),
+  "x-default": localizedUrl(defaultLocale, path),
 });
 
 export const pageMetadata = (
@@ -49,16 +54,18 @@ export const pageMetadata = (
     languages: languageAlternates(path),
   },
   openGraph: {
-    type: 'website',
+    type: "website",
     siteName: SITE_NAME,
     title,
     description,
     url: localizedPath(lang, path),
     locale: openGraphLocale(lang),
-    alternateLocale: locales.filter((locale) => locale !== lang).map(openGraphLocale),
+    alternateLocale: locales
+      .filter((locale) => locale !== lang)
+      .map(openGraphLocale),
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title,
     description,
   },

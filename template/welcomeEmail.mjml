@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>Welcome to Cryple</mj-title>
+    <mj-title>Welcome to Zekke</mj-title>
     <mj-preview>Let's take your privacy back.</mj-preview>
     <mj-attributes>
       <mj-all
@@ -31,7 +31,7 @@
           color="#6366f1"
           padding="0"
         >
-          Cryple
+          Zekke
         </mj-text>
       </mj-column>
     </mj-section>
@@ -52,7 +52,7 @@
         <mj-text> Hi there, </mj-text>
 
         <mj-text>
-          This is Philippe, the founder of Cryple. I wanted to personally thank
+          This is Philippe, the founder of Zekke. I wanted to personally thank
           you for taking the time to join our waitlist. We are working
           incredibly hard to deliver the ultimate zero-knowledge vault for your
           passwords, crypto, and private files.
@@ -75,7 +75,7 @@
         <mj-text font-style="italic">
           Best regards, <br />
           <strong>Philippe Berto</strong><br />
-          Founder, Cryple
+          Founder, Zekke
         </mj-text>
       </mj-column>
     </mj-section>
@@ -89,8 +89,8 @@
           color="#9ca3af"
           line-height="1.8"
         >
-          © 2026 Cryple. Your keys, your data, complete privacy.<br />
-          <a href="https://cryple.io" class="link">cryple.io</a><br /><br />
+          © 2026 Zekke. Your keys, your data, complete privacy.<br />
+          <a href="https://Zekke.io" class="link">Zekke.io</a><br /><br />
           Too many emails?
           <a
             href="{unsubscribe_link}"

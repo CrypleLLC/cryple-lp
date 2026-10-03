@@ -36,9 +36,9 @@ const structuredData = (lang: string, description: string) => ({
       '@type': 'Organization',
       '@id': `${SITE_URL}/#organization`,
       name: SITE_NAME,
-      legalName: 'Cryple LLC',
+      legalName: 'Zekke LLC',
       url: SITE_URL,
-      logo: `${SITE_URL}/cryple-logo.png`,
+      logo: `${SITE_URL}/Zekke-logo.png`,
       email: CONTACT_EMAIL,
       address: {
         '@type': 'PostalAddress',
@@ -106,8 +106,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <header>
         <nav>
           <Link href={localizedPath(lang)} className="logo">
-            <Image src="/icon.png" alt="Cryple Logo" width={32} height={32} className="logo-image" />
-            Cryple
+            <Image src="/icon.png" alt="Zekke Logo" width={32} height={32} className="logo-image" />
+            Zekke
           </Link>
           <ul className="nav-links">
             {/* Adding the locale to anchors is not strictly necessary for hash links, but safe */}
@@ -434,8 +434,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         <div className="footer-content">
           <div className="footer-section brand">
             <p className="footer-brand">
-              <Image src="/icon.png" alt="Cryple Logo" width={24} height={24} className="logo-image" />
-              Cryple
+              <Image src="/icon.png" alt="Zekke Logo" width={24} height={24} className="logo-image" />
+              Zekke
             </p>
             <p style={{ color: '#6b7280', fontSize: '0.9rem' }}>
               {dict.footer.tagline}
@@ -457,7 +457,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           <div className="footer-section">
             <p className="footer-section-title">{dict.footer.contact}</p>
             <ul>
-              <li><a href="mailto:contact@cryple.io">{dict.footer.emailUs}</a></li>
+              <li><a href="mailto:contact@Zekke.io">{dict.footer.emailUs}</a></li>
             </ul>
           </div>
 

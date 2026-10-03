@@ -1,6 +1,6 @@
-# Cryple landing page
+# Zekke landing page
 
-The marketing site for the Cryple app. Next.js 16 App Router, no CSS framework — all styling lives in `src/app/globals.css` as plain CSS with hardcoded hex values.
+The marketing site for the Zekke app. Next.js 16 App Router, no CSS framework — all styling lives in `src/app/globals.css` as plain CSS with hardcoded hex values.
 
 Product overview: [application-overview.md](../api-general/docs/application-overview.md)
 
@@ -75,14 +75,14 @@ The icon order in `vaultIcons` (`src/app/[lang]/page.tsx`) must match `hero.vaul
 
 ## SEO and metadata
 
-`src/lib/site.ts` holds the site URL (`https://cryple.io`), the locale list and the helpers every page uses to build its metadata. `pageMetadata(lang, path, title, description)` returns the title, description, canonical URL, `hreflang` alternates, Open Graph and Twitter card for one page. Change the domain there and nowhere else.
+`src/lib/site.ts` holds the site URL (`https://Zekke.io`), the locale list and the helpers every page uses to build its metadata. `pageMetadata(lang, path, title, description)` returns the title, description, canonical URL, `hreflang` alternates, Open Graph and Twitter card for one page. Change the domain there and nowhere else.
 
-- **Titles and descriptions** come from the `meta` block of each dictionary. `[lang]/layout.tsx` sets the default title and the `%s | Cryple` template; the home page opts out of the template with an absolute title, and the legal pages use their own `title` plus a `meta.*Description`. Keep descriptions under ~160 characters, or search engines truncate them.
+- **Titles and descriptions** come from the `meta` block of each dictionary. `[lang]/layout.tsx` sets the default title and the `%s | Zekke` template; the home page opts out of the template with an absolute title, and the legal pages use their own `title` plus a `meta.*Description`. Keep descriptions under ~160 characters, or search engines truncate them.
 - **Language alternates.** Each page lists all three locales plus `x-default` (English). The hreflang for `pt-br` is `pt-BR`, the BCP 47 form; `languageTag` does that mapping, and `<html lang>` uses it too.
 - **`robots.ts` / `sitemap.ts`** in `src/app/` generate `/robots.txt` and `/sitemap.xml`. The sitemap is the `pages` list × the three locales, each entry carrying its alternates. A new public page has to be added to that list.
 - **Open Graph image.** `[lang]/opengraph-image.tsx` renders a 1200×630 PNG per locale at build time from `hero.title` and `meta.ogImageTagline`. The middleware lets `/en/opengraph-image` through without its usual `/en` → `/` redirect, because Next.js puts that path in the English `og:image` tag.
 - **Structured data.** The home page emits one JSON-LD `@graph` with `Organization`, `WebSite` and `WebApplication`. The address, the contact email and the free-tier `Offer` are facts about the company: update them there when they change.
-- **`public/llms.txt`** is a plain-Markdown summary of Cryple for AI crawlers and assistants ([llmstxt.org](https://llmstxt.org)): what it stores, the security model, the specs, pricing, release status and the key URLs. It repeats facts from the dictionaries by hand, so a change to the roadmap, the specs or the pricing on the page has to be made there too. It is English only.
+- **`public/llms.txt`** is a plain-Markdown summary of Zekke for AI crawlers and assistants ([llmstxt.org](https://llmstxt.org)): what it stores, the security model, the specs, pricing, release status and the key URLs. It repeats facts from the dictionaries by hand, so a change to the roadmap, the specs or the pricing on the page has to be made there too. It is English only.
 - **Alt text** for the feature photos and How It Works illustrations is in the dictionaries (`features.items[].imageAlt`, `howItWorks.steps[].imageAlt`). It describes the picture, not the feature. Swapping a photo means rewriting its alt in all three languages.
 
 ## Feature flags

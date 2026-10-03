@@ -1,8 +1,8 @@
-# Cryple
+# Zekke
 
-> Cryple is a zero-knowledge encrypted vault for passwords, seed phrases, notes, long-form documents and, soon, files. Everything is encrypted in the browser before it is sent, with keys derived from a BIP39 recovery phrase that only the user holds. The recovery phrase is the account: there is no email, no password, and no account recovery of any kind.
+> Zekke is a zero-knowledge encrypted vault for passwords, seed phrases, notes, long-form documents and, soon, files. Everything is encrypted in the browser before it is sent, with keys derived from a BIP39 recovery phrase that only the user holds. The recovery phrase is the account: there is no email, no password, and no account recovery of any kind.
 
-Cryple is built by Cryple LLC (Sheridan, Wyoming, USA). The website is available in English, Spanish and Brazilian Portuguese.
+Zekke is built by Zekke LLC (Sheridan, Wyoming, USA). The website is available in English, Spanish and Brazilian Portuguese.
 
 ## What it stores
 
@@ -21,8 +21,8 @@ Cryple is built by Cryple LLC (Sheridan, Wyoming, USA). The website is available
 
 ## Security model
 
-- Zero-knowledge by construction, not by policy: Cryple cannot read user data, including under legal compulsion, because it never holds a key that could decrypt it.
-- Losing the recovery phrase means losing the vault. Nobody, including Cryple, can restore access. Users verify their copy of the phrase at sign-up and receive a printable recovery kit.
+- Zero-knowledge by construction, not by policy: Zekke cannot read user data, including under legal compulsion, because it never holds a key that could decrypt it.
+- Losing the recovery phrase means losing the vault. Nobody, including Zekke, can restore access. Users verify their copy of the phrase at sign-up and receive a printable recovery kit.
 - Standard mode: the PIN stays on the device; forgetting it only means signing in again with the phrase.
 - Paranoid mode: the server also checks the PIN, so the phrase and the PIN together are required (two factors). Forgetting the PIN ends a Paranoid account.
 - Post-quantum: data at rest uses AES-256-GCM, which survives quantum attacks. Sharing between accounts uses PQXDH, a hybrid of X25519 and ML-KEM-768, so an attacker must break both a classical and a post-quantum algorithm.
@@ -46,21 +46,21 @@ Cryple is built by Cryple LLC (Sheridan, Wyoming, USA). The website is available
 
 ## Release status
 
-- September 2026: staging release, live now at https://test-app.cryple.io. It includes the vault, encrypted notes and synced documents, in Standard and Paranoid mode.
+- September 2026: staging release, live now at https://test-app.Zekke.io. It includes the vault, encrypted notes and synced documents, in Standard and Paranoid mode.
 - December 2026: the Drive (encrypted files) and private sharing.
 - 2027: production launch; no date yet.
 
 ## Pages
 
-- [Home (English)](https://cryple.io/): product overview, features, security model and roadmap
-- [Home (Español)](https://cryple.io/es)
-- [Home (Português, Brasil)](https://cryple.io/pt-br)
-- [Try the app](https://test-app.cryple.io): staging release
-- [Security policy](https://cryple.io/security-policy): how to report a vulnerability
-- [Privacy policy](https://cryple.io/privacy): the landing page collects only the waitlist email address
-- [Terms of service](https://cryple.io/terms)
+- [Home (English)](https://Zekke.io/): product overview, features, security model and roadmap
+- [Home (Español)](https://Zekke.io/es)
+- [Home (Português, Brasil)](https://Zekke.io/pt-br)
+- [Try the app](https://test-app.Zekke.io): staging release
+- [Security policy](https://Zekke.io/security-policy): how to report a vulnerability
+- [Privacy policy](https://Zekke.io/privacy): the landing page collects only the waitlist email address
+- [Terms of service](https://Zekke.io/terms)
 
 ## Contact
 
-- Email: contact@cryple.io
-- Mail: Cryple LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA
+- Email: contact@Zekke.io
+- Mail: Zekke LLC, 30 N Gould St Ste R, Sheridan, WY 82801, USA
